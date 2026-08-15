@@ -207,6 +207,7 @@ export default function LocalSeoMetricsArticle() {
             <p className="article-section-label">Metrics 1 through 4</p>
             <h2>Measure whether local customers can find you.</h2>
             <p>Visibility metrics diagnose how often the business appears and where coverage is weak. They help you identify opportunities, but they should always be evaluated beside engagement and conversion data.</p>
+            <p>If these metrics show a meaningful decline, use our process for <a href="/blog/why-local-search-rankings-dropped">diagnosing a local search ranking drop</a> before making broad website or Business Profile changes.</p>
 
             <div className="local-guide-steps local-metric-list">
               <section>

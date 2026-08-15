@@ -16,6 +16,7 @@ const routes = [
   "/blog/how-search-is-changing-for-local-businesses",
   "/blog/how-to-measure-local-seo-success",
   "/blog/local-seo-domination-step-by-step-strategy",
+  "/blog/why-local-search-rankings-dropped",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

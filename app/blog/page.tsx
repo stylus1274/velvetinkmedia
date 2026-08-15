@@ -3,6 +3,17 @@ import SiteHeader from "../components/SiteHeader";
 
 const articles = [
   {
+    category: "Local SEO Measurement",
+    date: "August 15, 2026",
+    readTime: "14 min read",
+    title: "How to Measure Local SEO Success: 12 Metrics That Actually Matter",
+    excerpt: "Connect map visibility, Business Profile activity, website behavior, qualified leads, and revenue in one practical scorecard.",
+    image: "/insights/local-seo-metrics-featured.webp",
+    alt: "Local SEO strategist reviewing map visibility and conversion performance",
+    accent: "purple",
+    href: "/blog/how-to-measure-local-seo-success",
+  },
+  {
     category: "Local SEO Strategy",
     date: "August 15, 2026",
     readTime: "16 min read",
@@ -168,14 +179,14 @@ export default function BlogPage() {
 
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
-          <img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversion performance" />
-          <figcaption><span>Featured</span><strong>Local SEO reporting</strong></figcaption>
+          <img src="/insights/local-ranking-drop-featured.webp" alt="Local SEO strategist diagnosing a decline in local search visibility" />
+          <figcaption><span>Featured</span><strong>Ranking recovery</strong></figcaption>
         </figure>
         <article className="blog-featured-copy">
-          <div className="blog-article-meta"><span>Local SEO Measurement</span><span>August 15, 2026 · 14 min read</span></div>
-          <h2>How to Measure Local SEO Success: 12 Metrics That Actually Matter</h2>
-          <p>Connect local visibility, Business Profile activity, website conversions, qualified leads, and revenue in one practical measurement framework.</p>
-          <a className="blog-read-button" href="/blog/how-to-measure-local-seo-success">Read the Featured Article <ArrowIcon /></a>
+          <div className="blog-article-meta"><span>Local Ranking Recovery</span><span>August 15, 2026 · 15 min read</span></div>
+          <h2>Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</h2>
+          <p>Confirm the decline, diagnose the most likely cause, and choose a recovery action without making the problem worse.</p>
+          <a className="blog-read-button" href="/blog/why-local-search-rankings-dropped">Read the Featured Article <ArrowIcon /></a>
         </article>
       </section>
 

@@ -391,7 +391,7 @@ export default function LocalSeoDominationArticle() {
               <div role="row"><span role="cell">Calls, forms, and appointments</span><span role="cell">Whether visibility produces meaningful actions</span></div>
               <div role="row"><span role="cell">Qualified leads and revenue</span><span role="cell">Whether local SEO contributes to profitable growth</span></div>
             </div>
-            <p>For a complete scorecard, read our guide to <a href="/blog/how-to-measure-local-seo-success">measuring local SEO success</a>. It explains the 12 visibility, engagement, conversion, and revenue metrics that belong in a useful monthly report.</p>
+            <p>For a complete scorecard, read our guide to <a href="/blog/how-to-measure-local-seo-success">measuring local SEO success</a>. It explains the 12 visibility, engagement, conversion, and revenue metrics that belong in a useful monthly report. If those metrics reveal a decline, follow our process for <a href="/blog/why-local-search-rankings-dropped">diagnosing and recovering local search rankings</a>.</p>
           </section>
 
           <figure className="article-inline-image">
