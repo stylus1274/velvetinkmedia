@@ -14,6 +14,7 @@ const routes = [
   "/contact",
   "/blog",
   "/blog/how-search-is-changing-for-local-businesses",
+  "/blog/local-seo-domination-step-by-step-strategy",
 ];
 
 export default function sitemap(): MetadataRoute.Sitemap {

@@ -3,6 +3,17 @@ import SiteHeader from "../components/SiteHeader";
 
 const articles = [
   {
+    category: "SEO + GEO + AEO",
+    date: "August 2, 2026",
+    readTime: "9 min read",
+    title: "How search is changing for local businesses",
+    excerpt: "What changes, what stays the same, and where local businesses should focus as AI-generated answers reshape discovery.",
+    image: "/outcomes/visibility-photo.webp",
+    alt: "Marketing professional reviewing search visibility performance",
+    accent: "purple",
+    href: "/blog/how-search-is-changing-for-local-businesses",
+  },
+  {
     category: "Local SEO",
     date: "July 18, 2026",
     readTime: "7 min read",
@@ -11,6 +22,7 @@ const articles = [
     image: "/insights/google-business-profile.webp",
     alt: "Business owner and marketing strategist reviewing a local business profile",
     accent: "purple",
+    href: "#featured",
   },
   {
     category: "Local Rankings",
@@ -21,6 +33,7 @@ const articles = [
     image: "/insights/local-search-rankings.webp",
     alt: "SEO strategist reviewing local search rankings on a desktop monitor",
     accent: "blue",
+    href: "#featured",
   },
   {
     category: "Search Strategy",
@@ -31,6 +44,7 @@ const articles = [
     image: "/insights/seo-vs-google-ads.webp",
     alt: "Marketing strategist comparing search and advertising performance",
     accent: "lime",
+    href: "#featured",
   },
   {
     category: "Content Strategy",
@@ -41,6 +55,7 @@ const articles = [
     image: "/insights/service-page-strategy.webp",
     alt: "Content strategist planning a local service page",
     accent: "peach",
+    href: "#featured",
   },
   {
     category: "Web Design",
@@ -51,6 +66,7 @@ const articles = [
     image: "/insights/website-speed.webp",
     alt: "Marketer reviewing website performance results on a laptop",
     accent: "mint",
+    href: "#featured",
   },
   {
     category: "Analytics",
@@ -61,6 +77,7 @@ const articles = [
     image: "/insights/marketing-attribution.webp",
     alt: "Marketing analyst reviewing lead attribution data",
     accent: "rose",
+    href: "#featured",
   },
 ];
 
@@ -79,6 +96,21 @@ function ArrowIcon() {
   );
 }
 
+function Header() {
+  return (
+    <header className="site-header" id="top">
+      <a className="brand" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
+      <nav className="desktop-nav" aria-label="Primary navigation">
+        <a href="/services">Services</a><a href="/about-us">About</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/paid-media">Paid Media</a><a href="/work">Work</a><a href="/blog" aria-current="page">Insights</a><a href="/contact">Contact</a>
+      </nav>
+      <details className="mobile-menu">
+        <summary aria-label="Open navigation">Menu</summary>
+        <nav aria-label="Mobile navigation"><a href="/services">Services</a><a href="/about-us">About</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/paid-media">Paid Media</a><a href="/work">Work</a><a href="/blog" aria-current="page">Insights</a><a href="/contact">Contact</a></nav>
+      </details>
+      <a className="button button-purple header-cta" href="/contact">Start a Project</a>
+    </header>
+  );
+}
 
 function Footer() {
   return (
@@ -125,14 +157,14 @@ export default function BlogPage() {
 
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
-          <img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" />
-          <figcaption><span>Featured</span><strong>Search visibility</strong></figcaption>
+          <img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing map rankings, reviews, and search performance" />
+          <figcaption><span>Featured</span><strong>Local SEO guide</strong></figcaption>
         </figure>
         <article className="blog-featured-copy">
-          <div className="blog-article-meta"><span>SEO + GEO + AEO</span><span>August 2, 2026 · 9 min read</span></div>
-          <h2>How search is changing for local businesses.</h2>
-          <p>SEO still matters, but customers are also discovering businesses through AI-generated answers and recommendation engines. Here is what changes, what stays the same, and where local businesses should focus first.</p>
-          <a className="blog-read-button" href="/blog/how-search-is-changing-for-local-businesses">Read the Featured Article <ArrowIcon /></a>
+          <div className="blog-article-meta"><span>Local SEO</span><span>August 15, 2026 · 16 min read</span></div>
+          <h2>Local SEO Domination: A Step-by-Step Strategy</h2>
+          <p>Use this practical 12-step strategy to strengthen your Google Business Profile, website, reviews, authority, and measurement around the local customers you want to reach.</p>
+          <a className="blog-read-button" href="/blog/local-seo-domination-step-by-step-strategy">Read the Featured Article <ArrowIcon /></a>
         </article>
       </section>
 
@@ -150,7 +182,7 @@ export default function BlogPage() {
                 <p className="blog-card-date">{article.date} · {article.readTime}</p>
                 <h3>{article.title}</h3>
                 <p>{article.excerpt}</p>
-                <a className="blog-read-button blog-read-button-small" href="#featured" aria-label={`Read ${article.title}`}>Read the Article <ArrowIcon /></a>
+                <a className="blog-read-button blog-read-button-small" href={article.href} aria-label={`Read ${article.title}`}>Read the Article <ArrowIcon /></a>
               </div>
             </article>
           ))}
