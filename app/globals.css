@@ -40,15 +40,15 @@
 .article-feature-image figcaption span { padding: 9px 13px; border-radius: 999px; background: var(--purple-soft); font-size: 13px; font-weight: 900; }
 .article-feature-image figcaption span:nth-child(2) { background: var(--blue-soft); }.article-feature-image figcaption span:nth-child(3) { background: var(--lime-soft); }
 
-.article-shell { max-width: 1450px; margin: 0 auto; padding: clamp(105px,11vw,175px) clamp(24px,7vw,110px); display: grid; grid-template-columns: 245px minmax(0,860px); justify-content: center; align-items: start; gap: clamp(65px,8vw,125px); }
-.article-sidebar { position: sticky; top: 35px; }
+.article-shell { max-width: 1450px; margin: 0 auto; padding: clamp(105px,11vw,175px) clamp(24px,7vw,110px); display: grid; grid-template-columns: minmax(0,960px) 175px; justify-content: center; align-items: start; gap: clamp(55px,6vw,90px); }
+.article-sidebar { grid-column: 2; grid-row: 1; position: sticky; top: 35px; }
 .article-sidebar > p { margin: 0 0 20px; color: var(--purple-dark); font-size: 13px; font-weight: 900; letter-spacing: .13em; text-transform: uppercase; }
 .article-sidebar nav { display: grid; border-top: 1.5px solid var(--ink); }
 .article-sidebar nav a { padding: 14px 0; border-bottom: 1px solid var(--line); color: var(--muted); font-size: 14px; font-weight: 750; line-height: 1.35; }
 .article-sidebar nav a:hover,.article-sidebar nav a:focus-visible { color: var(--purple-dark); }
 .article-side-cta { margin-top: 30px; padding: 16px 0; display: flex; align-items: center; justify-content: space-between; gap: 12px; border-bottom: 2px solid var(--purple); font-size: 14px; font-weight: 900; }
 .article-side-cta svg { width: 31px; fill: none; stroke: currentColor; stroke-width: 1.7; }
-.article-content { min-width: 0; }
+.article-content { grid-column: 1; grid-row: 1; min-width: 0; }
 .article-content > p,.article-content section > p,.article-content li span { color: var(--muted); line-height: 1.72; }
 .article-content > p { margin: 0 0 31px; }
 .article-intro { color: var(--ink) !important; font-size: clamp(28px,2.5vw,37px); font-weight: 650; line-height: 1.45 !important; letter-spacing: -.025em; }
@@ -100,7 +100,7 @@
 .article-related-grid article a:hover { background: var(--purple); color: var(--ink); }.article-related-grid svg { width: 31px; fill: none; stroke: currentColor; stroke-width: 1.7; }
 
 @media (max-width: 1080px) {
-  .article-shell { grid-template-columns: minmax(0,860px); }
+  .article-shell { grid-template-columns: minmax(0,960px); }
   .article-sidebar { display: none; }
   .article-related-grid { grid-template-columns: repeat(2,1fr); }
 }
