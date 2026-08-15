@@ -22,7 +22,7 @@ const discoveryStages = [
     title: "Become the Answer",
     description:
       "Build the structured content and authority signals AI systems need to understand and recommend your business.",
-    capabilities: ["GEO & AEO", "Structured content", "Schema & authority"],
+    capabilities: ["GEO & AEO", "Structured content"],
     accent: "purple",
   },
   {
