@@ -391,6 +391,7 @@ export default function LocalSeoDominationArticle() {
               <div role="row"><span role="cell">Calls, forms, and appointments</span><span role="cell">Whether visibility produces meaningful actions</span></div>
               <div role="row"><span role="cell">Qualified leads and revenue</span><span role="cell">Whether local SEO contributes to profitable growth</span></div>
             </div>
+            <p>For a complete scorecard, read our guide to <a href="/blog/how-to-measure-local-seo-success">measuring local SEO success</a>. It explains the 12 visibility, engagement, conversion, and revenue metrics that belong in a useful monthly report.</p>
           </section>
 
           <figure className="article-inline-image">
@@ -457,7 +458,7 @@ export default function LocalSeoDominationArticle() {
         <div className="article-related-grid">
           <article><img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
           <article><img src="/insights/service-page-strategy.webp" alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>Build service pages around customer intent</h3><a href="/content-marketing">Explore Content Marketing <ArrowIcon /></a></div></article>
-          <article><img src="/insights/marketing-attribution.webp" alt="Marketing analyst reviewing lead attribution data" /><div><span>Local SEO</span><h3>Build a strategy around qualified local leads</h3><a href="/local-seo">Explore Local SEO <ArrowIcon /></a></div></article>
+          <article><img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversion performance" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
         </div>
       </section>
 

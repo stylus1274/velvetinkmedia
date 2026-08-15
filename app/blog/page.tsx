@@ -3,6 +3,17 @@ import SiteHeader from "../components/SiteHeader";
 
 const articles = [
   {
+    category: "Local SEO Strategy",
+    date: "August 15, 2026",
+    readTime: "16 min read",
+    title: "Local SEO Domination: A Step-by-Step Strategy",
+    excerpt: "Build a connected local search system around your website, Business Profile, reviews, content, authority, and measurement.",
+    image: "/insights/local-seo-domination-featured.webp",
+    alt: "Local SEO strategist reviewing map rankings, reviews, and search performance",
+    accent: "blue",
+    href: "/blog/local-seo-domination-step-by-step-strategy",
+  },
+  {
     category: "SEO + GEO + AEO",
     date: "August 2, 2026",
     readTime: "9 min read",
@@ -157,14 +168,14 @@ export default function BlogPage() {
 
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
-          <img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing map rankings, reviews, and search performance" />
-          <figcaption><span>Featured</span><strong>Local SEO guide</strong></figcaption>
+          <img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversion performance" />
+          <figcaption><span>Featured</span><strong>Local SEO reporting</strong></figcaption>
         </figure>
         <article className="blog-featured-copy">
-          <div className="blog-article-meta"><span>Local SEO</span><span>August 15, 2026 · 16 min read</span></div>
-          <h2>Local SEO Domination: A Step-by-Step Strategy</h2>
-          <p>Use this practical 12-step strategy to strengthen your Google Business Profile, website, reviews, authority, and measurement around the local customers you want to reach.</p>
-          <a className="blog-read-button" href="/blog/local-seo-domination-step-by-step-strategy">Read the Featured Article <ArrowIcon /></a>
+          <div className="blog-article-meta"><span>Local SEO Measurement</span><span>August 15, 2026 · 14 min read</span></div>
+          <h2>How to Measure Local SEO Success: 12 Metrics That Actually Matter</h2>
+          <p>Connect local visibility, Business Profile activity, website conversions, qualified leads, and revenue in one practical measurement framework.</p>
+          <a className="blog-read-button" href="/blog/how-to-measure-local-seo-success">Read the Featured Article <ArrowIcon /></a>
         </article>
       </section>
 

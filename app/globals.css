@@ -6973,11 +6973,31 @@ p {
 .article-source-note { margin-top: 90px; padding: 31px; border: 1.5px solid var(--ink); border-radius: 17px; background: var(--white); }
 .article-source-note h2 { margin: 0 0 15px; font-size: 28px; letter-spacing: -.03em; }.article-source-note p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
 
+/* Local SEO measurement article */
+.local-seo-metrics-page .article-hero h1 { max-width: 1600px; font-size: clamp(58px,7.2vw,112px); }
+.local-metrics-framework,.local-reporting-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
+.local-metrics-framework article,.local-reporting-grid article { min-height: 245px; padding: 26px; display: flex; flex-direction: column; border: 1.5px solid var(--ink); border-radius: 17px; box-shadow: 8px 9px 0 rgba(9,9,9,.08); }
+.local-metrics-framework article:nth-child(1),.local-reporting-grid article:nth-child(3) { background: var(--peach-soft); }
+.local-metrics-framework article:nth-child(2),.local-reporting-grid article:nth-child(2) { background: var(--blue-soft); }
+.local-metrics-framework article:nth-child(3),.local-reporting-grid article:nth-child(1) { background: var(--purple-soft); }
+.local-metrics-framework article:nth-child(4),.local-reporting-grid article:nth-child(4) { background: var(--lime-soft); }
+.local-metrics-framework span,.local-reporting-grid span { color: var(--purple-dark); font-size: 13px; font-weight: 900; letter-spacing: .1em; }
+.local-metrics-framework h3,.local-reporting-grid h3 { margin: auto 0 13px; font-size: 29px !important; line-height: 1.04; letter-spacing: -.04em !important; }
+.local-metrics-framework p,.local-reporting-grid p { margin: 0; color: var(--muted); font-size: 17px; line-height: 1.5; }
+.local-metric-list > section { scroll-margin-top: 30px; }
+.local-metrics-callout { margin-bottom: 0; }
+.local-seo-metrics-page #reporting > h3 { margin: 55px 0 17px; font-size: 31px; }
+.local-seo-metrics-page #reporting > h4 { margin: 34px 0 15px; font-size: 23px; }
+.local-seo-metrics-page #reporting > ul { padding-left: 25px; color: var(--muted); }
+.local-seo-metrics-page #reporting > ul li { margin: 11px 0; padding-left: 4px; line-height: 1.5; }
+
 @media (max-width: 850px) {
   .local-guide-baseline,.local-ninety-day-grid { grid-template-columns: 1fr; }
   .local-guide-baseline article { min-height: 220px; }
   .local-ninety-day-grid article { min-height: 350px; }.local-ninety-day-grid h3 { margin-top: 48px; }
   .local-mistake-list { grid-template-columns: 1fr; }
+  .local-metrics-framework,.local-reporting-grid { grid-template-columns: 1fr; }
+  .local-metrics-framework article,.local-reporting-grid article { min-height: 210px; }
 }
 
 @media (max-width: 620px) {
