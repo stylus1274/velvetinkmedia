@@ -973,6 +973,12 @@ a {
 
 .header-cta {
   justify-self: end;
+  color: var(--white);
+}
+
+.header-cta:hover,
+.header-cta:focus-visible {
+  color: var(--white);
 }
 
 .mobile-menu {
