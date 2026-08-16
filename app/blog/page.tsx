@@ -190,12 +190,14 @@ export default function BlogPage() {
 
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
-          <img src="/insights/local-ranking-drop-featured.webp" alt="Local SEO strategist diagnosing a decline in local search visibility" />
+          <a className="blog-featured-image-link" href="/blog/why-local-search-rankings-dropped" aria-label="Read Why Your Local Search Rankings Dropped">
+            <img src="/insights/local-ranking-drop-featured.webp" alt="Local SEO strategist diagnosing a decline in local search visibility" />
+          </a>
           <figcaption><span>Featured</span><strong>Ranking recovery</strong></figcaption>
         </figure>
         <article className="blog-featured-copy">
           <div className="blog-article-meta"><span>Local Ranking Recovery</span><span>August 15, 2026 · 15 min read</span></div>
-          <h2>Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</h2>
+          <h2><a href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</a></h2>
           <p>Confirm the decline, diagnose the most likely cause, and choose a recovery action without making the problem worse.</p>
           <a className="blog-read-button" href="/blog/why-local-search-rankings-dropped">Read the Featured Article <ArrowIcon /></a>
         </article>
@@ -210,10 +212,14 @@ export default function BlogPage() {
           {articles.map((article, index) => (
             <article className={`blog-card blog-card-${article.accent}`} key={article.title}>
               <div className="blog-card-top"><span>0{index + 1}</span><span>{article.category}</span></div>
-              <figure><img src={article.image} alt={article.alt} loading="lazy" /></figure>
+              <figure>
+                <a className="blog-card-image-link" href={article.href} aria-label={`Read ${article.title}`}>
+                  <img src={article.image} alt={article.alt} loading="lazy" />
+                </a>
+              </figure>
               <div className="blog-card-body">
                 <p className="blog-card-date">{article.date} · {article.readTime}</p>
-                <h3>{article.title}</h3>
+                <h3><a href={article.href}>{article.title}</a></h3>
                 <p>{article.excerpt}</p>
                 <a className="blog-read-button blog-read-button-small" href={article.href} aria-label={`Read ${article.title}`}>Read the Article <ArrowIcon /></a>
               </div>
