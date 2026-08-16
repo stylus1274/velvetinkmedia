@@ -1035,6 +1035,15 @@ p {
   margin-top: 0;
 }
 
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-transform: capitalize;
+}
+
 .hero h1 {
   max-width: 760px;
   margin-bottom: 30px;
