@@ -26,7 +26,7 @@ export const metadata: Metadata = {
       url: "/insights/local-seo-ai-search-featured.webp",
       width: 1672,
       height: 941,
-      alt: "Local business owner and strategist reviewing AI search visibility",
+      alt: "Tampa neighborhood storefronts marked for local discovery",
     }],
   },
 };
@@ -124,7 +124,7 @@ export default function LocalSeoForAiSearchPage() {
       </header>
 
       <figure className="article-feature-image">
-        <img src="/insights/local-seo-ai-search-featured.webp" alt="Local business owner and strategist reviewing AI search visibility" />
+        <img src="/insights/local-seo-ai-search-featured.webp" alt="Tampa neighborhood storefronts marked for local discovery" />
         <figcaption><span>Local SEO</span><span>GEO</span><span>AEO</span></figcaption>
       </figure>
 
@@ -204,7 +204,7 @@ export default function LocalSeoForAiSearchPage() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-ai-entity-signals.webp" alt="Local business team reviewing business information and citations" loading="lazy" />
+            <img src="/insights/local-ai-entity-signals.webp" alt="Map and verified local business information arranged on a desk" loading="lazy" />
             <figcaption>Consistent location, service, profile, review, and citation data helps discovery systems connect scattered references to the same business.</figcaption>
           </figure>
 
@@ -237,7 +237,7 @@ export default function LocalSeoForAiSearchPage() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-firsthand-expertise.webp" alt="Local expert documenting a service process for original content" loading="lazy" />
+            <img src="/insights/local-firsthand-expertise.webp" alt="Pool professional testing water quality in Tampa" loading="lazy" />
             <figcaption>Original photos, processes, explanations, and expert observations give search systems evidence that cannot be created by merely summarizing competitors.</figcaption>
           </figure>
 
