@@ -195,7 +195,7 @@ export default function SearchArticlePage() {
           <section className="article-conclusion">
             <h2>Start with clarity.</h2>
             <p>The strongest response to a changing search landscape is not to chase every new acronym. It is to build a business presence that is easy to understand, well supported by evidence, useful to customers, and consistent wherever discovery happens.</p>
-            <p>That approach performs in traditional search today and creates a stronger foundation for AI-driven discovery tomorrow.</p>
+            <p>That approach performs in traditional search today and creates a stronger foundation for AI-driven discovery tomorrow. For the implementation process, use our <a href="/blog/local-seo-for-ai-search">local SEO for AI search playbook</a>.</p>
           </section>
 
           <aside className="article-author-card">

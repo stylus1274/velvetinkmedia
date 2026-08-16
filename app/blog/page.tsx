@@ -3,6 +3,17 @@ import SiteHeader from "../components/SiteHeader";
 
 const articles = [
   {
+    category: "SEO + GEO + AEO",
+    date: "August 15, 2026",
+    readTime: "15 min read",
+    title: "Local SEO for AI Search: How Local Businesses Get Mentioned",
+    excerpt: "Make your business easier for ChatGPT, Gemini, Google AI Overviews, and traditional search to discover, understand, verify, and cite.",
+    image: "/insights/local-seo-ai-search-featured.webp",
+    alt: "Local business owner and strategist reviewing AI search visibility",
+    accent: "lime",
+    href: "/blog/local-seo-for-ai-search",
+  },
+  {
     category: "Local SEO Measurement",
     date: "August 15, 2026",
     readTime: "14 min read",

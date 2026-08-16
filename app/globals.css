@@ -6996,6 +6996,14 @@ p {
 .local-ranking-recovery-page #confirm > h3 { margin: 58px 0 20px; font-size: 31px; letter-spacing: -.04em; }
 .local-drop-patterns { margin-top: 0; }
 .local-ranking-callout { margin-bottom: 0; }
+
+.local-ai-search-page .article-hero h1 { max-width: 1500px; font-size: clamp(62px,8vw,122px); }
+.local-ai-search-page .article-hero .article-deck { max-width: 1040px; }
+.local-ai-framework { margin-top: 48px; }
+.local-ai-signal-list { margin-top: 44px; }
+.local-ai-callout { margin-top: 72px; margin-bottom: 0; }
+.local-ai-measurement { margin-top: 40px; }
+.local-ai-checklist { margin-top: 42px; }
 .local-recovery-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(3,minmax(0,1fr)); gap: 15px; }
 .local-recovery-grid article { min-height: 365px; padding: 27px; display: flex; flex-direction: column; border: 1.5px solid var(--ink); border-radius: 17px; box-shadow: 8px 9px 0 rgba(9,9,9,.08); }
 .local-recovery-grid article:nth-child(1) { background: var(--peach-soft); }.local-recovery-grid article:nth-child(2) { background: var(--blue-soft); }.local-recovery-grid article:nth-child(3) { background: var(--lime-soft); }
