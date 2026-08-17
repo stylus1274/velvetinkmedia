@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -240,7 +241,7 @@ export default function LocalSeoPage() {
         </div>
         <div className="lse-hero-visual" aria-label="Local SEO performance dashboard">
           <div className="lse-grid" aria-hidden="true" />
-          <div className="lse-laptop-frame"><img src="/velvet-ink-hero-laptop.webp" alt="Local SEO dashboard showing Tampa map rankings and search performance" /></div>
+          <div className="lse-laptop-frame"><Image src="/velvet-ink-hero-laptop.webp" width={1254} height={1254} alt="Local SEO dashboard showing Tampa map rankings and search performance" preload /></div>
           <div className="lse-map-card"><span className="lse-map-pin" aria-hidden="true" /><div><strong>Google Maps</strong><small>Local visibility improving</small></div><b>+38%</b></div>
           <div className="lse-rank-card"><small>Priority search</small><strong>#3</strong><span>Up 6 positions</span></div>
         </div>
