@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -116,7 +117,7 @@ export default function LocalSeoMetricsArticle() {
       </header>
 
       <figure className="article-feature-image local-guide-feature">
-        <img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversion performance" />
+        <Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversion performance" preload />
         <figcaption><span>Visibility</span><span>Leads</span><span>Revenue</span></figcaption>
       </figure>
 
@@ -167,7 +168,7 @@ export default function LocalSeoMetricsArticle() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-seo-measurement-dashboard.webp" alt="Local search dashboard connecting map visibility to calls and conversions" loading="lazy" />
+            <Image src="/insights/local-seo-measurement-dashboard.webp" width={1672} height={941} alt="Local search dashboard connecting map visibility to calls and conversions" loading="lazy" />
             <figcaption>A useful scorecard follows the customer path from local discovery to measurable business action.</figcaption>
           </figure>
 
@@ -311,7 +312,7 @@ export default function LocalSeoMetricsArticle() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-seo-reporting-review.webp" alt="Business owner and strategist reviewing local SEO lead quality" loading="lazy" />
+            <Image src="/insights/local-seo-reporting-review.webp" width={1672} height={941} alt="Business owner and strategist reviewing local SEO lead quality" loading="lazy" />
             <figcaption>The most useful report creates a conversation about lead quality, business outcomes, and the next priority.</figcaption>
           </figure>
 
@@ -396,9 +397,9 @@ export default function LocalSeoMetricsArticle() {
       <section className="article-related">
         <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Turn measurement into action.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
         <div className="article-related-grid">
-          <article><img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/marketing-attribution.webp" alt="Marketing analyst reviewing lead attribution data" /><div><span>Local SEO</span><h3>Build a strategy around qualified local leads</h3><a href="/local-seo">Explore Local SEO <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Local SEO</span><h3>Build a strategy around qualified local leads</h3><a href="/local-seo">Explore Local SEO <ArrowIcon /></a></div></article>
         </div>
       </section>
 
