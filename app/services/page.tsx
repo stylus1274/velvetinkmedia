@@ -199,22 +199,6 @@ function ArrowIcon() {
   );
 }
 
-function Header() {
-  return (
-    <header className="site-header" id="top">
-      <a className="brand" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
-      <nav className="desktop-nav" aria-label="Primary navigation">
-        <a href="/services" aria-current="page">Services</a><a href="/about-us">About</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/paid-media">Paid Media</a><a href="/work">Work</a><a href="/blog">Insights</a><a href="/contact">Contact</a>
-      </nav>
-      <details className="mobile-menu">
-        <summary aria-label="Open navigation">Menu</summary>
-        <nav aria-label="Mobile navigation"><a href="/services" aria-current="page">Services</a><a href="/about-us">About</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/paid-media">Paid Media</a><a href="/work">Work</a><a href="/blog">Insights</a><a href="/contact">Contact</a></nav>
-      </details>
-      <a className="button button-purple header-cta" href="/contact">Start a Project</a>
-    </header>
-  );
-}
-
 function ConnectedServicesGraphic() {
   return (
     <div className="svc-network" aria-label="Connected digital marketing services illustration">
