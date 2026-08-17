@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type CurrentPage =
   | "home"
   | "services"
@@ -29,7 +31,7 @@ export default function SiteHeader({ current }: { current: CurrentPage }) {
   return (
     <header className="site-header" id="top">
       <a className="brand" href={current === "home" ? "#top" : "/"} aria-label="Velvet Ink Media home">
-        <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
+        <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
       </a>
 
       <nav className="desktop-nav" aria-label="Primary navigation">
