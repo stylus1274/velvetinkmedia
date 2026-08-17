@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -115,7 +116,7 @@ export default function LocalSeoDominationArticle() {
       </header>
 
       <figure className="article-feature-image local-guide-feature">
-        <img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing map rankings, reviews, and search performance" />
+        <Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing map rankings, reviews, and search performance" preload />
         <figcaption><span>Strategy</span><span>Visibility</span><span>Growth</span></figcaption>
       </figure>
 
@@ -202,7 +203,7 @@ export default function LocalSeoDominationArticle() {
             </div>
 
             <figure className="article-inline-image">
-              <img src="/insights/local-keyword-research.webp" alt="Marketing strategist organizing local keywords by search intent and Tampa Bay location" loading="lazy" />
+              <Image src="/insights/local-keyword-research.webp" width={1600} height={900} alt="Marketing strategist organizing local keywords by search intent and Tampa Bay location" loading="lazy" />
               <figcaption>Local keyword research connects service demand, customer language, and realistic geographic priorities.</figcaption>
             </figure>
 
@@ -235,7 +236,7 @@ export default function LocalSeoDominationArticle() {
             </div>
 
             <figure className="article-inline-image">
-              <img src="/insights/service-page-strategy.webp" alt="Content strategist planning a locally optimized service page" loading="lazy" />
+              <Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a locally optimized service page" loading="lazy" />
               <figcaption>Strong local service pages connect search intent, proof, useful details, and a clear next step.</figcaption>
             </figure>
 
@@ -274,7 +275,7 @@ export default function LocalSeoDominationArticle() {
             </div>
 
             <figure className="article-inline-image">
-              <img src="/insights/google-business-profile-optimization.webp" alt="Local business owner and marketing strategist optimizing a Google Business Profile" loading="lazy" />
+              <Image src="/insights/google-business-profile-optimization.webp" width={1600} height={900} alt="Local business owner and marketing strategist optimizing a Google Business Profile" loading="lazy" />
               <figcaption>Accurate profile information, useful imagery, current services, and real customer feedback strengthen local visibility and trust.</figcaption>
             </figure>
 
@@ -333,7 +334,7 @@ export default function LocalSeoDominationArticle() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-search-rankings.webp" alt="SEO strategist reviewing local map and organic search rankings" loading="lazy" />
+            <Image src="/insights/local-search-rankings.webp" width={1200} height={800} alt="SEO strategist reviewing local map and organic search rankings" loading="lazy" />
             <figcaption>Local ranking reports are useful when they are tied to specific markets, services, and business outcomes.</figcaption>
           </figure>
 
@@ -363,7 +364,7 @@ export default function LocalSeoDominationArticle() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/marketing-attribution.webp" alt="Marketing analyst connecting local search activity to calls and qualified leads" loading="lazy" />
+            <Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst connecting local search activity to calls and qualified leads" loading="lazy" />
             <figcaption>The best reporting connects visibility to calls, forms, appointments, lead quality, and revenue.</figcaption>
           </figure>
 
@@ -424,9 +425,9 @@ export default function LocalSeoDominationArticle() {
       <section className="article-related">
         <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Continue building local visibility.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
         <div className="article-related-grid">
-          <article><img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/service-page-strategy.webp" alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>Build service pages around customer intent</h3><a href="/content-marketing">Explore Content Marketing <ArrowIcon /></a></div></article>
-          <article><img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversion performance" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>Build service pages around customer intent</h3><a href="/content-marketing">Explore Content Marketing <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversion performance" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
         </div>
       </section>
 
