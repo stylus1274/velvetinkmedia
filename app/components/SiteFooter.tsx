@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 type FooterVariant =
   | "home"
   | "about"
@@ -249,7 +251,7 @@ export default function SiteFooter({ variant }: { variant: FooterVariant }) {
           </div>
           <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
             <a className="footer-contact-logo" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
-              <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
+              <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
             </a>
             <dl>
               <div><dt>Studio</dt><dd><address>1101 E Cumberland Ave #201H<br />Tampa, FL 33602</address></dd></div>
@@ -263,7 +265,7 @@ export default function SiteFooter({ variant }: { variant: FooterVariant }) {
       <div className="footer-main">
         <div className="footer-brand-column">
           <a className="footer-brand" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
-            <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
+            <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
           </a>
           <p>{config.brandDescription}</p>
         </div>
