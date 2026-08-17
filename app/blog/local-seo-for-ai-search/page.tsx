@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -99,7 +100,7 @@ export default function LocalSeoForAiSearchPage() {
       </header>
 
       <figure className="article-feature-image">
-        <img src="/insights/local-seo-ai-search-featured.webp" alt="Tampa neighborhood storefronts marked for local discovery" />
+        <Image src="/insights/local-seo-ai-search-featured.webp" width={1672} height={941} alt="Tampa neighborhood storefronts marked for local discovery" preload />
         <figcaption><span>Local SEO</span><span>GEO</span><span>AEO</span></figcaption>
       </figure>
 
@@ -179,7 +180,7 @@ export default function LocalSeoForAiSearchPage() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-ai-entity-signals.webp" alt="Map and verified local business information arranged on a desk" loading="lazy" />
+            <Image src="/insights/local-ai-entity-signals.webp" width={1672} height={941} alt="Map and verified local business information arranged on a desk" loading="lazy" />
             <figcaption>Consistent location, service, profile, review, and citation data helps discovery systems connect scattered references to the same business.</figcaption>
           </figure>
 
@@ -212,7 +213,7 @@ export default function LocalSeoForAiSearchPage() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-firsthand-expertise.webp" alt="Pool professional testing water quality in Tampa" loading="lazy" />
+            <Image src="/insights/local-firsthand-expertise.webp" width={1672} height={941} alt="Pool professional testing water quality in Tampa" loading="lazy" />
             <figcaption>Original photos, processes, explanations, and expert observations give search systems evidence that cannot be created by merely summarizing competitors.</figcaption>
           </figure>
 
@@ -299,9 +300,9 @@ export default function LocalSeoForAiSearchPage() {
       <section className="article-related">
         <div className="article-related-heading"><div><p className="eyebrow">Build the complete system</p><h2>Related local search resources.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
         <div className="article-related-grid">
-          <article><img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing search performance" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO specialist reviewing performance metrics" /><div><span>Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing changing search results" /><div><span>Search Strategy</span><h3>How Search Is Changing for Local Businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing search performance" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO specialist reviewing performance metrics" /><div><span>Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing changing search results" /><div><span>Search Strategy</span><h3>How Search Is Changing for Local Businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
         </div>
       </section>
 
