@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -110,7 +111,7 @@ export default function AboutPage() {
         </div>
         <div className="about-hero-stage" aria-label="Velvet Ink Media team collaborating on a project">
           <div className="about-stage-grid" />
-          <figure><img src="/about-working-photo.webp" alt="Marketing team collaborating around a laptop" /></figure>
+          <figure><Image src="/about-working-photo.webp" width={1440} height={960} alt="Marketing team collaborating around a laptop" preload /></figure>
           <div className="about-float-card about-float-year"><small>Established</small><strong>2008</strong><span>Tampa Bay, Florida</span></div>
           <div className="about-float-card about-float-focus"><small>Connected expertise</small><strong>SEO · MARKETING · WEB</strong></div>
         </div>
