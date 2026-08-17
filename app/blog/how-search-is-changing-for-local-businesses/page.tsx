@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -61,7 +62,7 @@ export default function SearchArticlePage() {
       </header>
 
       <figure className="article-feature-image">
-        <img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" />
+        <Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" preload />
         <figcaption><span>SEO</span><span>GEO</span><span>AEO</span></figcaption>
       </figure>
 
@@ -167,9 +168,9 @@ export default function SearchArticlePage() {
       <section className="article-related">
         <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Related insights.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
         <div className="article-related-grid">
-          <article><img src="/insights/local-search-rankings.webp" alt="SEO strategist reviewing local search rankings" /><div><span>Local Rankings</span><h3>How local search rankings really work</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/service-page-strategy.webp" alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>What makes a service page rank in Tampa?</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/marketing-attribution.webp" alt="Marketing analyst reviewing lead attribution data" /><div><span>Analytics</span><h3>How to track which marketing channels produce leads</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-search-rankings.webp" width={1200} height={800} alt="SEO strategist reviewing local search rankings" /><div><span>Local Rankings</span><h3>How local search rankings really work</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>What makes a service page rank in Tampa?</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Analytics</span><h3>How to track which marketing channels produce leads</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
         </div>
       </section>
 
