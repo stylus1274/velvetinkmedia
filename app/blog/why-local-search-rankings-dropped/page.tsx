@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 
@@ -116,7 +117,7 @@ export default function LocalRankingRecoveryArticle() {
       </header>
 
       <figure className="article-feature-image local-guide-feature">
-        <img src="/insights/local-ranking-drop-featured.webp" alt="Local SEO strategist diagnosing a decline in local search visibility" />
+        <Image src="/insights/local-ranking-drop-featured.webp" width={1672} height={941} alt="Local SEO strategist diagnosing a decline in local search visibility" preload />
         <figcaption><span>Diagnose</span><span>Recover</span><span>Grow</span></figcaption>
       </figure>
 
@@ -212,7 +213,7 @@ export default function LocalRankingRecoveryArticle() {
             </div>
 
             <figure className="article-inline-image">
-              <img src="/insights/local-ranking-drop-diagnosis.webp" alt="Technical SEO specialist diagnosing crawl and indexing problems" loading="lazy" />
+              <Image src="/insights/local-ranking-drop-diagnosis.webp" width={1672} height={941} alt="Technical SEO specialist diagnosing crawl and indexing problems" loading="lazy" />
               <figcaption>A ranking decline after a website change often requires comparing URLs, redirects, indexing, and internal links together.</figcaption>
             </figure>
 
@@ -293,7 +294,7 @@ export default function LocalRankingRecoveryArticle() {
           </section>
 
           <figure className="article-inline-image">
-            <img src="/insights/local-ranking-recovery-plan.webp" alt="Business owner and strategist reviewing a local ranking recovery plan" loading="lazy" />
+            <Image src="/insights/local-ranking-recovery-plan.webp" width={1672} height={941} alt="Business owner and strategist reviewing a local ranking recovery plan" loading="lazy" />
             <figcaption>A controlled recovery plan makes it easier to connect each improvement with the visibility and lead changes that follow.</figcaption>
           </figure>
 
@@ -368,9 +369,9 @@ export default function LocalRankingRecoveryArticle() {
       <section className="article-related">
         <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Build, measure, and protect local visibility.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
         <div className="article-related-grid">
-          <article><img src="/insights/local-seo-domination-featured.webp" alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/insights/local-seo-metrics-featured.webp" alt="Local SEO strategist reviewing map visibility and conversions" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
-          <article><img src="/outcomes/visibility-photo.webp" alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversions" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
         </div>
       </section>
 
