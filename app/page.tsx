@@ -1,4 +1,5 @@
 import SiteHeader from "./components/SiteHeader";
+import SiteFooter from "./components/SiteFooter";
 
 const discoveryStages = [
   {
@@ -980,111 +981,7 @@ export default function Home() {
         </div>
       </section>
 
-      <footer className="site-footer" id="contact">
-        <div className="footer-cta">
-          <div className="footer-cta-copy">
-            <p className="footer-eyebrow">Let&apos;s talk</p>
-            <h2>Let&apos;s start something great together.</h2>
-            <p>
-              Not sure if you need a marketing company? Get us on the phone and
-              we&apos;ll tell you exactly how local SEO and marketing can move
-              the needle for your Tampa Bay business.
-            </p>
-            <div className="footer-actions">
-              <a className="footer-button footer-button-light" href="tel:+18137975515">
-                Call 813-797-5515
-              </a>
-              <a
-                className="footer-button footer-button-outline"
-                href="mailto:hello@velvetinkmedia.com"
-              >
-                Send a message
-              </a>
-            </div>
-          </div>
-
-          <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
-            <a className="footer-contact-logo" href="#top" aria-label="Back to top">
-              <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
-            </a>
-            <dl>
-              <div>
-                <dt>Studio</dt>
-                <dd>
-                  <address>
-                    1101 E Cumberland Ave #201H
-                    <br />
-                    Tampa, FL 33602
-                  </address>
-                </dd>
-              </div>
-              <div>
-                <dt>Phone</dt>
-                <dd>
-                  <a href="tel:+18137975515">813-797-5515</a>
-                </dd>
-              </div>
-              <div>
-                <dt>Email</dt>
-                <dd>
-                  <a href="mailto:hello@velvetinkmedia.com">
-                    hello@velvetinkmedia.com
-                  </a>
-                </dd>
-              </div>
-            </dl>
-          </aside>
-        </div>
-
-        <div className="footer-main">
-          <div className="footer-brand-column">
-            <a className="footer-brand" href="#top" aria-label="Back to top">
-              <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
-            </a>
-            <p>
-              A full-service Tampa marketing and web design agency creating
-              structured, beautiful work that helps businesses grow.
-            </p>
-          </div>
-
-          <nav className="footer-column" aria-label="Footer services">
-            <h3>Services</h3>
-            <a href="/services">All Services</a>
-            <a href="/web-design">Web Design</a>
-            <a href="/local-seo">Local SEO</a>
-            <a href="/geo-aeo">GEO + AEO</a>
-            <a href="/content-marketing">Content Marketing</a>
-            <a href="/social-media">Social Media</a>
-            <a href="/paid-media">Paid Media</a>
-            <a href="#services-overview">Reputation</a>
-          </nav>
-
-          <nav className="footer-column" aria-label="Footer company links">
-            <h3>Company</h3>
-            <a href="/about-us">About Us</a>
-            <a href="/blog">Insights</a>
-            <a href="#proof">Our Approach</a>
-            <a href="/contact">Contact</a>
-          </nav>
-
-          <div className="footer-column footer-contact-column">
-            <h3>Contact</h3>
-            <a href="tel:+18137975515">813-797-5515</a>
-            <a href="mailto:hello@velvetinkmedia.com">
-              hello@velvetinkmedia.com
-            </a>
-            <address>Tampa, FL 33602</address>
-          </div>
-        </div>
-
-        <div className="footer-bottom">
-          <p>© 2026 Velvet Ink Media. All rights reserved.</p>
-          <div>
-            <a href="#top">Privacy</a>
-            <a href="#top">Terms</a>
-          </div>
-        </div>
-      </footer>
+      <SiteFooter variant="home" />
     </main>
   );
 }

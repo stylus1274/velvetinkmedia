@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 const services = [
   {
@@ -254,48 +255,6 @@ function Header() {
   );
 }
 
-function Footer() {
-  return (
-    <footer className="site-footer" id="contact">
-      <div className="footer-cta">
-        <div className="footer-cta-copy">
-          <p className="footer-eyebrow">Let&apos;s talk</p>
-          <h2>Let&apos;s make your business easier to find.</h2>
-          <p>Tell us where your local visibility is falling short. We&apos;ll help you understand what is getting in the way and where to focus next.</p>
-          <div className="footer-actions">
-            <a className="footer-button footer-button-light" href="tel:+18137975515">Call 813-797-5515</a>
-            <a className="footer-button footer-button-outline" href="mailto:hello@velvetinkmedia.com?subject=Local%20SEO%20Audit%20Request">Request a Local SEO Audit</a>
-          </div>
-        </div>
-        <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
-          <a className="footer-contact-logo" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
-          <dl>
-            <div><dt>Studio</dt><dd><address>1101 E Cumberland Ave #201H<br />Tampa, FL 33602</address></dd></div>
-            <div><dt>Phone</dt><dd><a href="tel:+18137975515">813-797-5515</a></dd></div>
-            <div><dt>Email</dt><dd><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a></dd></div>
-          </dl>
-        </aside>
-      </div>
-      <div className="footer-main">
-        <div className="footer-brand-column">
-          <a className="footer-brand" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
-          <p>A Tampa marketing and web design agency helping businesses improve local visibility, customer experience, and measurable growth.</p>
-        </div>
-        <nav className="footer-column" aria-label="Footer services">
-          <h3>Services</h3><a href="/services">All Services</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/content-marketing">Content Marketing</a><a href="/social-media">Social Media</a><a href="/paid-media">Paid Media</a>
-        </nav>
-        <nav className="footer-column" aria-label="Footer company links">
-          <h3>Company</h3><a href="/about-us">About Us</a><a href="/blog">Insights</a><a href="/#proof">Our Approach</a><a href="/contact">Contact</a>
-        </nav>
-        <div className="footer-column footer-contact-column">
-          <h3>Contact</h3><a href="tel:+18137975515">813-797-5515</a><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a><address>Tampa, FL 33602</address>
-        </div>
-      </div>
-      <div className="footer-bottom"><p>© 2026 Velvet Ink Media. All rights reserved.</p><div><a href="#top">Privacy</a><a href="#top">Terms</a></div></div>
-    </footer>
-  );
-}
-
 export default function LocalSeoPage() {
   return (
     <main className="local-seo-page">
@@ -489,7 +448,7 @@ export default function LocalSeoPage() {
         <div className="lse-faq-list">{faqs.map((faq) => <details key={faq.question}><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div>
       </section>
 
-      <Footer />
+      <SiteFooter variant="local-seo" />
     </main>
   );
 }

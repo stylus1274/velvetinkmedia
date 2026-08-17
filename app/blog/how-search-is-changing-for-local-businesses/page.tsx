@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteHeader from "../../components/SiteHeader";
+import SiteFooter from "../../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "How Search Is Changing for Local Businesses | Velvet Ink Media",
@@ -53,32 +54,6 @@ function Header() {
       </details>
       <a className="button button-purple header-cta" href="/contact">Start a Project</a>
     </header>
-  );
-}
-
-function Footer() {
-  return (
-    <footer className="site-footer">
-      <div className="footer-cta">
-        <div className="footer-cta-copy">
-          <p className="footer-eyebrow">Put the ideas to work</p>
-          <h2>Build visibility customers and AI systems can understand.</h2>
-          <p>We connect strong websites, local SEO, useful content, and measurable marketing around one business goal.</p>
-          <div className="footer-actions"><a className="footer-button footer-button-light" href="/contact">Start a Project</a><a className="footer-button footer-button-outline" href="/local-seo">Explore Local SEO</a></div>
-        </div>
-        <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
-          <a className="footer-contact-logo" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
-          <dl><div><dt>Studio</dt><dd><address>1101 E Cumberland Ave #201H<br />Tampa, FL 33602</address></dd></div><div><dt>Phone</dt><dd><a href="tel:+18137975515">813-797-5515</a></dd></div><div><dt>Email</dt><dd><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a></dd></div></dl>
-        </aside>
-      </div>
-      <div className="footer-main">
-        <div className="footer-brand-column"><a className="footer-brand" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a><p>A Tampa marketing and web design agency creating connected digital systems that help businesses grow.</p></div>
-        <nav className="footer-column" aria-label="Footer services"><h3>Services</h3><a href="/services">All Services</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/content-marketing">Content Marketing</a><a href="/social-media">Social Media</a><a href="/paid-media">Paid Media</a></nav>
-        <nav className="footer-column" aria-label="Footer company links"><h3>Company</h3><a href="/about-us">About Us</a><a href="/blog">Insights</a><a href="/#proof">Our Approach</a><a href="/contact">Contact</a></nav>
-        <div className="footer-column footer-contact-column"><h3>Contact</h3><a href="tel:+18137975515">813-797-5515</a><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a><address>Tampa, FL 33602</address></div>
-      </div>
-      <div className="footer-bottom"><p>© 2026 Velvet Ink Media. All rights reserved.</p><div><a href="#top">Privacy</a><a href="#top">Terms</a></div></div>
-    </footer>
   );
 }
 
@@ -214,7 +189,7 @@ export default function SearchArticlePage() {
         </div>
       </section>
 
-      <Footer />
+      <SiteFooter variant="search-changes-article" />
     </main>
   );
 }

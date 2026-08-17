@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 export const metadata: Metadata = {
   title: "Contact Velvet Ink Media | Tampa Marketing Agency",
@@ -39,47 +40,6 @@ function ArrowIcon() {
   );
 }
 
-
-function Footer() {
-  return (
-    <footer className="site-footer contact-footer">
-      <div className="footer-main">
-        <div className="footer-brand-column">
-          <a className="footer-brand" href="/" aria-label="Velvet Ink Media home">
-            <img src="/velvet-ink-logo.png" alt="Velvet Ink Media" />
-          </a>
-          <p>A Tampa marketing and web design agency creating connected digital systems that help businesses grow.</p>
-        </div>
-        <nav className="footer-column" aria-label="Footer services">
-          <h3>Services</h3>
-          <a href="/services">All Services</a>
-          <a href="/web-design">Web Design</a>
-          <a href="/local-seo">Local SEO</a>
-          <a href="/geo-aeo">GEO + AEO</a>
-          <a href="/paid-media">Paid Media</a>
-          <a href="/#services-overview">Reputation</a>
-        </nav>
-        <nav className="footer-column" aria-label="Footer company links">
-          <h3>Company</h3>
-          <a href="/about-us">About Us</a>
-          <a href="/blog">Insights</a>
-          <a href="/#proof">Our Approach</a>
-          <a href="/contact">Contact</a>
-        </nav>
-        <div className="footer-column footer-contact-column">
-          <h3>Contact</h3>
-          <a href="tel:+18137975515">813-797-5515</a>
-          <a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a>
-          <address>Tampa, FL 33602</address>
-        </div>
-      </div>
-      <div className="footer-bottom">
-        <p>© 2026 Velvet Ink Media. All rights reserved.</p>
-        <div><a href="#top">Privacy</a><a href="#top">Terms</a></div>
-      </div>
-    </footer>
-  );
-}
 
 export default function ContactPage() {
   return (
@@ -189,7 +149,7 @@ export default function ContactPage() {
         </div>
       </section>
 
-      <Footer />
+      <SiteFooter variant="contact" />
     </main>
   );
 }

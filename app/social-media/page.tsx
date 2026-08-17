@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
+import SiteFooter from "../components/SiteFooter";
 
 const services = [
   { number: "01", title: "Social Strategy", copy: "Define the audience, channel roles, message priorities, publishing rhythm, and business result each platform needs to support.", tags: ["Audience", "Roadmap"], accent: "purple" },
@@ -101,32 +102,6 @@ function SocialDashboard() {
   );
 }
 
-function Footer() {
-  return (
-    <footer className="site-footer" id="contact">
-      <div className="footer-cta">
-        <div className="footer-cta-copy">
-          <p className="footer-eyebrow">Let&apos;s talk</p>
-          <h2>Give social media a useful job.</h2>
-          <p>Tell us where you are showing up now, what feels inconsistent, and what the business needs social media to support. We&apos;ll help you choose a practical starting point.</p>
-          <div className="footer-actions"><a className="footer-button footer-button-light" href="tel:+18137975515">Call 813-797-5515</a><a className="footer-button footer-button-outline" href="/contact">Plan Your Social Strategy</a></div>
-        </div>
-        <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
-          <a className="footer-contact-logo" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a>
-          <dl><div><dt>Studio</dt><dd><address>1101 E Cumberland Ave #201H<br />Tampa, FL 33602</address></dd></div><div><dt>Phone</dt><dd><a href="tel:+18137975515">813-797-5515</a></dd></div><div><dt>Email</dt><dd><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a></dd></div></dl>
-        </aside>
-      </div>
-      <div className="footer-main">
-        <div className="footer-brand-column"><a className="footer-brand" href="/" aria-label="Velvet Ink Media home"><img src="/velvet-ink-logo.png" alt="Velvet Ink Media" /></a><p>A Tampa marketing agency connecting social media, content, search visibility, web design, paid media, and measurement around real business growth.</p></div>
-        <nav className="footer-column" aria-label="Footer services"><h3>Services</h3><a href="/services">All Services</a><a href="/web-design">Web Design</a><a href="/local-seo">Local SEO</a><a href="/geo-aeo">GEO + AEO</a><a href="/content-marketing">Content Marketing</a><a href="/social-media">Social Media</a><a href="/paid-media">Paid Media</a></nav>
-        <nav className="footer-column" aria-label="Footer company links"><h3>Company</h3><a href="/about-us">About Us</a><a href="/work">Our Work</a><a href="/blog">Insights</a><a href="/contact">Contact</a></nav>
-        <div className="footer-column footer-contact-column"><h3>Contact</h3><a href="tel:+18137975515">813-797-5515</a><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a><address>Tampa, FL 33602</address></div>
-      </div>
-      <div className="footer-bottom"><p>© 2026 Velvet Ink Media. All rights reserved.</p><div><a href="#top">Privacy</a><a href="#top">Terms</a></div></div>
-    </footer>
-  );
-}
-
 export default function SocialMediaPage() {
   return (
     <main className="social-media-page">
@@ -198,7 +173,7 @@ export default function SocialMediaPage() {
         <div className="lse-faq-list">{faqs.map((faq) => <details key={faq.question}><summary>{faq.question}<span>+</span></summary><p>{faq.answer}</p></details>)}</div>
       </section>
 
-      <Footer />
+      <SiteFooter variant="social-media" />
     </main>
   );
 }
