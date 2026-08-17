@@ -1,0 +1,19 @@
+/* Global content width */
+:root {
+  --site-content-gutter: clamp(76px, 10vw, 190px);
+}
+
+@media (min-width: 761px) {
+  .site-header,
+  main > section,
+  .footer-cta,
+  .footer-main,
+  .footer-bottom {
+    padding-left: var(--site-content-gutter) !important;
+    padding-right: var(--site-content-gutter) !important;
+  }
+
+  .article-shell {
+    max-width: 1305px;
+  }
+}

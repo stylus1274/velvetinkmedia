@@ -1,0 +1,18 @@
+:root {
+  --ink: #090909;
+  --paper: #faf8f3;
+  --white: #ffffff;
+  --purple: #ad6bff;
+  --purple-dark: #8b43e5;
+  --purple-soft: #eadbff;
+  --lime: #cadc81;
+  --lime-soft: #edf4ca;
+  --blue: #92cbfa;
+  --blue-soft: #dceeff;
+  --peach-soft: #f8dfd3;
+  --mint-soft: #dcefe6;
+  --rose-soft: #f4dce7;
+  --muted: #65615d;
+  --line: rgba(9, 9, 9, 0.18);
+  --body-copy-size: 24px;
+}
