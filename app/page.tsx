@@ -1,3 +1,4 @@
+import Image from "next/image";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
 
@@ -531,7 +532,7 @@ function OutcomeGraphic({ type }: { type: string }) {
 
   return (
     <figure className={`outcome-photo outcome-photo-${type}`}>
-      <img src={photo.src} alt={photo.alt} />
+      <Image src={photo.src} width={1280} height={853} alt={photo.alt} />
       <figcaption>
         <span aria-hidden="true" />
         {photo.label}
@@ -571,9 +572,12 @@ export default function Home() {
         <div className="hero-visual" id="services">
           <div className="hero-visual-grid" aria-hidden="true" />
           <div className="hero-photo">
-            <img
+            <Image
               src="/velvet-ink-hero-laptop.webp"
+              width={1254}
+              height={1254}
               alt="Laptop displaying local SEO rankings, map visibility, and lead performance"
+              preload
             />
           </div>
 
@@ -877,8 +881,10 @@ export default function Home() {
       <section className="about-section" id="about">
         <div className="about-visual">
           <div className="about-photo-frame">
-            <img
+            <Image
               src="/about-working-photo.webp"
+              width={1440}
+              height={960}
               alt="Marketing professionals collaborating in a bright office"
               loading="lazy"
             />
@@ -960,8 +966,10 @@ export default function Home() {
                 <span className="insight-date">{insight.date}</span>
               </div>
               <figure className="insight-image">
-                <img
+                <Image
                   src={insight.image}
+                  width={1200}
+                  height={800}
                   alt={insight.imageAlt}
                   loading="lazy"
                 />
