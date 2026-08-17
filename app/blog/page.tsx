@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 
@@ -150,7 +151,7 @@ export default function BlogPage() {
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
           <a className="blog-featured-image-link" href="/blog/why-local-search-rankings-dropped" aria-label="Read Why Your Local Search Rankings Dropped">
-            <img src="/insights/local-ranking-drop-featured.webp" alt="Local SEO strategist diagnosing a decline in local search visibility" />
+            <Image src="/insights/local-ranking-drop-featured.webp" width={1672} height={941} alt="Local SEO strategist diagnosing a decline in local search visibility" preload />
           </a>
           <figcaption><span>Featured</span><strong>Ranking recovery</strong></figcaption>
         </figure>
@@ -173,7 +174,7 @@ export default function BlogPage() {
               <div className="blog-card-top"><span>0{index + 1}</span><span>{article.category}</span></div>
               <figure>
                 <a className="blog-card-image-link" href={article.href} aria-label={`Read ${article.title}`}>
-                  <img src={article.image} alt={article.alt} loading="lazy" />
+                  <Image src={article.image} width={1672} height={941} alt={article.alt} loading="lazy" />
                 </a>
               </figure>
               <div className="blog-card-body">
