@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const primaryServices = [
   {
@@ -233,7 +234,7 @@ export default function ServicesPage() {
           <p className="eyebrow">Connected digital marketing services</p>
           <h1>Every service connected to the same <span>business goal.</span></h1>
           <p className="svc-lead">Web design, local SEO, GEO, AEO, paid media, content, and measurement work better when they follow one strategy instead of competing for attention.</p>
-          <div className="hero-actions"><a className="button button-purple" href="#primary-services">Explore Our Services</a><a className="button button-outline" href="/contact">Talk About Your Goals</a></div>
+          <div className="hero-actions"><SiteLink className="button button-purple" href="#primary-services">Explore Our Services</SiteLink><SiteLink className="button button-outline" href="/contact">Talk About Your Goals</SiteLink></div>
         </div>
         <ConnectedServicesGraphic />
       </section>
@@ -245,7 +246,7 @@ export default function ServicesPage() {
 
       <section className="svc-primary" id="primary-services">
         <div className="svc-section-heading"><div><p className="eyebrow">Primary services</p><h2>Six ways we help businesses build visibility and growth.</h2></div><p>You may need one service, a focused combination, or a phased plan. Each path can stand alone, but every path is designed to connect with the others.</p></div>
-        <div className="svc-primary-grid">{primaryServices.map((service) => <article className={`svc-primary-card ${service.accent}`} key={service.number}><div className="svc-primary-top"><span>{service.number}</span><small>{service.eyebrow}</small></div><ServiceGraphic type={service.visual} /><div className="svc-primary-copy"><h3>{service.title}</h3><p>{service.description}</p><div><small>BEST FOR</small><strong>{service.bestFor}</strong></div><a className="capability-button" href={service.href}>{service.cta} <ArrowIcon /></a></div></article>)}</div>
+        <div className="svc-primary-grid">{primaryServices.map((service) => <article className={`svc-primary-card ${service.accent}`} key={service.number}><div className="svc-primary-top"><span>{service.number}</span><small>{service.eyebrow}</small></div><ServiceGraphic type={service.visual} /><div className="svc-primary-copy"><h3>{service.title}</h3><p>{service.description}</p><div><small>BEST FOR</small><strong>{service.bestFor}</strong></div><SiteLink className="capability-button" href={service.href}>{service.cta} <ArrowIcon /></SiteLink></div></article>)}</div>
       </section>
 
       <section className="svc-selector">
@@ -257,10 +258,10 @@ export default function ServicesPage() {
           <input className="svc-choice" id="svc-connected" name="svc-goal" type="radio" />
           <div className="svc-tabs" role="group" aria-label="Business goals"><label htmlFor="svc-visibility"><span>01</span><strong>We need more visibility</strong><i>+</i></label><label htmlFor="svc-website"><span>02</span><strong>Our website is holding us back</strong><i>+</i></label><label htmlFor="svc-leads"><span>03</span><strong>We need qualified leads sooner</strong><i>+</i></label><label htmlFor="svc-connected"><span>04</span><strong>Our marketing feels disconnected</strong><i>+</i></label></div>
           <div className="svc-panels">
-            <article className="svc-panel svc-panel-visibility"><p>Recommended starting point</p><h3>Build visibility across local, organic, and AI-driven search.</h3><span>Strengthen the website, local presence, expert content, and authority signals customers and search systems use to find and evaluate the business.</span><ul><li>Local SEO</li><li>GEO + AEO</li><li>Content Strategy</li></ul><a className="button button-purple" href="/local-seo">Explore Local SEO</a></article>
-            <article className="svc-panel svc-panel-website"><p>Recommended starting point</p><h3>Fix the foundation before sending it more traffic.</h3><span>Clarify the message, improve mobile usability, organize priority services, strengthen conversion paths, and make the website easier for customers and search systems to use.</span><ul><li>Web Design</li><li>Conversion Optimization</li><li>Analytics</li></ul><a className="button button-purple" href="/web-design">Explore Web Design</a></article>
-            <article className="svc-panel svc-panel-leads"><p>Recommended starting point</p><h3>Capture existing demand and measure what happens next.</h3><span>Use focused advertising, relevant landing pages, and clean tracking to reach customers who are actively looking and learn which opportunities create useful leads.</span><ul><li>Paid Media</li><li>Landing Pages</li><li>Lead Tracking</li></ul><a className="button button-purple" href="/paid-media">Explore Paid Media</a></article>
-            <article className="svc-panel svc-panel-connected"><p>Recommended starting point</p><h3>Build one plan across the website, search, content, and advertising.</h3><span>Audit the current system, define shared priorities, clarify ownership, and phase the work so each channel supports the same audience and business outcome.</span><ul><li>Digital Strategy</li><li>Connected Services</li><li>Measurement Plan</li></ul><a className="button button-purple" href="/contact">Plan the Right Mix</a></article>
+            <article className="svc-panel svc-panel-visibility"><p>Recommended starting point</p><h3>Build visibility across local, organic, and AI-driven search.</h3><span>Strengthen the website, local presence, expert content, and authority signals customers and search systems use to find and evaluate the business.</span><ul><li>Local SEO</li><li>GEO + AEO</li><li>Content Strategy</li></ul><SiteLink className="button button-purple" href="/local-seo">Explore Local SEO</SiteLink></article>
+            <article className="svc-panel svc-panel-website"><p>Recommended starting point</p><h3>Fix the foundation before sending it more traffic.</h3><span>Clarify the message, improve mobile usability, organize priority services, strengthen conversion paths, and make the website easier for customers and search systems to use.</span><ul><li>Web Design</li><li>Conversion Optimization</li><li>Analytics</li></ul><SiteLink className="button button-purple" href="/web-design">Explore Web Design</SiteLink></article>
+            <article className="svc-panel svc-panel-leads"><p>Recommended starting point</p><h3>Capture existing demand and measure what happens next.</h3><span>Use focused advertising, relevant landing pages, and clean tracking to reach customers who are actively looking and learn which opportunities create useful leads.</span><ul><li>Paid Media</li><li>Landing Pages</li><li>Lead Tracking</li></ul><SiteLink className="button button-purple" href="/paid-media">Explore Paid Media</SiteLink></article>
+            <article className="svc-panel svc-panel-connected"><p>Recommended starting point</p><h3>Build one plan across the website, search, content, and advertising.</h3><span>Audit the current system, define shared priorities, clarify ownership, and phase the work so each channel supports the same audience and business outcome.</span><ul><li>Digital Strategy</li><li>Connected Services</li><li>Measurement Plan</li></ul><SiteLink className="button button-purple" href="/contact">Plan the Right Mix</SiteLink></article>
           </div>
         </div>
       </section>
@@ -280,7 +281,7 @@ export default function ServicesPage() {
         <div className="svc-process-grid">{process.map(([number, title, description]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{description}</p></article>)}</div>
       </section>
 
-      <section className="svc-cta"><div><p className="eyebrow">Not sure where to start?</p><h2>You do not need to diagnose the entire marketing system yourself.</h2></div><div><p>Tell us what feels stuck, what you have already tried, and what the business needs to accomplish. We&apos;ll help you identify the most useful next step.</p><a className="button button-purple" href="/contact">Talk With Velvet Ink Media</a></div></section>
+      <section className="svc-cta"><div><p className="eyebrow">Not sure where to start?</p><h2>You do not need to diagnose the entire marketing system yourself.</h2></div><div><p>Tell us what feels stuck, what you have already tried, and what the business needs to accomplish. We&apos;ll help you identify the most useful next step.</p><SiteLink className="button button-purple" href="/contact">Talk With Velvet Ink Media</SiteLink></div></section>
 
       <section className="svc-faq">
         <div className="svc-faq-heading"><p className="eyebrow">Service FAQs</p><h2>Questions businesses ask before choosing a direction.</h2></div>

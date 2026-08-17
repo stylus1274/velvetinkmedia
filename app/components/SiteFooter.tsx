@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SiteLink from "./SiteLink";
 
 type FooterVariant =
   | "home"
@@ -245,18 +246,18 @@ export default function SiteFooter({ variant }: { variant: FooterVariant }) {
             <h2>{config.title}</h2>
             <p>{config.description}</p>
             <div className="footer-actions">
-              <a className="footer-button footer-button-light" href={config.primaryAction.href}>{config.primaryAction.label}</a>
-              <a className="footer-button footer-button-outline" href={config.secondaryAction.href}>{config.secondaryAction.label}</a>
+              <SiteLink className="footer-button footer-button-light" href={config.primaryAction.href}>{config.primaryAction.label}</SiteLink>
+              <SiteLink className="footer-button footer-button-outline" href={config.secondaryAction.href}>{config.secondaryAction.label}</SiteLink>
             </div>
           </div>
           <aside className="footer-contact-card" aria-label="Velvet Ink Media contact details">
-            <a className="footer-contact-logo" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
+            <SiteLink className="footer-contact-logo" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
               <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
-            </a>
+            </SiteLink>
             <dl>
               <div><dt>Studio</dt><dd><address>1101 E Cumberland Ave #201H<br />Tampa, FL 33602</address></dd></div>
-              <div><dt>Phone</dt><dd><a href="tel:+18137975515">813-797-5515</a></dd></div>
-              <div><dt>Email</dt><dd><a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a></dd></div>
+              <div><dt>Phone</dt><dd><SiteLink href="tel:+18137975515">813-797-5515</SiteLink></dd></div>
+              <div><dt>Email</dt><dd><SiteLink href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</SiteLink></dd></div>
             </dl>
           </aside>
         </div>
@@ -264,39 +265,39 @@ export default function SiteFooter({ variant }: { variant: FooterVariant }) {
 
       <div className="footer-main">
         <div className="footer-brand-column">
-          <a className="footer-brand" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
+          <SiteLink className="footer-brand" href={homeHref} aria-label={variant === "home" ? "Back to top" : "Velvet Ink Media home"}>
             <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
-          </a>
+          </SiteLink>
           <p>{config.brandDescription}</p>
         </div>
         <nav className="footer-column" aria-label="Footer services">
           <h3>Services</h3>
-          <a href="/services">All Services</a>
-          <a href="/web-design">Web Design</a>
-          <a href="/local-seo">Local SEO</a>
-          <a href="/geo-aeo">GEO + AEO</a>
-          {!config.abbreviatedServices ? <a href="/content-marketing">Content Marketing</a> : null}
-          {!config.abbreviatedServices ? <a href="/social-media">Social Media</a> : null}
-          <a href="/paid-media">Paid Media</a>
-          {config.includeReputation ? <a href="/#services-overview">Reputation</a> : null}
+          <SiteLink href="/services">All Services</SiteLink>
+          <SiteLink href="/web-design">Web Design</SiteLink>
+          <SiteLink href="/local-seo">Local SEO</SiteLink>
+          <SiteLink href="/geo-aeo">GEO + AEO</SiteLink>
+          {!config.abbreviatedServices ? <SiteLink href="/content-marketing">Content Marketing</SiteLink> : null}
+          {!config.abbreviatedServices ? <SiteLink href="/social-media">Social Media</SiteLink> : null}
+          <SiteLink href="/paid-media">Paid Media</SiteLink>
+          {config.includeReputation ? <SiteLink href="/#services-overview">Reputation</SiteLink> : null}
         </nav>
         <nav className="footer-column" aria-label="Footer company links">
           <h3>Company</h3>
-          <a href="/about-us">About Us</a>
-          <a href="/blog">Insights</a>
-          <a href={config.companyFeature.href}>{config.companyFeature.label}</a>
-          <a href="/contact">Contact</a>
+          <SiteLink href="/about-us">About Us</SiteLink>
+          <SiteLink href="/blog">Insights</SiteLink>
+          <SiteLink href={config.companyFeature.href}>{config.companyFeature.label}</SiteLink>
+          <SiteLink href="/contact">Contact</SiteLink>
         </nav>
         <div className="footer-column footer-contact-column">
           <h3>Contact</h3>
-          <a href="tel:+18137975515">813-797-5515</a>
-          <a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a>
+          <SiteLink href="tel:+18137975515">813-797-5515</SiteLink>
+          <SiteLink href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</SiteLink>
           <address>Tampa, FL 33602</address>
         </div>
       </div>
       <div className="footer-bottom">
         <p>© 2026 Velvet Ink Media. All rights reserved.</p>
-        <div><a href="#top">Privacy</a><a href="#top">Terms</a></div>
+        <div><SiteLink href="#top">Privacy</SiteLink><SiteLink href="#top">Terms</SiteLink></div>
       </div>
     </footer>
   );

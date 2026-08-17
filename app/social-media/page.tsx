@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const services = [
   { number: "01", title: "Social Strategy", copy: "Define the audience, channel roles, message priorities, publishing rhythm, and business result each platform needs to support.", tags: ["Audience", "Roadmap"], accent: "purple" },
@@ -113,7 +114,7 @@ export default function SocialMediaPage() {
           <p className="eyebrow">Social media marketing for Tampa businesses</p>
           <h1>Show up with something <span>worth saying.</span></h1>
           <p className="sm-lead">We connect strategy, content creation, publishing, community management, paid support, and measurement so social media becomes part of the business system, not another disconnected task.</p>
-          <div className="hero-actions"><a className="button button-purple" href="/contact">Build Your Social Strategy</a><a className="button button-outline" href="#social-services">See What We Manage</a></div>
+          <div className="hero-actions"><SiteLink className="button button-purple" href="/contact">Build Your Social Strategy</SiteLink><SiteLink className="button button-outline" href="#social-services">See What We Manage</SiteLink></div>
           <ul className="sm-hero-points"><li>Strategy-led</li><li>Platform-aware</li><li>Business-focused</li></ul>
         </div>
         <SocialDashboard />
@@ -121,7 +122,7 @@ export default function SocialMediaPage() {
 
       <section className="lse-context sm-context" id="approach">
         <div className="lse-context-heading"><p className="eyebrow">More than consistent posting</p><h2>Consistency is not the same as strategy.</h2></div>
-        <div className="lse-context-copy"><p>A full calendar can still fail when the content has no clear audience, message, platform role, or business purpose. More posts do not automatically create more trust or better leads.</p><p>We give every channel and content type a defined job. One post may build familiarity, another may answer a sales question, and another may move an interested customer to the website. Together, they create a useful path instead of a stream of disconnected updates.</p><a className="capability-button" href="#social-services">Explore the Social System <ArrowIcon /></a></div>
+        <div className="lse-context-copy"><p>A full calendar can still fail when the content has no clear audience, message, platform role, or business purpose. More posts do not automatically create more trust or better leads.</p><p>We give every channel and content type a defined job. One post may build familiarity, another may answer a sales question, and another may move an interested customer to the website. Together, they create a useful path instead of a stream of disconnected updates.</p><SiteLink className="capability-button" href="#social-services">Explore the Social System <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="lse-services sm-services" id="social-services">
@@ -130,7 +131,7 @@ export default function SocialMediaPage() {
       </section>
 
       <section className="sm-content-system">
-        <div className="sm-system-copy"><p className="eyebrow">One idea, multiple useful expressions</p><h2>Build social content from real business expertise.</h2><p>The strongest social programs do not start with a blank calendar. They start with customer questions, useful opinions, service knowledge, original examples, and source material that is worth sharing.</p><p>We turn those ideas into platform-ready content while preserving the depth that supports your website, search visibility, and larger content strategy.</p><a className="button button-purple" href="/content-marketing">Explore Content Marketing</a></div>
+        <div className="sm-system-copy"><p className="eyebrow">One idea, multiple useful expressions</p><h2>Build social content from real business expertise.</h2><p>The strongest social programs do not start with a blank calendar. They start with customer questions, useful opinions, service knowledge, original examples, and source material that is worth sharing.</p><p>We turn those ideas into platform-ready content while preserving the depth that supports your website, search visibility, and larger content strategy.</p><SiteLink className="button button-purple" href="/content-marketing">Explore Content Marketing</SiteLink></div>
         <div className="sm-repurpose-flow" aria-label="One expert idea repurposed into multiple formats">
           <header><span>Source idea</span><strong>Answer one important customer question</strong></header>
           <div><article><span>01</span><b>Website resource</b><small>Depth and search value</small></article><article><span>02</span><b>Social carousel</b><small>Clear, visual teaching</small></article><article><span>03</span><b>Short-form post</b><small>Focused point of view</small></article><article><span>04</span><b>Campaign creative</b><small>Targeted next step</small></article></div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const services = [
   {
@@ -232,8 +233,8 @@ export default function LocalSeoPage() {
           <h1>Local SEO services for <span>Tampa businesses.</span></h1>
           <p className="lse-lead">We help Tampa businesses improve Google Maps visibility, earn stronger local organic rankings, and turn high-intent searches into calls, appointments, visits, and qualified leads.</p>
           <div className="hero-actions">
-            <a className="button button-purple" href="/contact">Request a Local SEO Audit</a>
-            <a className="button button-outline" href="#services">Explore Local SEO Services</a>
+            <SiteLink className="button button-purple" href="/contact">Request a Local SEO Audit</SiteLink>
+            <SiteLink className="button button-outline" href="#services">Explore Local SEO Services</SiteLink>
           </div>
           <ul className="lse-hero-points" aria-label="Local SEO benefits">
             <li>Tampa-based since 2008</li><li>Google Maps + organic search</li><li>Lead-focused reporting</li>
@@ -255,7 +256,7 @@ export default function LocalSeoPage() {
         <div className="lse-summary-copy">
           <p>Local SEO improves how your business appears when people search for a product, service, or provider in a specific area. That includes results in Google Maps, the local pack, organic search, branded results, and increasingly, AI-generated recommendations.</p>
           <p>The goal is not traffic for its own sake. The goal is to become visible when the right customer has a real need, then give that person enough relevance, proof, and clarity to take the next step.</p>
-          <a className="capability-button" href="#how-local-rankings-work">See How Local Rankings Work <ArrowIcon /></a>
+          <SiteLink className="capability-button" href="#how-local-rankings-work">See How Local Rankings Work <ArrowIcon /></SiteLink>
         </div>
       </section>
 
@@ -295,7 +296,7 @@ export default function LocalSeoPage() {
           <ul className="lse-check-list">
             <li>Primary and secondary category review</li><li>Services, products, attributes, and description</li><li>Name, address, phone, hours, and website accuracy</li><li>Photo, post, and question opportunities</li><li>Duplicate, suspension, and guideline risk checks</li><li>Call, website, direction, and engagement tracking</li>
           </ul>
-          <a className="button button-purple" href="/contact">Improve Your Google Profile</a>
+          <SiteLink className="button button-purple" href="/contact">Improve Your Google Profile</SiteLink>
         </div>
         <div className="lse-gbp-board" aria-label="Google Business Profile optimization overview">
           <div className="lse-gbp-search"><span aria-hidden="true" />local seo company tampa<b>Search</b></div>
@@ -319,7 +320,7 @@ export default function LocalSeoPage() {
           <article><span>03</span><h3>Technical foundation</h3><p>Internal links, crawlability, mobile usability, page speed, metadata, schema, and site architecture help search engines understand the business.</p></article>
           <article><span>04</span><h3>Conversion experience</h3><p>Clear calls to action, trust signals, readable content, contact options, and focused landing pages help turn local visibility into measurable opportunities.</p></article>
         </div>
-        <div className="lse-site-cta"><div><strong>Does the current website limit your local SEO?</strong><p>We can improve the existing foundation or connect the strategy with a complete website redesign.</p></div><a className="capability-button" href="/web-design">Explore Tampa Web Design <ArrowIcon /></a></div>
+        <div className="lse-site-cta"><div><strong>Does the current website limit your local SEO?</strong><p>We can improve the existing foundation or connect the strategy with a complete website redesign.</p></div><SiteLink className="capability-button" href="/web-design">Explore Tampa Web Design <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="lse-authority-section">
@@ -341,7 +342,7 @@ export default function LocalSeoPage() {
           <h2>Get found in search. Become the answer.</h2>
           <p>Customers still use Google Search and Maps, but they also ask AI tools for recommendations, comparisons, and direct answers. GEO and AEO do not replace SEO. Clear technical structure, expert content, accurate business information, strong local authority, and trustworthy third-party signals give traditional and AI-driven systems better information to work with.</p>
           <p>We focus on durable search fundamentals and original business expertise, not unsupported AI-search shortcuts.</p>
-          <a className="button button-purple" href="/contact">Build Your Visibility Strategy</a>
+          <SiteLink className="button button-purple" href="/contact">Build Your Visibility Strategy</SiteLink>
         </div>
         <div className="lse-answer-panel" aria-label="How local search visibility supports AI answers">
           <p>One connected foundation</p>
@@ -387,7 +388,7 @@ export default function LocalSeoPage() {
           <p>Search behavior, competition, proximity, and customer expectations can change from Downtown Tampa to South Tampa, Carrollwood, Brandon, or Riverview. We prioritize the communities tied to real customers and realistic service coverage.</p>
           <div className="lse-area-list" aria-label="Tampa area communities served">{serviceAreas.map((area) => <span key={area}>{area}</span>)}</div>
           <p className="lse-area-note">Serving an area does not automatically create Google Maps visibility there. Our strategy accounts for proximity and builds organic coverage without creating thin, duplicated city pages.</p>
-          <a className="capability-button" href="/contact">Talk With a Tampa Local SEO Specialist <ArrowIcon /></a>
+          <SiteLink className="capability-button" href="/contact">Talk With a Tampa Local SEO Specialist <ArrowIcon /></SiteLink>
         </div>
       </section>
 
@@ -402,9 +403,9 @@ export default function LocalSeoPage() {
       <section className="lse-resources-section">
         <div className="lse-resources-heading"><p className="eyebrow">Tampa local SEO resources</p><h2>Useful answers before you hire an SEO company.</h2><p>Strong partnerships start with informed decisions. These resources explain key parts of local visibility in plain language.</p></div>
         <div className="lse-resource-grid">
-          <a href="https://www.velvetinkmedia.com/google-business-profile-optimization-tampa/"><span>Google Business Profile</span><h3>Optimization tips for Tampa businesses</h3><b>Read the article <ArrowIcon /></b></a>
-          <a href="https://www.velvetinkmedia.com/top-5-local-seo-tips-for-tampa-small-businesses/"><span>Local SEO strategy</span><h3>Five practical tips for Tampa small businesses</h3><b>Read the article <ArrowIcon /></b></a>
-          <a href="https://www.velvetinkmedia.com/seo-services-tampa/"><span>Search visibility</span><h3>What Tampa SEO services should include</h3><b>Read the article <ArrowIcon /></b></a>
+          <SiteLink href="https://www.velvetinkmedia.com/google-business-profile-optimization-tampa/"><span>Google Business Profile</span><h3>Optimization tips for Tampa businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="https://www.velvetinkmedia.com/top-5-local-seo-tips-for-tampa-small-businesses/"><span>Local SEO strategy</span><h3>Five practical tips for Tampa small businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="https://www.velvetinkmedia.com/seo-services-tampa/"><span>Search visibility</span><h3>What Tampa SEO services should include</h3><b>Read the article <ArrowIcon /></b></SiteLink>
         </div>
       </section>
 

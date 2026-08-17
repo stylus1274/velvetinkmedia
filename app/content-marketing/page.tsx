@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const deliverables = [
   { number: "01", title: "Content Strategy", copy: "Turn business goals, customer questions, search demand, and competitive gaps into a focused editorial roadmap.", tags: ["Research", "Roadmap"], accent: "purple" },
@@ -89,7 +90,7 @@ export default function ContentMarketingPage() {
           <p className="eyebrow">Content marketing services for Tampa businesses</p>
           <h1>Content that earns attention and <span>keeps working.</span></h1>
           <p className="cm-lead">We plan, create, publish, and distribute useful content built to improve search visibility, support AI discovery, build trust, and move customers toward a real next step.</p>
-          <div className="hero-actions"><a className="button button-purple" href="/contact">Plan Your Content Strategy</a><a className="button button-outline" href="#deliverables">See What We Create</a></div>
+          <div className="hero-actions"><SiteLink className="button button-purple" href="/contact">Plan Your Content Strategy</SiteLink><SiteLink className="button button-outline" href="#deliverables">See What We Create</SiteLink></div>
           <ul className="cm-hero-points"><li>Strategy-led</li><li>Expert-informed</li><li>Built to perform</li></ul>
         </div>
         <div className="cm-hero-stage" aria-label="Content strategy and editorial workflow illustration">
@@ -113,7 +114,7 @@ export default function ContentMarketingPage() {
 
       <section className="lse-context cm-context" id="approach">
         <div className="lse-context-heading"><p className="eyebrow">Not a publishing quota</p><h2>Content should solve a business problem.</h2></div>
-        <div className="lse-context-copy"><p>Publishing more is not automatically a strategy. Strong content helps the right people discover your business, understand your expertise, compare options, overcome hesitation, and take action.</p><p>We connect every asset to a defined audience, search opportunity, customer question, service priority, or conversion goal. If a topic has no useful job to do, it should not be on the calendar.</p><a className="capability-button" href="#deliverables">Explore the Content System <ArrowIcon /></a></div>
+        <div className="lse-context-copy"><p>Publishing more is not automatically a strategy. Strong content helps the right people discover your business, understand your expertise, compare options, overcome hesitation, and take action.</p><p>We connect every asset to a defined audience, search opportunity, customer question, service priority, or conversion goal. If a topic has no useful job to do, it should not be on the calendar.</p><SiteLink className="capability-button" href="#deliverables">Explore the Content System <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="lse-services cm-deliverables" id="deliverables">
@@ -122,7 +123,7 @@ export default function ContentMarketingPage() {
       </section>
 
       <section className="cm-search-system">
-        <div className="cm-search-copy"><p className="eyebrow">Search, GEO &amp; AEO</p><h2>Create information worth finding and using.</h2><p>Traditional search and AI-generated answers both depend on useful, accessible information from sources they can understand. Generic copy gives them little reason to choose your website.</p><p>We turn first-hand knowledge, customer questions, clear explanations, local context, and supporting evidence into connected resources that strengthen the entire site.</p><a className="button button-purple" href="/geo-aeo">Explore GEO + AEO</a></div>
+        <div className="cm-search-copy"><p className="eyebrow">Search, GEO &amp; AEO</p><h2>Create information worth finding and using.</h2><p>Traditional search and AI-generated answers both depend on useful, accessible information from sources they can understand. Generic copy gives them little reason to choose your website.</p><p>We turn first-hand knowledge, customer questions, clear explanations, local context, and supporting evidence into connected resources that strengthen the entire site.</p><SiteLink className="button button-purple" href="/geo-aeo">Explore GEO + AEO</SiteLink></div>
         <div className="cm-signal-stack" aria-label="Content visibility system">
           <article><span>01</span><div><strong>Original expertise</strong><small>Experience, examples, opinions, processes, and proof</small></div></article>
           <article><span>02</span><div><strong>Clear information</strong><small>Direct answers, useful context, strong page structure</small></div></article>

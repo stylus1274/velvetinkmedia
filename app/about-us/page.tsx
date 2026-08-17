@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 export const metadata: Metadata = {
   title: "About Velvet Ink Media | Tampa Marketing Agency",
@@ -126,7 +127,7 @@ export default function AboutPage() {
           <p className="about-story-lead">Established in Tampa Bay, Florida, we have been marketing, designing and developing websites since 2008.</p>
           <p>Our list of satisfied clients includes small businesses and corporations, law firms, medical practices, event professionals, nonprofit organizations and entrepreneurs. Working with clients from different industries and backgrounds, we enjoy the diversity and challenges that come with each project.</p>
           <p>From custom WordPress websites and rebranding to content management, search engine optimization, website support and hosting, our goal is to become our clients&apos; trusted partner for all their online and marketing needs.</p>
-          <a className="button button-purple" href="/contact">Work With Velvet Ink Media</a>
+          <SiteLink className="button button-purple" href="/contact">Work With Velvet Ink Media</SiteLink>
         </div>
         <div className="about-fact-line" aria-label="Company facts">
           <div><strong>2008</strong><span>Established in Tampa Bay</span></div>
@@ -171,7 +172,7 @@ export default function AboutPage() {
           <h2>Built for flexibility, functionality and usability.</h2>
           <p>Velvet Ink Media specializes in the open-source content management system WordPress. A CMS gives clients the freedom to edit, add or delete website content as it becomes more or less relevant for their target customer.</p>
           <p>Our built-from-scratch themes work within the WordPress framework to support full functionality and maximum usability.</p>
-          <a className="button button-outline" href="/web-design">Explore Web Design</a>
+          <SiteLink className="button button-outline" href="/web-design">Explore Web Design</SiteLink>
         </div>
       </section>
 

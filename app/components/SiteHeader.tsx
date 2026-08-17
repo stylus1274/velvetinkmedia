@@ -1,4 +1,5 @@
 import Image from "next/image";
+import SiteLink from "./SiteLink";
 
 type CurrentPage =
   | "home"
@@ -30,42 +31,42 @@ export default function SiteHeader({ current }: { current: CurrentPage }) {
 
   return (
     <header className="site-header" id="top">
-      <a className="brand" href={current === "home" ? "#top" : "/"} aria-label="Velvet Ink Media home">
+      <SiteLink className="brand" href={current === "home" ? "#top" : "/"} aria-label="Velvet Ink Media home">
         <Image src="/velvet-ink-logo.png" width={305} height={56} alt="Velvet Ink Media" />
-      </a>
+      </SiteLink>
 
       <nav className="desktop-nav" aria-label="Primary navigation">
         <div className={`nav-dropdown${serviceActive ? " is-active" : ""}`}>
-          <a className="nav-dropdown-trigger" href="/services" aria-haspopup="true">
+          <SiteLink className="nav-dropdown-trigger" href="/services" aria-haspopup="true">
             Services <span aria-hidden="true">+</span>
-          </a>
+          </SiteLink>
           <div className="nav-dropdown-menu">
             <div className="nav-dropdown-heading"><small>Connected services</small><strong>Choose a starting point.</strong></div>
             {servicePages.map((item) => (
-              <a key={item.key} href={item.href} aria-current={currentAttribute(item.key)}>
+              <SiteLink key={item.key} href={item.href} aria-current={currentAttribute(item.key)}>
                 <span>{item.label}</span><small>{item.note}</small>
-              </a>
+              </SiteLink>
             ))}
           </div>
         </div>
-        <a href="/about-us" aria-current={currentAttribute("about")}>About</a>
-        <a href="/work" aria-current={currentAttribute("work")}>Work</a>
-        <a href="/blog" aria-current={currentAttribute("blog")}>Insights</a>
-        <a href="/contact" aria-current={currentAttribute("contact")}>Contact</a>
+        <SiteLink href="/about-us" aria-current={currentAttribute("about")}>About</SiteLink>
+        <SiteLink href="/work" aria-current={currentAttribute("work")}>Work</SiteLink>
+        <SiteLink href="/blog" aria-current={currentAttribute("blog")}>Insights</SiteLink>
+        <SiteLink href="/contact" aria-current={currentAttribute("contact")}>Contact</SiteLink>
       </nav>
 
       <details className="mobile-menu">
         <summary aria-label="Open navigation">Menu</summary>
         <nav aria-label="Mobile navigation">
-          {servicePages.map((item) => <a key={item.key} href={item.href} aria-current={currentAttribute(item.key)}>{item.label}</a>)}
-          <a href="/about-us" aria-current={currentAttribute("about")}>About</a>
-          <a href="/work" aria-current={currentAttribute("work")}>Work</a>
-          <a href="/blog" aria-current={currentAttribute("blog")}>Insights</a>
-          <a href="/contact" aria-current={currentAttribute("contact")}>Contact</a>
+          {servicePages.map((item) => <SiteLink key={item.key} href={item.href} aria-current={currentAttribute(item.key)}>{item.label}</SiteLink>)}
+          <SiteLink href="/about-us" aria-current={currentAttribute("about")}>About</SiteLink>
+          <SiteLink href="/work" aria-current={currentAttribute("work")}>Work</SiteLink>
+          <SiteLink href="/blog" aria-current={currentAttribute("blog")}>Insights</SiteLink>
+          <SiteLink href="/contact" aria-current={currentAttribute("contact")}>Contact</SiteLink>
         </nav>
       </details>
 
-      <a className="button button-purple header-cta" href={current === "contact" ? "#project-form" : "/contact"}>Start a Project</a>
+      <SiteLink className="button button-purple header-cta" href={current === "contact" ? "#project-form" : "/contact"}>Start a Project</SiteLink>
     </header>
   );
 }

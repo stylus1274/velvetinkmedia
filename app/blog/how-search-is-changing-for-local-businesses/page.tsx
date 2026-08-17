@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
+import SiteLink from "../../components/SiteLink";
 
 export const metadata: Metadata = {
   title: "How Search Is Changing for Local Businesses | Velvet Ink Media",
@@ -50,7 +51,7 @@ export default function SearchArticlePage() {
 
       <header className="article-hero">
         <div className="article-hero-grid" aria-hidden="true" />
-        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><a href="/blog">Insights</a><span>/</span><span>SEO + GEO + AEO</span></nav>
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><SiteLink href="/blog">Insights</SiteLink><span>/</span><span>SEO + GEO + AEO</span></nav>
         <p className="eyebrow">Search strategy</p>
         <h1>How search is changing for local businesses.</h1>
         <p className="article-deck">SEO still matters, but customers are also discovering businesses through AI-generated answers and recommendation engines. Here is what changes, what stays the same, and where local businesses should focus first.</p>
@@ -70,14 +71,14 @@ export default function SearchArticlePage() {
         <aside className="article-sidebar">
           <p>In this article</p>
           <nav aria-label="Article contents">
-            <a href="#quick-answer">Quick answer</a>
-            <a href="#expanding">How search is expanding</a>
-            <a href="#differences">SEO, GEO, and AEO</a>
-            <a href="#same">What stays the same</a>
-            <a href="#priorities">What to do now</a>
-            <a href="#measurement">How to measure progress</a>
+            <SiteLink href="#quick-answer">Quick answer</SiteLink>
+            <SiteLink href="#expanding">How search is expanding</SiteLink>
+            <SiteLink href="#differences">SEO, GEO, and AEO</SiteLink>
+            <SiteLink href="#same">What stays the same</SiteLink>
+            <SiteLink href="#priorities">What to do now</SiteLink>
+            <SiteLink href="#measurement">How to measure progress</SiteLink>
           </nav>
-          <a className="article-side-cta" href="/contact">Talk with Velvet Ink Media <ArrowIcon /></a>
+          <SiteLink className="article-side-cta" href="/contact">Talk with Velvet Ink Media <ArrowIcon /></SiteLink>
         </aside>
 
         <article className="article-content">
@@ -155,7 +156,7 @@ export default function SearchArticlePage() {
           <section className="article-conclusion">
             <h2>Start with clarity.</h2>
             <p>The strongest response to a changing search landscape is not to chase every new acronym. It is to build a business presence that is easy to understand, well supported by evidence, useful to customers, and consistent wherever discovery happens.</p>
-            <p>That approach performs in traditional search today and creates a stronger foundation for AI-driven discovery tomorrow. For the implementation process, use our <a href="/blog/local-seo-for-ai-search">local SEO for AI search playbook</a>.</p>
+            <p>That approach performs in traditional search today and creates a stronger foundation for AI-driven discovery tomorrow. For the implementation process, use our <SiteLink href="/blog/local-seo-for-ai-search">local SEO for AI search playbook</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">
@@ -166,11 +167,11 @@ export default function SearchArticlePage() {
       </div>
 
       <section className="article-related">
-        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Related insights.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
+        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Related insights.</h2></div><SiteLink className="button button-outline" href="/blog">View All Insights</SiteLink></div>
         <div className="article-related-grid">
-          <article><Image src="/insights/local-search-rankings.webp" width={1200} height={800} alt="SEO strategist reviewing local search rankings" /><div><span>Local Rankings</span><h3>How local search rankings really work</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>What makes a service page rank in Tampa?</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Analytics</span><h3>How to track which marketing channels produce leads</h3><a href="/blog">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-search-rankings.webp" width={1200} height={800} alt="SEO strategist reviewing local search rankings" /><div><span>Local Rankings</span><h3>How local search rankings really work</h3><SiteLink href="/blog">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>What makes a service page rank in Tampa?</h3><SiteLink href="/blog">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Analytics</span><h3>How to track which marketing channels produce leads</h3><SiteLink href="/blog">Read the Article <ArrowIcon /></SiteLink></div></article>
         </div>
       </section>
 

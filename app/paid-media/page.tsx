@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const services = [
   {
@@ -203,7 +204,7 @@ export default function PaidMediaPage() {
           <p className="eyebrow">Paid media services for Tampa businesses</p>
           <h1>Turn ad spend into <span>qualified demand.</span></h1>
           <p className="pms-lead">We build and manage paid search and social campaigns around the customers, services, locations, and conversion actions that matter most to your business.</p>
-          <div className="hero-actions"><a className="button button-purple" href="/contact">Request a Campaign Review</a><a className="button button-outline" href="#services">Explore Paid Media Services</a></div>
+          <div className="hero-actions"><SiteLink className="button button-purple" href="/contact">Request a Campaign Review</SiteLink><SiteLink className="button button-outline" href="#services">Explore Paid Media Services</SiteLink></div>
           <ul className="pms-hero-points" aria-label="Paid media benefits"><li>Intent-focused targeting</li><li>Clean conversion tracking</li><li>Lead-quality optimization</li></ul>
         </div>
         <SearchAdGraphic />
@@ -211,7 +212,7 @@ export default function PaidMediaPage() {
 
       <section className="pms-context-section">
         <div><p className="eyebrow">Paid media with a business purpose</p><h2>Clicks are an expense. Qualified opportunities create value.</h2></div>
-        <div className="pms-context-copy"><p>Paid media can produce fast visibility, but speed without strategy burns through budget. A useful campaign connects customer intent, targeting, ad messaging, landing-page experience, tracking, and sales feedback.</p><p>We manage the entire path so performance is judged by what happens after the click, not by a dashboard full of impressive-looking activity.</p><a className="capability-button" href="#campaign-system">See the Campaign System <ArrowIcon /></a></div>
+        <div className="pms-context-copy"><p>Paid media can produce fast visibility, but speed without strategy burns through budget. A useful campaign connects customer intent, targeting, ad messaging, landing-page experience, tracking, and sales feedback.</p><p>We manage the entire path so performance is judged by what happens after the click, not by a dashboard full of impressive-looking activity.</p><SiteLink className="capability-button" href="#campaign-system">See the Campaign System <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="pms-services-section" id="services">
@@ -239,7 +240,7 @@ export default function PaidMediaPage() {
           <div className="pms-campaign-chart"><span>Qualified lead trend</span><div>{[30,42,37,54,49,67,62,76,83,91].map((height, index) => <i style={{ height: `${height}%` }} key={index} />)}</div></div>
           <div className="pms-search-terms"><strong>Search terms</strong><span>Qualified</span><p><b>tampa marketing agency</b><i>12 leads</i></p><p><b>google ads management tampa</b><i>9 leads</i></p><p><b>local ppc company</b><i>7 leads</i></p></div>
         </div>
-        <div className="pms-search-copy"><p className="eyebrow">Google Ads management</p><h2>Capture demand when customers are ready to act.</h2><p>Paid search works best when campaigns are organized around real services and meaningful intent. We separate high-value searches, control irrelevant traffic, improve message match, and give each priority a budget that can produce useful data.</p><ul><li>Keyword and search-term analysis</li><li>Campaign and ad-group structure</li><li>Negative keyword management</li><li>Geographic and schedule targeting</li><li>Ad copy and asset testing</li><li>Budget and bidding adjustments</li></ul><a className="button button-purple" href="/contact">Talk About Google Ads</a></div>
+        <div className="pms-search-copy"><p className="eyebrow">Google Ads management</p><h2>Capture demand when customers are ready to act.</h2><p>Paid search works best when campaigns are organized around real services and meaningful intent. We separate high-value searches, control irrelevant traffic, improve message match, and give each priority a budget that can produce useful data.</p><ul><li>Keyword and search-term analysis</li><li>Campaign and ad-group structure</li><li>Negative keyword management</li><li>Geographic and schedule targeting</li><li>Ad copy and asset testing</li><li>Budget and bidding adjustments</li></ul><SiteLink className="button button-purple" href="/contact">Talk About Google Ads</SiteLink></div>
       </section>
 
       <section className="pms-creative-section">
@@ -256,7 +257,7 @@ export default function PaidMediaPage() {
           <div className="pms-landing-browser"><div><span /><span /><span /></div><section><small>Tampa local marketing</small><h3>Reach more ready-to-act customers.</h3><p>Focused campaigns. Clear measurement. Better next steps.</p><b>Request a Strategy Call</b></section><aside><strong>Why businesses choose us</strong><i /><i /><i /></aside></div>
           <ul><li><span>01</span><div><strong>Message match</strong><p>The headline, offer, and page content continue the promise made in the ad.</p></div></li><li><span>02</span><div><strong>Focused action</strong><p>The visitor has one clear next step without unrelated navigation or competing offers.</p></div></li><li><span>03</span><div><strong>Trust &amp; proof</strong><p>Reviews, expertise, details, and expectations reduce uncertainty before the form or call.</p></div></li><li><span>04</span><div><strong>Mobile usability</strong><p>Fast pages, readable content, and accessible controls support customers on the move.</p></div></li></ul>
         </div>
-        <div className="pms-landing-cta"><strong>Need a stronger campaign destination?</strong><p>We can improve an existing page or build a focused landing experience within a larger website strategy.</p><a className="capability-button" href="/web-design">Explore Web Design <ArrowIcon /></a></div>
+        <div className="pms-landing-cta"><strong>Need a stronger campaign destination?</strong><p>We can improve an existing page or build a focused landing experience within a larger website strategy.</p><SiteLink className="capability-button" href="/web-design">Explore Web Design <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="pms-measurement-section">
@@ -270,7 +271,7 @@ export default function PaidMediaPage() {
       </section>
 
       <section className="pms-fit-section">
-        <div className="pms-fit-copy"><p className="eyebrow">When paid media makes sense</p><h2>A strong option when speed, control, and clear demand matter.</h2><p>Paid media is not automatically the right channel. It works best when the business has a valuable offer, enough demand, a realistic budget, a reliable sales process, and a way to measure meaningful actions.</p><a className="button button-purple" href="/contact">Discuss Your Campaign</a></div>
+        <div className="pms-fit-copy"><p className="eyebrow">When paid media makes sense</p><h2>A strong option when speed, control, and clear demand matter.</h2><p>Paid media is not automatically the right channel. It works best when the business has a valuable offer, enough demand, a realistic budget, a reliable sales process, and a way to measure meaningful actions.</p><SiteLink className="button button-purple" href="/contact">Discuss Your Campaign</SiteLink></div>
         <div className="pms-fit-grid"><article><span>01</span><strong>You need visibility now</strong><p>Reach relevant customers while longer-term SEO and brand strategies develop.</p></article><article><span>02</span><strong>You can define a valuable lead</strong><p>Connect campaign performance with calls, forms, appointments, or purchases.</p></article><article><span>03</span><strong>You want controlled testing</strong><p>Test services, locations, offers, and messages using real market behavior.</p></article><article><span>04</span><strong>You can follow up consistently</strong><p>Give qualified leads a responsive sales or service experience after they convert.</p></article></div>
       </section>
 

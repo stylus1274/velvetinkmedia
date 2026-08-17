@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 export const metadata: Metadata = {
   title: "Our Work | Velvet Ink Media",
@@ -155,7 +156,7 @@ export default function WorkPage() {
           <article><span>03</span><h3>Conversion</h3><p>Does the experience make the next useful action obvious and easy?</p></article>
           <article><span>04</span><h3>Measurement</h3><p>Can the team see which work contributes to qualified leads and growth?</p></article>
         </div>
-        <a className="button button-purple" href="/contact">Discuss Your Project <ArrowIcon /></a>
+        <SiteLink className="button button-purple" href="/contact">Discuss Your Project <ArrowIcon /></SiteLink>
       </section>
 
       <SiteFooter variant="work" />

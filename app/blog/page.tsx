@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const articles = [
   {
@@ -150,16 +151,16 @@ export default function BlogPage() {
 
       <section className="blog-featured" id="featured">
         <figure className="blog-featured-image">
-          <a className="blog-featured-image-link" href="/blog/why-local-search-rankings-dropped" aria-label="Read Why Your Local Search Rankings Dropped">
+          <SiteLink className="blog-featured-image-link" href="/blog/why-local-search-rankings-dropped" aria-label="Read Why Your Local Search Rankings Dropped">
             <Image src="/insights/local-ranking-drop-featured.webp" width={1672} height={941} alt="Local SEO strategist diagnosing a decline in local search visibility" preload />
-          </a>
+          </SiteLink>
           <figcaption><span>Featured</span><strong>Ranking recovery</strong></figcaption>
         </figure>
         <article className="blog-featured-copy">
           <div className="blog-article-meta"><span>Local Ranking Recovery</span><span>August 15, 2026 · 15 min read</span></div>
-          <h2><a href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</a></h2>
+          <h2><SiteLink href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</SiteLink></h2>
           <p>Confirm the decline, diagnose the most likely cause, and choose a recovery action without making the problem worse.</p>
-          <a className="blog-read-button" href="/blog/why-local-search-rankings-dropped">Read the Featured Article <ArrowIcon /></a>
+          <SiteLink className="blog-read-button" href="/blog/why-local-search-rankings-dropped">Read the Featured Article <ArrowIcon /></SiteLink>
         </article>
       </section>
 
@@ -173,15 +174,15 @@ export default function BlogPage() {
             <article className={`blog-card blog-card-${article.accent}`} key={article.title}>
               <div className="blog-card-top"><span>0{index + 1}</span><span>{article.category}</span></div>
               <figure>
-                <a className="blog-card-image-link" href={article.href} aria-label={`Read ${article.title}`}>
+                <SiteLink className="blog-card-image-link" href={article.href} aria-label={`Read ${article.title}`}>
                   <Image src={article.image} width={1672} height={941} alt={article.alt} loading="lazy" />
-                </a>
+                </SiteLink>
               </figure>
               <div className="blog-card-body">
                 <p className="blog-card-date">{article.date} · {article.readTime}</p>
-                <h3><a href={article.href}>{article.title}</a></h3>
+                <h3><SiteLink href={article.href}>{article.title}</SiteLink></h3>
                 <p>{article.excerpt}</p>
-                <a className="blog-read-button blog-read-button-small" href={article.href} aria-label={`Read ${article.title}`}>Read the Article <ArrowIcon /></a>
+                <SiteLink className="blog-read-button blog-read-button-small" href={article.href} aria-label={`Read ${article.title}`}>Read the Article <ArrowIcon /></SiteLink>
               </div>
             </article>
           ))}
@@ -190,7 +191,7 @@ export default function BlogPage() {
 
       <section className="blog-guidance-cta">
         <div><p className="eyebrow">Need a more specific answer?</p><h2>Bring us the business problem, not a list of marketing services.</h2></div>
-        <div><p>We will help you sort through the options, identify the real bottleneck, and choose a practical next step.</p><a className="button button-purple" href="/contact">Ask Velvet Ink Media</a></div>
+        <div><p>We will help you sort through the options, identify the real bottleneck, and choose a practical next step.</p><SiteLink className="button button-purple" href="/contact">Ask Velvet Ink Media</SiteLink></div>
       </section>
 
       <SiteFooter variant="blog" />

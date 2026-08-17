@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const services = [
   {
@@ -198,7 +199,7 @@ export default function GeoAeoPage() {
           <p className="eyebrow">GEO &amp; AEO services for Tampa businesses</p>
           <h1>Be found when search becomes <span>an answer.</span></h1>
           <p className="geo-lead">We connect SEO, expert-led content, structured information, brand clarity, and authority signals to help your business earn visibility across traditional search and AI-generated answers.</p>
-          <div className="hero-actions"><a className="button button-purple" href="/contact">Request an AI Search Review</a><a className="button button-outline" href="#services">Explore GEO &amp; AEO Services</a></div>
+          <div className="hero-actions"><SiteLink className="button button-purple" href="/contact">Request an AI Search Review</SiteLink><SiteLink className="button button-outline" href="#services">Explore GEO &amp; AEO Services</SiteLink></div>
           <ul className="geo-hero-points" aria-label="AI search platforms"><li>Google AI experiences</li><li>ChatGPT search</li><li>Microsoft Copilot</li></ul>
         </div>
         <AnswerGraphic />
@@ -206,7 +207,7 @@ export default function GeoAeoPage() {
 
       <section className="geo-foundation">
         <div><p className="eyebrow">SEO is still the foundation</p><h2>GEO and AEO do not replace SEO. They extend it.</h2></div>
-        <div className="geo-foundation-copy"><p>AI-powered search still depends on discoverable pages, useful information, identifiable sources, and signals of relevance and trust. The terminology is new. Most of the durable work is not.</p><p>We focus on the fundamentals that help your business across Google, AI answer engines, local results, and the customer journey instead of chasing unsupported shortcuts.</p><a className="capability-button" href="#framework">See How the Pieces Connect <ArrowIcon /></a></div>
+        <div className="geo-foundation-copy"><p>AI-powered search still depends on discoverable pages, useful information, identifiable sources, and signals of relevance and trust. The terminology is new. Most of the durable work is not.</p><p>We focus on the fundamentals that help your business across Google, AI answer engines, local results, and the customer journey instead of chasing unsupported shortcuts.</p><SiteLink className="capability-button" href="#framework">See How the Pieces Connect <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="geo-definitions" id="framework">
@@ -230,11 +231,11 @@ export default function GeoAeoPage() {
           <div className="geo-quality-bars"><p><span>Original experience</span><i><b style={{ width: "88%" }} /></i><strong>88%</strong></p><p><span>Answer completeness</span><i><b style={{ width: "76%" }} /></i><strong>76%</strong></p><p><span>Entity clarity</span><i><b style={{ width: "84%" }} /></i><strong>84%</strong></p><p><span>Third-party support</span><i><b style={{ width: "69%" }} /></i><strong>69%</strong></p></div>
           <footer><span>Next opportunity</span><strong>Add first-hand examples and supporting sources</strong></footer>
         </div>
-        <div className="geo-content-copy"><p className="eyebrow">Citation-worthy content</p><h2>Give AI systems a reason to use your website as a source.</h2><p>Generic content repeats what thousands of other pages already say. Stronger resources contribute something identifiable: first-hand experience, original examples, useful comparisons, clear definitions, local knowledge, documented processes, or proprietary data.</p><p>We extract that knowledge from your business and shape it into pages that help real customers make decisions. That is more durable than publishing large volumes of interchangeable AI copy.</p><a className="button button-purple" href="/contact">Plan Your Content Strategy</a></div>
+        <div className="geo-content-copy"><p className="eyebrow">Citation-worthy content</p><h2>Give AI systems a reason to use your website as a source.</h2><p>Generic content repeats what thousands of other pages already say. Stronger resources contribute something identifiable: first-hand experience, original examples, useful comparisons, clear definitions, local knowledge, documented processes, or proprietary data.</p><p>We extract that knowledge from your business and shape it into pages that help real customers make decisions. That is more durable than publishing large volumes of interchangeable AI copy.</p><SiteLink className="button button-purple" href="/contact">Plan Your Content Strategy</SiteLink></div>
       </section>
 
       <section className="geo-local-section">
-        <div className="geo-local-copy"><p className="eyebrow">AI search for local businesses</p><h2>Local relevance still matters when the answer is generated.</h2><p>Customers are asking increasingly specific questions about who serves their area, which provider fits their situation, and what they should do next. AI systems may draw from websites, business profiles, reviews, directories, publishers, and other local sources to build that response.</p><ul><li>Accurate business and location information</li><li>Complete service and service-area coverage</li><li>Helpful local expertise and examples</li><li>Consistent profiles, citations, and reviews</li><li>Clear differentiators and conversion paths</li></ul><a className="capability-button" href="/local-seo">Explore Local SEO <ArrowIcon /></a></div>
+        <div className="geo-local-copy"><p className="eyebrow">AI search for local businesses</p><h2>Local relevance still matters when the answer is generated.</h2><p>Customers are asking increasingly specific questions about who serves their area, which provider fits their situation, and what they should do next. AI systems may draw from websites, business profiles, reviews, directories, publishers, and other local sources to build that response.</p><ul><li>Accurate business and location information</li><li>Complete service and service-area coverage</li><li>Helpful local expertise and examples</li><li>Consistent profiles, citations, and reviews</li><li>Clear differentiators and conversion paths</li></ul><SiteLink className="capability-button" href="/local-seo">Explore Local SEO <ArrowIcon /></SiteLink></div>
         <div className="geo-local-panel" aria-label="Local AI search visibility illustration"><div className="geo-map-grid" /><span className="geo-map-pin geo-pin-one">1</span><span className="geo-map-pin geo-pin-two">2</span><span className="geo-map-pin geo-pin-three">3</span><article><small>LOCAL ANSWER COVERAGE</small><strong>14 cited sources</strong><p>Website · Business Profile · Reviews · Local publications</p><div><i /><i /><i /><i /><i /></div></article></div>
       </section>
 

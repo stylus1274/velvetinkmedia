@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 export const metadata: Metadata = {
   title: "Contact Velvet Ink Media | Tampa Marketing Agency",
@@ -111,23 +112,23 @@ export default function ContactPage() {
           <button className="button button-purple contact-submit" type="submit">
             Send Project Details <ArrowIcon />
           </button>
-          <p className="contact-form-note">Prefer email? Write directly to <a href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</a>.</p>
+          <p className="contact-form-note">Prefer email? Write directly to <SiteLink href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</SiteLink>.</p>
         </form>
       </section>
 
       <section className="contact-options" aria-label="Other ways to contact Velvet Ink Media">
-        <a className="contact-option contact-option-purple" href="tel:+18137975515">
+        <SiteLink className="contact-option contact-option-purple" href="tel:+18137975515">
           <span>01</span>
           <small>Call the studio</small>
           <strong>813-797-5515</strong>
           <i><ArrowIcon /></i>
-        </a>
-        <a className="contact-option contact-option-blue" href="mailto:hello@velvetinkmedia.com">
+        </SiteLink>
+        <SiteLink className="contact-option contact-option-blue" href="mailto:hello@velvetinkmedia.com">
           <span>02</span>
           <small>Send an email</small>
           <strong>hello@velvetinkmedia.com</strong>
           <i><ArrowIcon /></i>
-        </a>
+        </SiteLink>
         <div className="contact-option contact-option-lime">
           <span>03</span>
           <small>Tampa studio</small>

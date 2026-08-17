@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
+import SiteLink from "../../components/SiteLink";
 
 const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-for-ai-search/";
 
@@ -88,7 +89,7 @@ export default function LocalSeoForAiSearchPage() {
 
       <header className="article-hero">
         <div className="article-hero-grid" aria-hidden="true" />
-        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><a href="/blog">Insights</a><span>/</span><span>SEO + GEO + AEO</span></nav>
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><SiteLink href="/blog">Insights</SiteLink><span>/</span><span>SEO + GEO + AEO</span></nav>
         <p className="eyebrow">A practical visibility playbook</p>
         <h1>Local SEO for AI Search.</h1>
         <p className="article-deck">How local businesses can become easier to discover, verify, and mention in ChatGPT, Gemini, Google AI Overviews, and the search results customers already use.</p>
@@ -108,22 +109,22 @@ export default function LocalSeoForAiSearchPage() {
         <aside className="article-sidebar">
           <p>In this article</p>
           <nav aria-label="Article contents">
-            <a href="#takeaways">Key takeaways</a>
-            <a href="#how-it-works">How AI finds businesses</a>
-            <a href="#foundation">Build the foundation</a>
-            <a href="#content">Create citable content</a>
-            <a href="#authority">Strengthen authority</a>
-            <a href="#technical">Technical access</a>
-            <a href="#measure">Measure visibility</a>
-            <a href="#checklist">AI search checklist</a>
+            <SiteLink href="#takeaways">Key takeaways</SiteLink>
+            <SiteLink href="#how-it-works">How AI finds businesses</SiteLink>
+            <SiteLink href="#foundation">Build the foundation</SiteLink>
+            <SiteLink href="#content">Create citable content</SiteLink>
+            <SiteLink href="#authority">Strengthen authority</SiteLink>
+            <SiteLink href="#technical">Technical access</SiteLink>
+            <SiteLink href="#measure">Measure visibility</SiteLink>
+            <SiteLink href="#checklist">AI search checklist</SiteLink>
           </nav>
-          <a className="article-side-cta" href="/contact">Build Your Strategy <ArrowIcon /></a>
+          <SiteLink className="article-side-cta" href="/contact">Build Your Strategy <ArrowIcon /></SiteLink>
         </aside>
 
         <article className="article-content">
           <p className="article-intro">A customer no longer has to type five separate searches, open ten tabs, and compare every business manually. They can ask an AI system for the best local option for a specific problem, budget, neighborhood, or set of requirements and receive a condensed answer with supporting sources.</p>
           <p>That shift creates a new visibility challenge. Your business must still rank and convert in traditional search, but it also needs to be understandable and credible enough to become part of an AI-generated response.</p>
-          <p>The good news is that this does not require abandoning <a href="/local-seo">local SEO</a>. It requires a more complete version of it.</p>
+          <p>The good news is that this does not require abandoning <SiteLink href="/local-seo">local SEO</SiteLink>. It requires a more complete version of it.</p>
 
           <section className="article-key-takeaways" id="takeaways">
             <p>Key takeaways</p>
@@ -167,7 +168,7 @@ export default function LocalSeoForAiSearchPage() {
                 <span className="local-step-number">02</span>
                 <h3>Give every priority service a useful page</h3>
                 <p>A single services paragraph rarely provides enough context for specific recommendations. Create focused pages that explain the problem, service, process, customer, location relevance, limitations, and next step.</p>
-                <p>Our <a href="/web-design">web design approach</a> treats service architecture as part of search strategy because the page has to communicate clearly to customers before it can convert them.</p>
+                <p>Our <SiteLink href="/web-design">web design approach</SiteLink> treats service architecture as part of search strategy because the page has to communicate clearly to customers before it can convert them.</p>
               </section>
               <section>
                 <span className="local-step-number">03</span>
@@ -187,7 +188,7 @@ export default function LocalSeoForAiSearchPage() {
           <section id="content">
             <p className="article-section-label">Step two</p>
             <h2>Create content that is useful enough to cite.</h2>
-            <p>Generic articles can repeat what is already available. They rarely add a reason to reference your business. Strong <a href="/content-marketing">content marketing</a> should contribute something specific, verifiable, and useful to the decision.</p>
+            <p>Generic articles can repeat what is already available. They rarely add a reason to reference your business. Strong <SiteLink href="/content-marketing">content marketing</SiteLink> should contribute something specific, verifiable, and useful to the decision.</p>
             <div className="local-guide-steps local-metric-list">
               <section>
                 <span className="local-step-number">04</span>
@@ -227,7 +228,7 @@ export default function LocalSeoForAiSearchPage() {
               <div><span>Mentions</span><h3>Local relevance</h3><p>Build genuine relationships that can lead to local news coverage, community references, partnerships, sponsorships, interviews, and expert contributions.</p></div>
               <div><span>Links</span><h3>Source credibility</h3><p>Earn links because a page, tool, resource, or story deserves to be referenced. Avoid mass-produced link schemes that create volume without trust.</p></div>
             </div>
-            <p>This is where a connected <a href="/geo-aeo">GEO and AEO strategy</a> extends local SEO. The goal is not simply to repeat the same claim more often. The goal is to create a consistent network of evidence around the business.</p>
+            <p>This is where a connected <SiteLink href="/geo-aeo">GEO and AEO strategy</SiteLink> extends local SEO. The goal is not simply to repeat the same claim more often. The goal is to create a consistent network of evidence around the business.</p>
           </section>
 
           <aside className="article-callout local-ai-callout">
@@ -259,7 +260,7 @@ export default function LocalSeoForAiSearchPage() {
               <div role="row"><span role="cell">Brand demand</span><span role="cell">Watch branded searches, direct traffic, assisted conversions, and mentions across the customer journey.</span></div>
               <div role="row"><span role="cell">Business outcomes</span><span role="cell">Connect calls, forms, appointments, qualified leads, and revenue to the channels that assisted them.</span></div>
             </div>
-            <p>For the full reporting framework, see <a href="/blog/how-to-measure-local-seo-success">How to Measure Local SEO Success: 12 Metrics That Actually Matter</a>. If visibility has already declined, use our diagnostic process in <a href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped</a>.</p>
+            <p>For the full reporting framework, see <SiteLink href="/blog/how-to-measure-local-seo-success">How to Measure Local SEO Success: 12 Metrics That Actually Matter</SiteLink>. If visibility has already declined, use our diagnostic process in <SiteLink href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped</SiteLink>.</p>
           </section>
 
           <section id="checklist">
@@ -282,12 +283,12 @@ export default function LocalSeoForAiSearchPage() {
           <section className="article-conclusion">
             <h2>Make the business easy to understand and hard to overlook.</h2>
             <p>AI search optimization is not a shortcut around local SEO. It is the work of making your business&apos;s expertise, services, location, reputation, and evidence easier to retrieve and trust across a growing number of discovery experiences.</p>
-            <p>Start with the <a href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</a>, strengthen the pages and sources that support your most important claims, and measure whether increased visibility creates qualified demand.</p>
+            <p>Start with the <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>, strengthen the pages and sources that support your most important claims, and measure whether increased visibility creates qualified demand.</p>
           </section>
 
           <aside className="article-source-note">
             <h2>Source note</h2>
-            <p>This article reflects current publisher guidance from <a href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central on AI features</a>, <a href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content">Google&apos;s people-first content guidance</a>, <a href="https://help.openai.com/en/articles/12627856-publishers-and-developers-faq">OpenAI&apos;s publisher FAQ</a>, and <a href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview">Bing&apos;s AI Performance documentation</a>. Platform behavior changes, so technical controls and reporting capabilities should be reviewed periodically.</p>
+            <p>This article reflects current publisher guidance from <SiteLink href="https://developers.google.com/search/docs/appearance/ai-features">Google Search Central on AI features</SiteLink>, <SiteLink href="https://developers.google.com/search/docs/fundamentals/creating-helpful-content">Google&apos;s people-first content guidance</SiteLink>, <SiteLink href="https://help.openai.com/en/articles/12627856-publishers-and-developers-faq">OpenAI&apos;s publisher FAQ</SiteLink>, and <SiteLink href="https://blogs.bing.com/webmaster/February-2026/Introducing-AI-Performance-in-Bing-Webmaster-Tools-Public-Preview">Bing&apos;s AI Performance documentation</SiteLink>. Platform behavior changes, so technical controls and reporting capabilities should be reviewed periodically.</p>
           </aside>
 
           <aside className="article-author-card">
@@ -298,11 +299,11 @@ export default function LocalSeoForAiSearchPage() {
       </div>
 
       <section className="article-related">
-        <div className="article-related-heading"><div><p className="eyebrow">Build the complete system</p><h2>Related local search resources.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
+        <div className="article-related-heading"><div><p className="eyebrow">Build the complete system</p><h2>Related local search resources.</h2></div><SiteLink className="button button-outline" href="/blog">View All Insights</SiteLink></div>
         <div className="article-related-grid">
-          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing search performance" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO specialist reviewing performance metrics" /><div><span>Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing changing search results" /><div><span>Search Strategy</span><h3>How Search Is Changing for Local Businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing search performance" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO specialist reviewing performance metrics" /><div><span>Measurement</span><h3>How to Measure Local SEO Success</h3><SiteLink href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing changing search results" /><div><span>Search Strategy</span><h3>How Search Is Changing for Local Businesses</h3><SiteLink href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></SiteLink></div></article>
         </div>
       </section>
 

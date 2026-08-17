@@ -1,6 +1,7 @@
 import Image from "next/image";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
+import SiteLink from "./components/SiteLink";
 
 const discoveryStages = [
   {
@@ -556,12 +557,12 @@ export default function Home() {
             ready to grow.
           </p>
           <div className="hero-actions">
-            <a className="button button-purple" href="/contact">
+            <SiteLink className="button button-purple" href="/contact">
               Start a Project
-            </a>
-            <a className="button button-outline" href="/work">
+            </SiteLink>
+            <SiteLink className="button button-outline" href="/work">
               See Our Work
-            </a>
+            </SiteLink>
           </div>
           <p className="trust-line">
             <span aria-hidden="true">✦</span>
@@ -682,20 +683,20 @@ export default function Home() {
                 <p>{capability.category}</p>
                 <h3>{capability.title}</h3>
                 <span>{capability.description}</span>
-                <a
+                <SiteLink
                   className="capability-button"
                   href="/local-seo"
                   aria-label={`Learn more about ${capability.title}`}
                 >
                   Learn More <ArrowIcon />
-                </a>
+                </SiteLink>
               </div>
             </article>
           ))}
         </div>
-        <a className="text-link" href="/local-seo">
+        <SiteLink className="text-link" href="/local-seo">
           Talk with a local SEO specialist <ArrowIcon />
-        </a>
+        </SiteLink>
       </section>
 
       <section className="services-bento-section" id="services-overview">
@@ -773,9 +774,9 @@ export default function Home() {
                   Conversion-minded WordPress websites that look polished,
                   communicate clearly, and make the next step easy.
                 </p>
-                <a href="/web-design">
+                <SiteLink href="/web-design">
                   Build a better website <ArrowIcon />
-                </a>
+                </SiteLink>
               </div>
             </div>
           </article>
@@ -795,7 +796,7 @@ export default function Home() {
                   <h3>{service.title}</h3>
                   <p>{service.description}</p>
                 </div>
-                <a
+                <SiteLink
                   className="capability-button"
                   href={
                     service.title === "Pay-Per-Click"
@@ -811,7 +812,7 @@ export default function Home() {
                   aria-label={`Learn more about ${service.title}`}
                 >
                   Learn More <ArrowIcon />
-                </a>
+                </SiteLink>
               </article>
             ))}
           </div>
@@ -867,9 +868,9 @@ export default function Home() {
                       <li key={bullet}>{bullet}</li>
                     ))}
                   </ul>
-                  <a className="button button-purple" href="/contact">
+                  <SiteLink className="button button-purple" href="/contact">
                     Talk About Your Goals
-                  </a>
+                  </SiteLink>
                 </div>
                 <OutcomeGraphic type={outcome.visual} />
               </article>
@@ -928,9 +929,9 @@ export default function Home() {
             </div>
           </div>
 
-          <a className="button button-purple" href="/contact">
+          <SiteLink className="button button-purple" href="/contact">
             Work With Velvet Ink Media
-          </a>
+          </SiteLink>
         </div>
       </section>
 
@@ -977,13 +978,13 @@ export default function Home() {
               <span className="insight-number">0{index + 1}</span>
               <h3>{insight.title}</h3>
               <p>{insight.description}</p>
-              <a
+              <SiteLink
                 className="capability-button"
                 href="/blog"
                 aria-label={`Read ${insight.title}`}
               >
                 Read the Article <ArrowIcon />
-              </a>
+              </SiteLink>
             </article>
           ))}
         </div>

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
+import SiteLink from "../../components/SiteLink";
 
 const pageUrl = "https://www.velvetinkmedia.com/blog/how-to-measure-local-seo-success/";
 
@@ -105,7 +106,7 @@ export default function LocalSeoMetricsArticle() {
 
       <header className="article-hero">
         <div className="article-hero-grid" aria-hidden="true" />
-        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><a href="/blog">Insights</a><span>/</span><span>Local SEO</span></nav>
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><SiteLink href="/blog">Insights</SiteLink><span>/</span><span>Local SEO</span></nav>
         <p className="eyebrow">Local SEO measurement</p>
         <h1>How to Measure Local SEO Success: 12 Metrics That Actually Matter</h1>
         <p className="article-deck">A practical framework for connecting local rankings, Google Business Profile activity, website behavior, qualified leads, and revenue.</p>
@@ -125,22 +126,22 @@ export default function LocalSeoMetricsArticle() {
         <aside className="article-sidebar">
           <p>In this article</p>
           <nav aria-label="Article contents">
-            <a href="#takeaways">Key takeaways</a>
-            <a href="#framework">Measurement framework</a>
-            <a href="#visibility">Visibility metrics</a>
-            <a href="#engagement">Engagement metrics</a>
-            <a href="#conversion">Conversion metrics</a>
-            <a href="#reporting">Monthly reporting</a>
-            <a href="#mistakes">Reporting mistakes</a>
-            <a href="#checklist">Measurement checklist</a>
+            <SiteLink href="#takeaways">Key takeaways</SiteLink>
+            <SiteLink href="#framework">Measurement framework</SiteLink>
+            <SiteLink href="#visibility">Visibility metrics</SiteLink>
+            <SiteLink href="#engagement">Engagement metrics</SiteLink>
+            <SiteLink href="#conversion">Conversion metrics</SiteLink>
+            <SiteLink href="#reporting">Monthly reporting</SiteLink>
+            <SiteLink href="#mistakes">Reporting mistakes</SiteLink>
+            <SiteLink href="#checklist">Measurement checklist</SiteLink>
           </nav>
-          <a className="article-side-cta" href="/contact">Improve Your Reporting <ArrowIcon /></a>
+          <SiteLink className="article-side-cta" href="/contact">Improve Your Reporting <ArrowIcon /></SiteLink>
         </aside>
 
         <article className="article-content">
           <p className="article-intro">A local SEO report can contain hundreds of rankings, charts, and percentages while still failing to answer the question that matters most: Is local search producing better business opportunities?</p>
           <p>The right local SEO metrics show how people discover your business, how they respond after finding it, and whether those interactions become qualified leads and revenue. Rankings are part of that story, but they are not the finish line.</p>
-          <p>If your campaign still needs a clear foundation, start with our <a href="/blog/local-seo-domination-step-by-step-strategy">step-by-step local SEO strategy</a>. Once that system is in place, use the measurement framework below to evaluate its performance without getting distracted by vanity metrics.</p>
+          <p>If your campaign still needs a clear foundation, start with our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">step-by-step local SEO strategy</SiteLink>. Once that system is in place, use the measurement framework below to evaluate its performance without getting distracted by vanity metrics.</p>
 
           <section className="article-key-takeaways" id="takeaways">
             <h2>Key Takeaways</h2>
@@ -176,7 +177,7 @@ export default function LocalSeoMetricsArticle() {
             <p className="article-section-label">Metrics 1 through 4</p>
             <h2>Measure whether local customers can find you.</h2>
             <p>Visibility metrics diagnose how often the business appears and where coverage is weak. They help you identify opportunities, but they should always be evaluated beside engagement and conversion data.</p>
-            <p>If these metrics show a meaningful decline, use our process for <a href="/blog/why-local-search-rankings-dropped">diagnosing a local search ranking drop</a> before making broad website or Business Profile changes.</p>
+            <p>If these metrics show a meaningful decline, use our process for <SiteLink href="/blog/why-local-search-rankings-dropped">diagnosing a local search ranking drop</SiteLink> before making broad website or Business Profile changes.</p>
 
             <div className="local-guide-steps local-metric-list">
               <section>
@@ -308,7 +309,7 @@ export default function LocalSeoMetricsArticle() {
             <p className="article-section-label">Emerging measurement</p>
             <h2>Track AI visibility, but keep it in perspective.</h2>
             <p>AI-generated answers are changing how customers research local options. Monitor whether the business is mentioned, cited, or accurately described for important service questions across major answer platforms.</p>
-            <p>AI visibility is still less standardized than Search Console, Business Profile, analytics, and CRM data. Treat it as a directional metric instead of manufacturing a precise score that implies more certainty than the tools can support. Strong entity information, credible service content, third-party mentions, and local authority support both traditional search and <a href="/geo-aeo">GEO and AEO visibility</a>.</p>
+            <p>AI visibility is still less standardized than Search Console, Business Profile, analytics, and CRM data. Treat it as a directional metric instead of manufacturing a precise score that implies more certainty than the tools can support. Strong entity information, credible service content, third-party mentions, and local authority support both traditional search and <SiteLink href="/geo-aeo">GEO and AEO visibility</SiteLink>.</p>
           </section>
 
           <figure className="article-inline-image">
@@ -378,13 +379,13 @@ export default function LocalSeoMetricsArticle() {
 
           <aside className="article-source-note">
             <h2>Measurement resources</h2>
-            <p>This framework reflects Google&apos;s current documentation for <a href="https://support.google.com/business/answer/9918094" target="_blank" rel="noopener noreferrer">Business Profile performance</a>, <a href="https://support.google.com/webmasters/answer/7042828" target="_blank" rel="noopener noreferrer">Search Console clicks, impressions, CTR, and position</a>, <a href="https://support.google.com/analytics/answer/10917952" target="_blank" rel="noopener noreferrer">campaign URL parameters</a>, and <a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">Google&apos;s local ranking framework</a>.</p>
+            <p>This framework reflects Google&apos;s current documentation for <SiteLink href="https://support.google.com/business/answer/9918094" target="_blank" rel="noopener noreferrer">Business Profile performance</SiteLink>, <SiteLink href="https://support.google.com/webmasters/answer/7042828" target="_blank" rel="noopener noreferrer">Search Console clicks, impressions, CTR, and position</SiteLink>, <SiteLink href="https://support.google.com/analytics/answer/10917952" target="_blank" rel="noopener noreferrer">campaign URL parameters</SiteLink>, and <SiteLink href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">Google&apos;s local ranking framework</SiteLink>.</p>
           </aside>
 
           <section className="article-conclusion">
             <h2>Measure the customer path, not just the search result.</h2>
             <p>Local SEO success is not one number. It is a connected story that starts with visibility and ends with profitable customers. Track each layer, find where momentum stalls, and use the evidence to choose the next improvement.</p>
-            <p>For the execution plan behind these metrics, read our <a href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</a>. If you want help connecting search visibility to qualified leads, explore our <a href="/local-seo">local SEO services</a> or <a href="/contact">start a conversation</a>.</p>
+            <p>For the execution plan behind these metrics, read our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>. If you want help connecting search visibility to qualified leads, explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">
@@ -395,11 +396,11 @@ export default function LocalSeoMetricsArticle() {
       </div>
 
       <section className="article-related">
-        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Turn measurement into action.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
+        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Turn measurement into action.</h2></div><SiteLink className="button button-outline" href="/blog">View All Insights</SiteLink></div>
         <div className="article-related-grid">
-          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Local SEO</span><h3>Build a strategy around qualified local leads</h3><a href="/local-seo">Explore Local SEO <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><SiteLink href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/marketing-attribution.webp" width={1200} height={800} alt="Marketing analyst reviewing lead attribution data" /><div><span>Local SEO</span><h3>Build a strategy around qualified local leads</h3><SiteLink href="/local-seo">Explore Local SEO <ArrowIcon /></SiteLink></div></article>
         </div>
       </section>
 

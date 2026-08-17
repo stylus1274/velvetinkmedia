@@ -1,5 +1,6 @@
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
+import SiteLink from "../components/SiteLink";
 
 const deliverables = [
   {
@@ -89,8 +90,8 @@ export default function WebDesignPage() {
             marketing channel a stronger place to send people.
           </p>
           <div className="hero-actions">
-            <a className="button button-purple" href="/contact">Start a Website Project</a>
-            <a className="button button-outline" href="#approach">See Our Approach</a>
+            <SiteLink className="button button-purple" href="/contact">Start a Website Project</SiteLink>
+            <SiteLink className="button button-outline" href="#approach">See Our Approach</SiteLink>
           </div>
           <ul className="wds-hero-points" aria-label="Web design benefits">
             <li>Strategy first</li><li>Built for search</li><li>Made to convert</li>
@@ -131,7 +132,7 @@ export default function WebDesignPage() {
             is slow, confusing, generic, or difficult to trust, every other
             marketing investment has to work harder.
           </p>
-          <a className="capability-button" href="#deliverables">See What&apos;s Included <ArrowIcon /></a>
+          <SiteLink className="capability-button" href="#deliverables">See What&apos;s Included <ArrowIcon /></SiteLink>
         </div>
       </section>
 
@@ -183,7 +184,7 @@ export default function WebDesignPage() {
             strong page experiences help customers and discovery platforms make
             sense of the business.
           </p>
-          <a className="button button-purple" href="/local-seo">Explore Local SEO</a>
+          <SiteLink className="button button-purple" href="/local-seo">Explore Local SEO</SiteLink>
         </div>
         <div className="wds-foundation-stack" aria-label="Website visibility foundations">
           <article><span>01</span><div><strong>Technical clarity</strong><small>Performance, crawlability, schema, clean structure</small></div></article>

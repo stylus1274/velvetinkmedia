@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
+import SiteLink from "../../components/SiteLink";
 
 const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-domination-step-by-step-strategy/";
 
@@ -104,7 +105,7 @@ export default function LocalSeoDominationArticle() {
 
       <header className="article-hero">
         <div className="article-hero-grid" aria-hidden="true" />
-        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><a href="/blog">Insights</a><span>/</span><span>Local SEO</span></nav>
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><SiteLink href="/blog">Insights</SiteLink><span>/</span><span>Local SEO</span></nav>
         <p className="eyebrow">Local search strategy</p>
         <h1>Local SEO Domination: A Step-by-Step Strategy</h1>
         <p className="article-deck">A practical local SEO guide for building map visibility, stronger organic rankings, and a steady path from nearby searches to qualified leads.</p>
@@ -124,15 +125,15 @@ export default function LocalSeoDominationArticle() {
         <aside className="article-sidebar">
           <p>In this article</p>
           <nav aria-label="Article contents">
-            <a href="#takeaways">Key takeaways</a>
-            <a href="#before-you-start">Before you start</a>
-            <a href="#step-by-step">12-step strategy</a>
-            <a href="#ninety-day-plan">90-day plan</a>
-            <a href="#measurement">Measurement</a>
-            <a href="#mistakes">Common mistakes</a>
-            <a href="#checklist">Local SEO checklist</a>
+            <SiteLink href="#takeaways">Key takeaways</SiteLink>
+            <SiteLink href="#before-you-start">Before you start</SiteLink>
+            <SiteLink href="#step-by-step">12-step strategy</SiteLink>
+            <SiteLink href="#ninety-day-plan">90-day plan</SiteLink>
+            <SiteLink href="#measurement">Measurement</SiteLink>
+            <SiteLink href="#mistakes">Common mistakes</SiteLink>
+            <SiteLink href="#checklist">Local SEO checklist</SiteLink>
           </nav>
-          <a className="article-side-cta" href="/contact">Build Your Strategy <ArrowIcon /></a>
+          <SiteLink className="article-side-cta" href="/contact">Build Your Strategy <ArrowIcon /></SiteLink>
         </aside>
 
         <article className="article-content">
@@ -213,7 +214,7 @@ export default function LocalSeoDominationArticle() {
                 <h3>Build a page strategy before writing content.</h3>
                 <p>Your website needs a clear home for every important search intent. Most local businesses need a strong homepage, individual service pages, a useful about page, a contact page, and carefully selected location pages when there is enough unique value to support them.</p>
                 <h4>Use one page for one primary purpose</h4>
-                <p>A service page should explain the service, who needs it, how the process works, why the business is qualified, where the service is available, and what the visitor should do next. If the existing site cannot support that structure, a stronger <a href="/web-design">local business website foundation</a> may need to come first.</p>
+                <p>A service page should explain the service, who needs it, how the process works, why the business is qualified, where the service is available, and what the visitor should do next. If the existing site cannot support that structure, a stronger <SiteLink href="/web-design">local business website foundation</SiteLink> may need to come first.</p>
                 <p>Do not publish doorway pages that repeat the same copy with a different city name. Each location page should contain meaningful local context, proof, service details, customer questions, and a genuine reason to exist.</p>
               </section>
 
@@ -293,7 +294,7 @@ export default function LocalSeoDominationArticle() {
                 <h3>Create locally useful, expert-led content.</h3>
                 <p>Local content should answer real customer questions and demonstrate knowledge that a generic writer cannot invent. Useful formats include service guides, pricing considerations, project examples, neighborhood-specific advice, comparison pages, FAQs, checklists, and explanations of local regulations or conditions.</p>
                 <h4>Build content from first-hand experience</h4>
-                <p>Interview the people who perform the work. Include decisions, tradeoffs, photos, examples, limitations, and observations from the market. A connected <a href="/content-marketing">content marketing strategy</a> can turn that expertise into service pages, articles, social content, and resources that reinforce one another.</p>
+                <p>Interview the people who perform the work. Include decisions, tradeoffs, photos, examples, limitations, and observations from the market. A connected <SiteLink href="/content-marketing">content marketing strategy</SiteLink> can turn that expertise into service pages, articles, social content, and resources that reinforce one another.</p>
               </section>
 
               <section id="step-nine">
@@ -307,7 +308,7 @@ export default function LocalSeoDominationArticle() {
                 <span className="local-step-number">10</span>
                 <h3>Strengthen internal links and entity clarity.</h3>
                 <p>Internal links help customers and search engines understand how services, locations, questions, and proof connect. Link from strong informational resources to the relevant service page. Link related services to one another when the connection genuinely helps the visitor.</p>
-                <p>Keep the business name, service descriptions, author information, contact details, and brand story consistent. This clarity also supports <a href="/geo-aeo">GEO and AEO visibility</a> by making the company easier for answer systems to interpret and reference.</p>
+                <p>Keep the business name, service descriptions, author information, contact details, and brand story consistent. This clarity also supports <SiteLink href="/geo-aeo">GEO and AEO visibility</SiteLink> by making the company easier for answer systems to interpret and reference.</p>
               </section>
 
               <section id="step-eleven">
@@ -360,7 +361,7 @@ export default function LocalSeoDominationArticle() {
               <div role="row"><span role="cell">Calls, forms, and appointments</span><span role="cell">Whether visibility produces meaningful actions</span></div>
               <div role="row"><span role="cell">Qualified leads and revenue</span><span role="cell">Whether local SEO contributes to profitable growth</span></div>
             </div>
-            <p>For a complete scorecard, read our guide to <a href="/blog/how-to-measure-local-seo-success">measuring local SEO success</a>. It explains the 12 visibility, engagement, conversion, and revenue metrics that belong in a useful monthly report. If those metrics reveal a decline, follow our process for <a href="/blog/why-local-search-rankings-dropped">diagnosing and recovering local search rankings</a>.</p>
+            <p>For a complete scorecard, read our guide to <SiteLink href="/blog/how-to-measure-local-seo-success">measuring local SEO success</SiteLink>. It explains the 12 visibility, engagement, conversion, and revenue metrics that belong in a useful monthly report. If those metrics reveal a decline, follow our process for <SiteLink href="/blog/why-local-search-rankings-dropped">diagnosing and recovering local search rankings</SiteLink>.</p>
           </section>
 
           <figure className="article-inline-image">
@@ -406,13 +407,13 @@ export default function LocalSeoDominationArticle() {
 
           <aside className="article-source-note">
             <h2>Authoritative resources used for this strategy</h2>
-            <p>This guide aligns with Google&apos;s current documentation on <a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">local ranking factors</a>, <a href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Business Profile representation guidelines</a>, <a href="https://support.google.com/business/answer/3474050" target="_blank" rel="noopener noreferrer">review management</a>, and <a href="https://developers.google.com/search/docs/appearance/structured-data/local-business" target="_blank" rel="noopener noreferrer">LocalBusiness structured data</a>.</p>
+            <p>This guide aligns with Google&apos;s current documentation on <SiteLink href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">local ranking factors</SiteLink>, <SiteLink href="https://support.google.com/business/answer/3038177" target="_blank" rel="noopener noreferrer">Business Profile representation guidelines</SiteLink>, <SiteLink href="https://support.google.com/business/answer/3474050" target="_blank" rel="noopener noreferrer">review management</SiteLink>, and <SiteLink href="https://developers.google.com/search/docs/appearance/structured-data/local-business" target="_blank" rel="noopener noreferrer">LocalBusiness structured data</SiteLink>.</p>
           </aside>
 
           <section className="article-conclusion">
             <h2>Build the local presence competitors cannot easily copy.</h2>
             <p>The strongest local SEO strategy combines technical discipline with real business substance. Accurate information, useful service pages, authentic reviews, local knowledge, strong relationships, and consistent execution create an advantage that shortcuts cannot match.</p>
-            <p>If you want help applying this local SEO guide to Tampa Bay or another priority market, explore our <a href="/local-seo">local SEO services</a> or <a href="/contact">start a conversation with Velvet Ink Media</a>.</p>
+            <p>If you want help applying this local SEO guide to Tampa Bay or another priority market, explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation with Velvet Ink Media</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">
@@ -423,11 +424,11 @@ export default function LocalSeoDominationArticle() {
       </div>
 
       <section className="article-related">
-        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Continue building local visibility.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
+        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Continue building local visibility.</h2></div><SiteLink className="button button-outline" href="/blog">View All Insights</SiteLink></div>
         <div className="article-related-grid">
-          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>Build service pages around customer intent</h3><a href="/content-marketing">Explore Content Marketing <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversion performance" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><SiteLink href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/service-page-strategy.webp" width={1200} height={800} alt="Content strategist planning a local service page" /><div><span>Content Strategy</span><h3>Build service pages around customer intent</h3><SiteLink href="/content-marketing">Explore Content Marketing <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversion performance" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><SiteLink href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></SiteLink></div></article>
         </div>
       </section>
 

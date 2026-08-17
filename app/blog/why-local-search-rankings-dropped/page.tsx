@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
+import SiteLink from "../../components/SiteLink";
 
 const pageUrl = "https://www.velvetinkmedia.com/blog/why-local-search-rankings-dropped/";
 
@@ -105,7 +106,7 @@ export default function LocalRankingRecoveryArticle() {
 
       <header className="article-hero">
         <div className="article-hero-grid" aria-hidden="true" />
-        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><a href="/blog">Insights</a><span>/</span><span>Local SEO</span></nav>
+        <nav className="article-breadcrumbs" aria-label="Breadcrumb"><SiteLink href="/blog">Insights</SiteLink><span>/</span><span>Local SEO</span></nav>
         <p className="eyebrow">Local ranking recovery</p>
         <h1>Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</h1>
         <p className="article-deck">A practical process for confirming the decline, finding the most likely cause, and choosing a recovery action without making the problem worse.</p>
@@ -125,20 +126,20 @@ export default function LocalRankingRecoveryArticle() {
         <aside className="article-sidebar">
           <p>In this article</p>
           <nav aria-label="Article contents">
-            <a href="#takeaways">Key takeaways</a>
-            <a href="#confirm">Confirm the decline</a>
-            <a href="#causes">10 possible causes</a>
-            <a href="#recovery">Recovery plan</a>
-            <a href="#wait-or-act">When to act</a>
-            <a href="#checklist">Recovery checklist</a>
+            <SiteLink href="#takeaways">Key takeaways</SiteLink>
+            <SiteLink href="#confirm">Confirm the decline</SiteLink>
+            <SiteLink href="#causes">10 possible causes</SiteLink>
+            <SiteLink href="#recovery">Recovery plan</SiteLink>
+            <SiteLink href="#wait-or-act">When to act</SiteLink>
+            <SiteLink href="#checklist">Recovery checklist</SiteLink>
           </nav>
-          <a className="article-side-cta" href="/contact">Diagnose the Decline <ArrowIcon /></a>
+          <SiteLink className="article-side-cta" href="/contact">Diagnose the Decline <ArrowIcon /></SiteLink>
         </aside>
 
         <article className="article-content">
           <p className="article-intro">A sudden local ranking drop can feel urgent, but urgency is exactly what causes businesses to make broad changes before they understand the problem. The fastest recovery usually starts with slowing down long enough to diagnose the decline correctly.</p>
           <p>A ranking change can come from the website, Google Business Profile, competitors, customer demand, an algorithm update, or the way the data was collected. The right response depends entirely on which of those changed.</p>
-          <p>Use our <a href="/blog/how-to-measure-local-seo-success">local SEO measurement framework</a> to verify the decline across visibility, engagement, conversions, and leads. If the broader local search foundation needs work, return to our <a href="/blog/local-seo-domination-step-by-step-strategy">step-by-step local SEO strategy</a> before treating one ranking as an isolated problem.</p>
+          <p>Use our <SiteLink href="/blog/how-to-measure-local-seo-success">local SEO measurement framework</SiteLink> to verify the decline across visibility, engagement, conversions, and leads. If the broader local search foundation needs work, return to our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">step-by-step local SEO strategy</SiteLink> before treating one ranking as an isolated problem.</p>
 
           <section className="article-key-takeaways" id="takeaways">
             <h2>Key Takeaways</h2>
@@ -350,13 +351,13 @@ export default function LocalRankingRecoveryArticle() {
 
           <aside className="article-source-note">
             <h2>Recovery resources</h2>
-            <p>This process reflects Google&apos;s current guidance for <a href="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops" target="_blank" rel="noopener noreferrer">debugging search traffic drops</a>, <a href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">understanding local ranking factors</a>, <a href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">managing site migrations</a>, <a href="https://support.google.com/business/answer/4569145" target="_blank" rel="noopener noreferrer">handling suspended profiles</a>, and <a href="https://developers.google.com/search/docs/appearance/core-updates" target="_blank" rel="noopener noreferrer">evaluating core-update movement</a>.</p>
+            <p>This process reflects Google&apos;s current guidance for <SiteLink href="https://developers.google.com/search/docs/monitor-debug/debugging-search-traffic-drops" target="_blank" rel="noopener noreferrer">debugging search traffic drops</SiteLink>, <SiteLink href="https://support.google.com/business/answer/7091" target="_blank" rel="noopener noreferrer">understanding local ranking factors</SiteLink>, <SiteLink href="https://developers.google.com/search/docs/crawling-indexing/site-move-with-url-changes" target="_blank" rel="noopener noreferrer">managing site migrations</SiteLink>, <SiteLink href="https://support.google.com/business/answer/4569145" target="_blank" rel="noopener noreferrer">handling suspended profiles</SiteLink>, and <SiteLink href="https://developers.google.com/search/docs/appearance/core-updates" target="_blank" rel="noopener noreferrer">evaluating core-update movement</SiteLink>.</p>
           </aside>
 
           <section className="article-conclusion">
             <h2>Treat a ranking decline like a diagnosis, not a panic button.</h2>
             <p>The most effective recovery begins by proving what changed and narrowing the cause. Preserve the evidence, separate Maps from organic search, correct confirmed failures, and monitor the business outcomes that rankings are supposed to produce.</p>
-            <p>For ongoing tracking, use our <a href="/blog/how-to-measure-local-seo-success">12 local SEO metrics that actually matter</a>. For the strategy behind stronger visibility, follow our <a href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination process</a>. You can also explore our <a href="/local-seo">local SEO services</a> or <a href="/contact">ask us to review the decline</a>.</p>
+            <p>For ongoing tracking, use our <SiteLink href="/blog/how-to-measure-local-seo-success">12 local SEO metrics that actually matter</SiteLink>. For the strategy behind stronger visibility, follow our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination process</SiteLink>. You can also explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">ask us to review the decline</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">
@@ -367,11 +368,11 @@ export default function LocalRankingRecoveryArticle() {
       </div>
 
       <section className="article-related">
-        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Build, measure, and protect local visibility.</h2></div><a className="button button-outline" href="/blog">View All Insights</a></div>
+        <div className="article-related-heading"><div><p className="eyebrow">Keep reading</p><h2>Build, measure, and protect local visibility.</h2></div><SiteLink className="button button-outline" href="/blog">View All Insights</SiteLink></div>
         <div className="article-related-grid">
-          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><a href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversions" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><a href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></a></div></article>
-          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><a href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></a></div></article>
+          <article><Image src="/insights/local-seo-domination-featured.webp" width={1800} height={1013} alt="Local SEO strategist reviewing a local search plan" /><div><span>Local SEO Strategy</span><h3>Local SEO Domination: A Step-by-Step Strategy</h3><SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/insights/local-seo-metrics-featured.webp" width={1672} height={941} alt="Local SEO strategist reviewing map visibility and conversions" /><div><span>Local SEO Measurement</span><h3>How to Measure Local SEO Success</h3><SiteLink href="/blog/how-to-measure-local-seo-success">Read the Article <ArrowIcon /></SiteLink></div></article>
+          <article><Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" /><div><span>Search Strategy</span><h3>How search is changing for local businesses</h3><SiteLink href="/blog/how-search-is-changing-for-local-businesses">Read the Article <ArrowIcon /></SiteLink></div></article>
         </div>
       </section>
 
