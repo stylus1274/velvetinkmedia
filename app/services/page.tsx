@@ -129,15 +129,15 @@ const faqs = [
     answer: "Yes. Website builds, audits, tracking setups, strategy work, and focused improvements can be handled as defined projects. SEO, paid media, content, reputation, and ongoing optimization generally benefit from continuing support because performance and market conditions change over time.",
   },
   {
-    question: "Do you only work with Tampa businesses?",
-    answer: "No. Velvet Ink Media is based in Tampa and brings a strong local-market perspective, but we work with businesses across Florida and beyond. The strategy is shaped around the actual audience, locations, competition, and growth goals of each business.",
+    question: "Where does Velvet Ink Media work?",
+    answer: "Velvet Ink Media is based in Riverview, Florida. We shape strategy around the actual audience, locations, competition, and growth goals of each business rather than forcing a one-size-fits-all market approach.",
   },
 ];
 
 export const metadata: Metadata = {
-  title: "Digital Marketing Services Tampa | Velvet Ink Media",
+  title: "AI Search, SEO & Digital Marketing Services | Velvet Ink Media",
   description:
-    "Explore Tampa digital marketing services covering web design, local SEO, GEO and AEO, paid media, content, reputation, analytics and conversion.",
+    "Explore connected AI search, SEO, web design, paid media, content, reputation, analytics, and conversion services built around real business growth.",
   alternates: {
     canonical: "https://www.velvetinkmedia.com/services/",
   },
@@ -216,7 +216,7 @@ function ConnectedServicesGraphic() {
 
 function ServiceGraphic({ type }: { type: string }) {
   if (type === "web") return <div className="svc-mini svc-mini-web"><div><span /><span /><span /></div><section><i /><strong /><p /><p /></section><aside><i /><i /><i /></aside></div>;
-  if (type === "local") return <div className="svc-mini svc-mini-local"><header><i /> Tampa local services</header><section><span>1</span><span>2</span><span>3</span><b>Map visibility</b></section><footer><i /><i /><i /><i /></footer></div>;
+  if (type === "local") return <div className="svc-mini svc-mini-local"><header><i /> Local search services</header><section><span>1</span><span>2</span><span>3</span><b>Map visibility</b></section><footer><i /><i /><i /><i /></footer></div>;
   if (type === "answer") return <div className="svc-mini svc-mini-answer"><header>AI answer</header><section><i>✦</i><p><strong /><span /><span /><span /></p></section><footer><b>3</b> cited sources</footer></div>;
   if (type === "content") return <div className="svc-mini svc-mini-content"><header><span>Editorial plan</span><b>8 assets</b></header><section><article><i>01</i><div><strong>Expert guide</strong><small>Search + AI</small></div><b>READY</b></article><article><i>02</i><div><strong>Service page</strong><small>Commercial intent</small></div><b>DRAFT</b></article><article><i>03</i><div><strong>Social series</strong><small>Distribution</small></div><b>PLAN</b></article></section><footer><span>One strategy</span><strong>Multiple useful formats</strong></footer></div>;
   if (type === "social") return <div className="svc-mini svc-mini-social"><header><span>Social plan</span><b>12 posts</b></header><section><article><i>01</i><div><strong>Local expertise</strong><small>Carousel</small></div><b>READY</b></article><article><i>02</i><div><strong>Customer question</strong><small>Expert post</small></div><b>DRAFT</b></article><article><i>03</i><div><strong>Service proof</strong><small>Campaign support</small></div><b>PLAN</b></article></section><footer><span>One idea</span><strong>Multiple channel roles</strong></footer></div>;
@@ -231,9 +231,9 @@ export default function ServicesPage() {
 
       <section className="svc-hero">
         <div className="svc-hero-copy">
-          <p className="eyebrow">Connected digital marketing services</p>
-          <h1>Every service connected to the same <span>business goal.</span></h1>
-          <p className="svc-lead">Web design, local SEO, GEO, AEO, paid media, content, and measurement work better when they follow one strategy instead of competing for attention.</p>
+          <p className="eyebrow">Specialized expertise · Connected growth</p>
+          <h1>One connected growth system <span>built around real results.</span></h1>
+          <p className="svc-lead">We bring together AI search, SEO, web design, paid media, content, and measurement around the business problem that matters most—so every service has a clear role in creating more qualified opportunities.</p>
           <div className="hero-actions"><SiteLink className="button button-purple" href="#primary-services">Explore Our Services</SiteLink><SiteLink className="button button-outline" href="/contact">Talk About Your Goals</SiteLink></div>
         </div>
         <ConnectedServicesGraphic />
