@@ -27,7 +27,7 @@
 .wds-hero h1 {
   max-width: 780px;
   margin: 0 0 30px;
-  font-size: clamp(62px, 6.3vw, 102px);
+  font-size: clamp(52px, 6.3vw, 102px);
   font-weight: 900;
   line-height: .95;
   letter-spacing: -.068em;

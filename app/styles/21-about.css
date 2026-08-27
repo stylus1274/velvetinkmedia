@@ -3,7 +3,7 @@
 .about-hero { min-height: calc(100vh - 88px); padding: clamp(85px,9vw,145px) clamp(24px,6vw,104px); display: grid; grid-template-columns: .92fr 1.08fr; align-items: center; gap: clamp(55px,7vw,125px); overflow: hidden; position: relative; background-color: var(--paper); background-image: linear-gradient(rgba(9,9,9,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(9,9,9,.07) 1px,transparent 1px); background-size: 36px 36px; }
 .about-hero::after { content:""; height: 140px; position:absolute; right:0; bottom:0; left:0; background:linear-gradient(to bottom,transparent,var(--paper)); pointer-events:none; }
 .about-hero-copy,.about-hero-stage { position:relative; z-index:1; }
-.about-hero h1 { max-width: 930px; margin: 0; font-size: clamp(64px,6.2vw,105px); font-weight: 900; line-height: .92; letter-spacing: -.073em; }
+.about-hero h1 { max-width: 930px; margin: 0; font-size: clamp(52px,6.2vw,105px); font-weight: 900; line-height: .92; letter-spacing: -.073em; }
 .about-hero h1 span { color: var(--purple-dark); }
 .about-hero-copy > p:last-child { max-width: 640px; margin: 38px 0 0; color: var(--muted); font-size: clamp(25px,2.1vw,33px); line-height: 1.45; }
 .about-hero-stage { min-height: 710px; }

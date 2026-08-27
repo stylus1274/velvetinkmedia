@@ -14,7 +14,7 @@
 }
 .svc-hero::before { content:""; position:absolute; inset:0; background-image:linear-gradient(rgba(9,9,9,.07) 1px,transparent 1px),linear-gradient(90deg,rgba(9,9,9,.07) 1px,transparent 1px); background-size:36px 36px; mask-image:linear-gradient(to bottom,transparent 0,#000 12%,#000 88%,transparent 100%); pointer-events:none; }
 .svc-hero-copy,.svc-network { position:relative; z-index:1; }
-.svc-hero h1 { max-width:880px; margin:0; font-size:clamp(66px,6.4vw,108px); font-weight:900; line-height:.92; letter-spacing:-.073em; }
+.svc-hero h1 { max-width:880px; margin:0; font-size:clamp(52px,6.4vw,108px); font-weight:900; line-height:.92; letter-spacing:-.073em; }
 .svc-hero h1 span { color:var(--purple-dark); }
 .svc-lead { max-width:830px; margin:34px 0 0; color:var(--muted); line-height:1.56; }
 .svc-hero .hero-actions { margin-top:42px; }

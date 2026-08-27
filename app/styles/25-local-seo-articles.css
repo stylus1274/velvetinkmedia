@@ -62,7 +62,7 @@
 .article-source-note h2 { margin: 0 0 15px; font-size: 28px; letter-spacing: -.03em; }.article-source-note p { margin: 0; color: var(--muted); font-size: 16px; line-height: 1.65; }
 
 /* Local SEO measurement article */
-.local-seo-metrics-page .article-hero h1 { max-width: 1600px; font-size: clamp(58px,7.2vw,112px); }
+.local-seo-metrics-page .article-hero h1 { max-width: 1600px; font-size: clamp(52px,7.2vw,112px); }
 .local-metrics-framework,.local-reporting-grid { margin-top: 48px; display: grid; grid-template-columns: repeat(2,minmax(0,1fr)); gap: 15px; }
 .local-metrics-framework article,.local-reporting-grid article { min-height: 245px; padding: 26px; display: flex; flex-direction: column; border: 1.5px solid var(--ink); border-radius: 17px; box-shadow: 8px 9px 0 rgba(9,9,9,.08); }
 .local-metrics-framework article:nth-child(1),.local-reporting-grid article:nth-child(3) { background: var(--peach-soft); }
@@ -80,12 +80,12 @@
 .local-seo-metrics-page #reporting > ul li { margin: 11px 0; padding-left: 4px; line-height: 1.5; }
 
 /* Local ranking recovery article */
-.local-ranking-recovery-page .article-hero h1 { max-width: 1620px; font-size: clamp(56px,7vw,108px); }
+.local-ranking-recovery-page .article-hero h1 { max-width: 1620px; font-size: clamp(52px,7vw,108px); }
 .local-ranking-recovery-page #confirm > h3 { margin: 58px 0 20px; font-size: 31px; letter-spacing: -.04em; }
 .local-drop-patterns { margin-top: 0; }
 .local-ranking-callout { margin-bottom: 0; }
 
-.local-ai-search-page .article-hero h1 { max-width: 1500px; font-size: clamp(62px,8vw,122px); }
+.local-ai-search-page .article-hero h1 { max-width: 1500px; font-size: clamp(52px,8vw,122px); }
 .local-ai-search-page .article-hero .article-deck { max-width: 1040px; }
 .local-ai-framework { margin-top: 48px; }
 .local-ai-signal-list { margin-top: 44px; }
