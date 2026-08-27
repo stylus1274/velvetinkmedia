@@ -143,7 +143,7 @@ export default function GoogleBusinessProfileOptimizationPage() {
             <p className="article-section-label">The role</p>
             <h2>What a Google Business Profile actually does.</h2>
             <p>A Business Profile helps Google display practical business information in Search and Maps. It can surface a location, service area, category, hours, phone number, website, images, reviews, products, services, and other details that help customers decide what to do next.</p>
-            <p>It is useful to think of the profile as a public operating snapshot. It should reflect the same real business your customers encounter in person, on the phone, and on the website. When the profile contradicts the business, it creates friction. When it is generic, incomplete, or stale, a customer has less confidence that the result is worth pursuing.</p>
+            <p>It is useful to think of the profile as a public operating snapshot. It should reflect the same real business your customers encounter in person, on the phone, and on the website. When the profile contradicts the business, it creates friction. When it is generic, incomplete, or stale, a customer has less confidence that the result is worth pursuing. As discovery continues to expand, the profile also needs to support the fundamentals explored in <SiteLink href="/blog/how-search-is-changing-for-local-businesses">How Search Is Changing for Local Businesses</SiteLink>.</p>
             <div className="local-metrics-framework local-ai-framework">
               <article><span>01</span><h3>Find</h3><p>Help the right searcher discover the business through clear categories, services, location information, and a strong website foundation.</p></article>
               <article><span>02</span><h3>Understand</h3><p>Use complete, current information so a customer can see what the business offers, where it operates, and when it is available.</p></article>
@@ -175,7 +175,7 @@ export default function GoogleBusinessProfileOptimizationPage() {
               <div><span>Location</span><h3>Be clear about where and how you serve</h3><p>Use the correct address when customers visit the location. For eligible service-area businesses, make the service model and covered area clear without presenting a location that customers cannot actually visit.</p></div>
               <div><span>Availability</span><h3>Keep hours and special hours current</h3><p>Hours are a customer promise. Update them for holidays, seasonal schedules, events, temporary closures, and changes in how the business accepts appointments or walk-ins.</p></div>
             </div>
-            <p>Also review the phone number, website address, appointment or booking links, attributes, accessibility details, and service information. The point is not to complete a percentage meter. The point is to remove preventable uncertainty for someone who is considering the business.</p>
+            <p>Also review the phone number, website address, appointment or booking links, attributes, accessibility details, and service information. The point is not to complete a percentage meter. The point is to remove preventable uncertainty for someone who is considering the business. For the larger set of website, content, authority, and conversion improvements that support this work, see <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination: A Step-by-Step Strategy</SiteLink>.</p>
           </section>
 
           <figure className="article-inline-image">
@@ -240,7 +240,7 @@ export default function GoogleBusinessProfileOptimizationPage() {
               <div role="row"><span role="cell">Customer proof</span><span role="cell">Do recent photos, reviews, and replies reflect the quality and experience the business wants customers to understand?</span></div>
               <div role="row"><span role="cell">Lead quality</span><span role="cell">Do profile-driven calls, messages, bookings, or website visits turn into the conversations and opportunities the business actually wants?</span></div>
             </div>
-            <p>Use a regular review rhythm, especially before holidays, busy seasons, operational changes, relocations, new service launches, or website updates. When an important detail changes in the real business, update the profile and the website together.</p>
+            <p>Use a regular review rhythm, especially before holidays, busy seasons, operational changes, relocations, new service launches, or website updates. When an important detail changes in the real business, update the profile and the website together. For a broader scorecard, see <SiteLink href="/blog/how-to-measure-local-seo-success">How to Measure Local SEO Success: 12 Metrics That Actually Matter</SiteLink>. If visibility has already declined, start with the diagnostic approach in <SiteLink href="/blog/why-local-search-rankings-dropped">Why Your Local Search Rankings Dropped: 10 Causes and How to Recover</SiteLink>.</p>
           </section>
 
           <figure className="article-inline-image">
