@@ -3,7 +3,7 @@
 .sm-hero { min-height:850px; padding:clamp(78px,8vw,130px) clamp(24px,6vw,104px); display:grid; grid-template-columns:minmax(0,.9fr) minmax(560px,1.1fr); align-items:center; gap:clamp(50px,7vw,120px); overflow:hidden; position:relative; }
 .sm-hero::after { content:""; height:150px; position:absolute; right:0; bottom:0; left:0; background:linear-gradient(to bottom,transparent,rgba(210,232,250,.48)); pointer-events:none; }
 .sm-hero-copy,.sm-hero-stage { position:relative; z-index:1; }
-.sm-hero h1 { max-width:850px; margin:0 0 30px; font-size:clamp(52px,6.4vw,104px); font-weight:900; line-height:.94; letter-spacing:-.07em; }
+.sm-hero h1 { max-width:850px; margin:0 0 30px; font-size:clamp(52px,5.2vw,104px); font-weight:900; line-height:.94; letter-spacing:-.07em; }
 .sm-hero h1 span { color:var(--purple-dark); }
 .sm-lead { max-width:720px; margin-bottom:34px; color:var(--muted); line-height:1.58; }
 .sm-hero-points { margin:35px 0 0; padding:0; display:flex; flex-wrap:wrap; gap:12px 25px; list-style:none; }

@@ -5,7 +5,7 @@
 .article-hero > *:not(.article-hero-grid) { position: relative; z-index: 1; }
 .article-breadcrumbs { margin-bottom: 65px; display: flex; gap: 10px; color: var(--muted); font-size: 14px; font-weight: 800; }
 .article-breadcrumbs a { text-decoration: underline; text-underline-offset: 4px; }
-.article-hero h1 { max-width: 1480px; margin: 0; font-size: clamp(52px,8vw,130px); font-weight: 900; line-height: .91; letter-spacing: -.075em; }
+.article-hero h1 { max-width: 1480px; margin: 0; font-size: clamp(52px,6.4vw,130px); font-weight: 900; line-height: .91; letter-spacing: -.075em; }
 .article-deck { max-width: 1040px; margin: 42px 0 0; color: var(--muted); font-size: clamp(23px,2vw,31px); line-height: 1.48; }
 .article-byline { max-width: 1040px; margin-top: 52px; padding-top: 27px; display: grid; grid-template-columns: 58px 1fr auto; align-items: center; gap: 17px; border-top: 1.5px solid var(--ink); }
 .article-author-mark { width: 58px; height: 58px; display: grid; place-items: center; border: 1.5px solid var(--ink); border-radius: 50%; background: var(--purple); font-size: 16px; font-weight: 900; }

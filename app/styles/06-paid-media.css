@@ -27,7 +27,7 @@
 .pms-hero h1 {
   max-width: 770px;
   margin: 0 0 30px;
-  font-size: clamp(52px, 6.5vw, 105px);
+  font-size: clamp(52px, 5.2vw, 105px);
   font-weight: 900;
   line-height: .94;
   letter-spacing: -.07em;
