@@ -550,11 +550,10 @@ export default function Home() {
       <section className="hero" id="top">
         <div className="hero-copy">
           <h1>
-            Digital marketing that works as hard as <span>you do.</span>
+            AI Search, SEO &amp; Digital Marketing <span>Built Around Real Growth.</span>
           </h1>
           <p className="hero-intro">
-            Strategy, websites, local SEO and paid media for Tampa businesses
-            ready to grow.
+            We help businesses become easier to find, easier to trust, and easier to choose. From search-ready websites and local SEO to AI visibility, content, paid media, and measurement, every part of the marketing system works toward the same goal: more qualified opportunities.
           </p>
           <div className="hero-actions">
             <SiteLink className="button button-purple" href="/contact">
@@ -566,7 +565,7 @@ export default function Home() {
           </div>
           <p className="trust-line">
             <span aria-hidden="true">✦</span>
-            Tampa Bay · Established 2008
+            Riverview, Florida · Established 2008
           </p>
         </div>
 
