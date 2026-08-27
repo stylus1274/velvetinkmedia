@@ -14,6 +14,7 @@ const routes = [
   "/contact",
   "/blog",
   "/blog/how-search-is-changing-for-local-businesses",
+  "/blog/google-business-profile-optimization",
   "/blog/how-to-measure-local-seo-success",
   "/blog/local-seo-domination-step-by-step-strategy",
   "/blog/why-local-search-rankings-dropped",

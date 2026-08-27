@@ -18,7 +18,8 @@ type FooterVariant =
   | "geo-aeo"
   | "contact"
   | "work"
-  | "content-marketing";
+  | "content-marketing"
+  | "gbp-article";
 
 type FooterAction = {
   href: string;
@@ -229,6 +230,17 @@ const footerConfigs: Record<FooterVariant, FooterConfig> = {
     secondaryAction: { href: "/contact", label: "Plan Your Content Strategy" },
     brandDescription:
       "A Tampa marketing agency connecting useful content, search visibility, web design, paid media, and measurement around real business growth.",
+    companyFeature: { href: "/work", label: "Our Work" },
+  },
+  "gbp-article": {
+    eyebrow: "Make local visibility useful",
+    title: "Turn accurate information into customer confidence.",
+    description:
+      "We connect clear websites, local search strategy, useful content, and practical measurement around the decisions that move a business forward.",
+    primaryAction: { href: "/contact", label: "Start a Project" },
+    secondaryAction: { href: "/local-seo", label: "Explore Local SEO" },
+    brandDescription:
+      "Velvet Ink Media connects web design, local search, content, paid media, and measurement around real business growth.",
     companyFeature: { href: "/work", label: "Our Work" },
   },
 };
