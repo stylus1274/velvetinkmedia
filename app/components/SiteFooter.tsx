@@ -19,7 +19,8 @@ type FooterVariant =
   | "contact"
   | "work"
   | "content-marketing"
-  | "gbp-article";
+  | "gbp-article"
+  | "seo-ads-article";
 
 type FooterAction = {
   href: string;
@@ -239,6 +240,17 @@ const footerConfigs: Record<FooterVariant, FooterConfig> = {
       "We connect clear websites, local search strategy, useful content, and practical measurement around the decisions that move a business forward.",
     primaryAction: { href: "/contact", label: "Start a Project" },
     secondaryAction: { href: "/local-seo", label: "Explore Local SEO" },
+    brandDescription:
+      "Velvet Ink Media connects web design, local search, content, paid media, and measurement around real business growth.",
+    companyFeature: { href: "/work", label: "Our Work" },
+  },
+  "seo-ads-article": {
+    eyebrow: "Make search investment useful",
+    title: "Choose the next move with more confidence.",
+    description:
+      "We connect clear websites, organic search, paid media, and practical measurement around the business outcome that matters next.",
+    primaryAction: { href: "/contact", label: "Plan Your Search Mix" },
+    secondaryAction: { href: "/paid-media", label: "Explore Paid Media" },
     brandDescription:
       "Velvet Ink Media connects web design, local search, content, paid media, and measurement around real business growth.",
     companyFeature: { href: "/work", label: "Our Work" },
