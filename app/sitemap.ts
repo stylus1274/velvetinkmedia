@@ -4,6 +4,7 @@ const routes = [
   "",
   "/services",
   "/web-design",
+  "/web-design-promo",
   "/local-seo",
   "/geo-aeo",
   "/paid-media",
