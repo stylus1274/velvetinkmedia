@@ -403,9 +403,9 @@ export default function LocalSeoPage() {
       <section className="lse-resources-section">
         <div className="lse-resources-heading"><p className="eyebrow">Tampa local SEO resources</p><h2>Useful answers before you hire an SEO company.</h2><p>Strong partnerships start with informed decisions. These resources explain key parts of local visibility in plain language.</p></div>
         <div className="lse-resource-grid">
-          <SiteLink href="https://www.velvetinkmedia.com/google-business-profile-optimization-tampa/"><span>Google Business Profile</span><h3>Optimization tips for Tampa businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
-          <SiteLink href="https://www.velvetinkmedia.com/top-5-local-seo-tips-for-tampa-small-businesses/"><span>Local SEO strategy</span><h3>Five practical tips for Tampa small businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
-          <SiteLink href="https://www.velvetinkmedia.com/seo-services-tampa/"><span>Search visibility</span><h3>What Tampa SEO services should include</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="/blog/google-business-profile-optimization"><span>Google Business Profile</span><h3>Optimization tips for Tampa businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="/blog/local-seo-domination-step-by-step-strategy"><span>Local SEO strategy</span><h3>Five practical tips for Tampa small businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="/blog/how-to-measure-local-seo-success"><span>Local SEO measurement</span><h3>How to measure local SEO success</h3><b>Read the article <ArrowIcon /></b></SiteLink>
         </div>
       </section>
 
