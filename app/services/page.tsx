@@ -139,13 +139,13 @@ export const metadata: Metadata = {
   description:
     "Explore connected AI search, SEO, web design, paid media, content, reputation, analytics, and conversion services built around real business growth.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/services/",
+    canonical: "https://www.velvetinkmedia.com/services",
   },
   openGraph: {
     title: "Connected Digital Marketing Services | Velvet Ink Media",
     description:
       "Web design, local SEO, GEO, AEO, paid media, content and measurement connected around one business goal.",
-    url: "https://www.velvetinkmedia.com/services/",
+    url: "https://www.velvetinkmedia.com/services",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -156,8 +156,8 @@ const structuredData = {
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://www.velvetinkmedia.com/services/#page",
-      url: "https://www.velvetinkmedia.com/services/",
+      "@id": "https://www.velvetinkmedia.com/services#page",
+      url: "https://www.velvetinkmedia.com/services",
       name: "Digital Marketing Services",
       description: "Connected digital marketing services from Velvet Ink Media including web design, local SEO, GEO and AEO, content, social media, and paid media.",
       mainEntity: {
@@ -178,7 +178,7 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Services", item: "https://www.velvetinkmedia.com/services/" },
+        { "@type": "ListItem", position: 2, name: "Services", item: "https://www.velvetinkmedia.com/services" },
       ],
     },
     {

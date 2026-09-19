@@ -121,7 +121,7 @@ export const metadata: Metadata = {
   title: "Digital Marketing Insights | Velvet Ink Media",
   description:
     "Practical guidance on local SEO, GEO, AEO, web design, paid media, content, and analytics for Tampa businesses.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/blog/" },
+  alternates: { canonical: "https://www.velvetinkmedia.com/blog" },
 };
 
 function ArrowIcon() {

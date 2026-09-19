@@ -98,6 +98,12 @@ export const legacyRedirects = [
   ["/demo-our-wordpress-admin-zahira", "/web-design"],
   ["/eventus-by-zahira", "/work"],
   ["/amavida-coffee-and-tea-site-launch", "/work"],
+
+  // Legacy WordPress sitemap endpoints
+  ["/sitemap_index.xml", "/sitemap.xml"],
+  ["/page-sitemap.xml", "/sitemap.xml"],
+  ["/post-sitemap.xml", "/sitemap.xml"],
+  ["/local-sitemap.xml", "/sitemap.xml"],
 ] as const;
 
 const nextConfig: NextConfig = {

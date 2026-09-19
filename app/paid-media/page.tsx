@@ -103,13 +103,13 @@ export const metadata: Metadata = {
   description:
     "Generate qualified leads with Tampa Google Ads and paid media management covering search, paid social, landing pages, tracking and optimization.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/paid-media/",
+    canonical: "https://www.velvetinkmedia.com/paid-media",
   },
   openGraph: {
     title: "Paid Media & Google Ads Management in Tampa",
     description:
       "Focused advertising campaigns built around qualified leads, clean measurement, and accountable growth.",
-    url: "https://www.velvetinkmedia.com/paid-media/",
+    url: "https://www.velvetinkmedia.com/paid-media",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -120,10 +120,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.velvetinkmedia.com/paid-media/#service",
+      "@id": "https://www.velvetinkmedia.com/paid-media#service",
       name: "Paid Media and Google Ads Management",
       serviceType: "Paid media management",
-      url: "https://www.velvetinkmedia.com/paid-media/",
+      url: "https://www.velvetinkmedia.com/paid-media",
       provider: {
         "@type": "ProfessionalService",
         "@id": "https://www.velvetinkmedia.com/#organization",
@@ -149,7 +149,7 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Paid Media", item: "https://www.velvetinkmedia.com/paid-media/" },
+        { "@type": "ListItem", position: 2, name: "Paid Media", item: "https://www.velvetinkmedia.com/paid-media" },
       ],
     },
     {

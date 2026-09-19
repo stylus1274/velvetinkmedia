@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/how-to-measure-local-seo-success/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/how-to-measure-local-seo-success";
 
 export const metadata: Metadata = {
   title: "How to Measure Local SEO Success: 12 Metrics That Matter",
@@ -68,7 +68,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 1,
           name: "Insights",
-          item: "https://www.velvetinkmedia.com/blog/",
+          item: "https://www.velvetinkmedia.com/blog",
         },
         {
           "@type": "ListItem",

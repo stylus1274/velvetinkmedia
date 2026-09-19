@@ -1,7 +1,12 @@
+import type { Metadata } from "next";
 import Image from "next/image";
 import SiteHeader from "./components/SiteHeader";
 import SiteFooter from "./components/SiteFooter";
 import SiteLink from "./components/SiteLink";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "https://www.velvetinkmedia.com" },
+};
 
 const discoveryStages = [
   {

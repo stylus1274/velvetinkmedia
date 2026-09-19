@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/google-business-profile-optimization/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/google-business-profile-optimization";
 
 export const metadata: Metadata = {
   title: "Google Business Profile Optimization: A Practical Checklist | Velvet Ink Media",
@@ -58,7 +58,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog/" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "Google Business Profile Optimization", item: pageUrl },
       ],
     },

@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-for-ai-search/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-for-ai-search";
 
 export const metadata: Metadata = {
   title: "Local SEO for AI Search: How Local Businesses Get Mentioned",
@@ -57,7 +57,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog/" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "Local SEO for AI Search", item: pageUrl },
       ],
     },

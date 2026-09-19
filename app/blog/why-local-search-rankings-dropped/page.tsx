@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/why-local-search-rankings-dropped/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/why-local-search-rankings-dropped";
 
 export const metadata: Metadata = {
   title: "Why Your Local Search Rankings Dropped: 10 Causes",
@@ -68,7 +68,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 1,
           name: "Insights",
-          item: "https://www.velvetinkmedia.com/blog/",
+          item: "https://www.velvetinkmedia.com/blog",
         },
         {
           "@type": "ListItem",

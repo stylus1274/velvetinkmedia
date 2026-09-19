@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-domination-step-by-step-strategy/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-domination-step-by-step-strategy";
 
 export const metadata: Metadata = {
   title: "Local SEO Domination: A Step-by-Step Strategy | Velvet Ink Media",
@@ -67,7 +67,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 1,
           name: "Insights",
-          item: "https://www.velvetinkmedia.com/blog/",
+          item: "https://www.velvetinkmedia.com/blog",
         },
         {
           "@type": "ListItem",

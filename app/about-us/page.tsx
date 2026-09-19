@@ -8,12 +8,12 @@ export const metadata: Metadata = {
   title: "About Velvet Ink Media | Tampa Marketing Agency",
   description:
     "Meet Velvet Ink Media, a Tampa Bay SEO, marketing and web design agency helping businesses build stronger digital foundations since 2008.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/about-us/" },
+  alternates: { canonical: "https://www.velvetinkmedia.com/about-us" },
   openGraph: {
     title: "About Velvet Ink Media",
     description:
       "A Tampa Bay team of SEO specialists, marketers and web designers helping businesses grow since 2008.",
-    url: "https://www.velvetinkmedia.com/about-us/",
+    url: "https://www.velvetinkmedia.com/about-us",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -24,8 +24,8 @@ const structuredData = {
   "@graph": [
     {
       "@type": "AboutPage",
-      "@id": "https://www.velvetinkmedia.com/about-us/#page",
-      url: "https://www.velvetinkmedia.com/about-us/",
+      "@id": "https://www.velvetinkmedia.com/about-us#page",
+      url: "https://www.velvetinkmedia.com/about-us",
       name: "About Velvet Ink Media",
       description:
         "Velvet Ink Media is a Tampa Bay SEO, marketing and web design agency established in 2008.",
@@ -52,7 +52,7 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.velvetinkmedia.com/about-us/" },
+        { "@type": "ListItem", position: 2, name: "About Us", item: "https://www.velvetinkmedia.com/about-us" },
       ],
     },
   ],

@@ -38,11 +38,11 @@ const faqs = [
 export const metadata: Metadata = {
   title: "Content Marketing Services Tampa | Velvet Ink Media",
   description: "Content strategy, writing, publishing, distribution, SEO, GEO and AEO support for Tampa businesses that want useful content tied to measurable growth.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/content-marketing/" },
+  alternates: { canonical: "https://www.velvetinkmedia.com/content-marketing" },
   openGraph: {
     title: "Content Marketing for Search, AI and Growth | Velvet Ink Media",
     description: "Plan, create, publish and distribute expert content that improves visibility, builds trust and helps customers take action.",
-    url: "https://www.velvetinkmedia.com/content-marketing/",
+    url: "https://www.velvetinkmedia.com/content-marketing",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -53,10 +53,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.velvetinkmedia.com/content-marketing/#service",
+      "@id": "https://www.velvetinkmedia.com/content-marketing#service",
       name: "Content Marketing Services",
       serviceType: "Content strategy, creation, publishing and distribution",
-      url: "https://www.velvetinkmedia.com/content-marketing/",
+      url: "https://www.velvetinkmedia.com/content-marketing",
       provider: { "@type": "ProfessionalService", "@id": "https://www.velvetinkmedia.com/#organization", name: "Velvet Ink Media", telephone: "+1-813-797-5515" },
       areaServed: [{ "@type": "City", name: "Tampa" }, { "@type": "AdministrativeArea", name: "Tampa Bay" }, { "@type": "State", name: "Florida" }],
       description: "Content marketing services connecting research, strategy, expert writing, SEO, GEO, AEO, publishing, distribution and measurement.",
@@ -65,7 +65,7 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Content Marketing", item: "https://www.velvetinkmedia.com/content-marketing/" },
+        { "@type": "ListItem", position: 2, name: "Content Marketing", item: "https://www.velvetinkmedia.com/content-marketing" },
       ],
     },
     {

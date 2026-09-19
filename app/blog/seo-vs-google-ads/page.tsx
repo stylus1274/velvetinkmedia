@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/seo-vs-google-ads/";
+const pageUrl = "https://www.velvetinkmedia.com/blog/seo-vs-google-ads";
 
 export const metadata: Metadata = {
   title: "SEO vs. Google Ads: Where Should a Business Invest First? | Velvet Ink Media",
@@ -57,7 +57,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog/" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "SEO vs. Google Ads", item: pageUrl },
       ],
     },

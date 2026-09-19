@@ -38,11 +38,11 @@ const faqs = [
 export const metadata: Metadata = {
   title: "Social Media Marketing Tampa | Velvet Ink Media",
   description: "Social media strategy, content creation, publishing, community management, paid social coordination and measurement for Tampa businesses.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/social-media/" },
+  alternates: { canonical: "https://www.velvetinkmedia.com/social-media" },
   openGraph: {
     title: "Social Media Marketing for Tampa Businesses | Velvet Ink Media",
     description: "Build a useful social media system connecting strategy, content, publishing, community, paid support and measurement.",
-    url: "https://www.velvetinkmedia.com/social-media/",
+    url: "https://www.velvetinkmedia.com/social-media",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -53,10 +53,10 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.velvetinkmedia.com/social-media/#service",
+      "@id": "https://www.velvetinkmedia.com/social-media#service",
       name: "Social Media Marketing Services",
       serviceType: "Social media strategy, content creation, publishing, community management and paid social coordination",
-      url: "https://www.velvetinkmedia.com/social-media/",
+      url: "https://www.velvetinkmedia.com/social-media",
       provider: { "@type": "ProfessionalService", "@id": "https://www.velvetinkmedia.com/#organization", name: "Velvet Ink Media", telephone: "+1-813-797-5515" },
       areaServed: [{ "@type": "City", name: "Tampa" }, { "@type": "AdministrativeArea", name: "Tampa Bay" }, { "@type": "State", name: "Florida" }],
       description: "Social media marketing services connecting strategy, platform-specific content, publishing, community management, paid support and measurement.",
@@ -65,7 +65,7 @@ const structuredData = {
       "@type": "BreadcrumbList",
       itemListElement: [
         { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Social Media Marketing", item: "https://www.velvetinkmedia.com/social-media/" },
+        { "@type": "ListItem", position: 2, name: "Social Media Marketing", item: "https://www.velvetinkmedia.com/social-media" },
       ],
     },
     {

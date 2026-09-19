@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Start a conversation with Velvet Ink Media about web design, local SEO, paid media, GEO, AEO, or a more connected digital marketing strategy.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/contact/",
+    canonical: "https://www.velvetinkmedia.com/contact",
   },
 };
 
@@ -17,7 +17,7 @@ const structuredData = {
   "@context": "https://schema.org",
   "@type": "ContactPage",
   name: "Contact Velvet Ink Media",
-  url: "https://www.velvetinkmedia.com/contact/",
+  url: "https://www.velvetinkmedia.com/contact",
   mainEntity: {
     "@type": "ProfessionalService",
     name: "Velvet Ink Media",
