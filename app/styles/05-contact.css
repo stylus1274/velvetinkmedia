@@ -87,6 +87,11 @@
 .contact-form textarea:focus { border-color: var(--purple-dark); box-shadow: 0 0 0 3px rgba(173,107,255,.18); }
 .contact-submit { width: 100%; margin-top: 26px; display: flex; justify-content: center; gap: 17px; border: 0; cursor: pointer; }
 .contact-submit svg { width: 39px; fill: none; stroke: currentColor; stroke-width: 1.7; }
+.contact-submit:disabled { cursor: wait; opacity: .72; }
+.contact-honeypot { position: absolute; left: -10000px; width: 1px; height: 1px; overflow: hidden; }
+.contact-form-status { margin: 18px 0 0; padding: 14px 16px; border: 1.5px solid var(--ink); border-radius: 10px; font-size: 15px; font-weight: 750; line-height: 1.5; }
+.contact-form-status-success { background: var(--lime-soft); }
+.contact-form-status-error { background: var(--peach-soft); }
 .contact-form-note { margin: 18px 0 0; color: var(--muted); font-size: 14px; text-align: center; }
 .contact-form-note a { color: inherit; font-weight: 850; }
 

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 import SiteHeader from "../components/SiteHeader";
 import SiteFooter from "../components/SiteFooter";
 import SiteLink from "../components/SiteLink";
+import ContactForm from "./ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact Velvet Ink Media | Tampa Marketing Agency",
@@ -64,56 +65,7 @@ export default function ContactPage() {
           </div>
         </div>
 
-        <form
-          className="contact-form"
-          id="project-form"
-          action="mailto:hello@velvetinkmedia.com"
-          method="post"
-          encType="text/plain"
-        >
-          <div className="contact-form-heading">
-            <span>Project inquiry</span>
-            <strong>Start here</strong>
-          </div>
-          <div className="contact-form-grid">
-            <label>
-              Your name
-              <input type="text" name="Name" autoComplete="name" placeholder="Name" required />
-            </label>
-            <label>
-              Email address
-              <input type="email" name="Email" autoComplete="email" placeholder="you@company.com" required />
-            </label>
-            <label>
-              Company
-              <input type="text" name="Company" autoComplete="organization" placeholder="Business name" />
-            </label>
-            <label>
-              Website
-              <input type="url" name="Website" autoComplete="url" placeholder="https://" />
-            </label>
-            <label className="contact-form-wide">
-              What do you need help with?
-              <select name="Service" defaultValue="">
-                <option value="" disabled>Select a service</option>
-                <option>Web Design</option>
-                <option>Local SEO</option>
-                <option>Paid Media</option>
-                <option>GEO &amp; AEO</option>
-                <option>Connected Marketing Strategy</option>
-                <option>Not sure yet</option>
-              </select>
-            </label>
-            <label className="contact-form-wide">
-              Tell us about the goal
-              <textarea name="Project details" rows={5} placeholder="What would you like your marketing to do better?" required />
-            </label>
-          </div>
-          <button className="button button-purple contact-submit" type="submit">
-            Send Project Details <ArrowIcon />
-          </button>
-          <p className="contact-form-note">Prefer email? Write directly to <SiteLink href="mailto:hello@velvetinkmedia.com">hello@velvetinkmedia.com</SiteLink>.</p>
-        </form>
+        <ContactForm />
       </section>
 
       <section className="contact-options" aria-label="Other ways to contact Velvet Ink Media">
