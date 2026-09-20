@@ -13,6 +13,7 @@ type CurrentPage =
   | "paid-media"
   | "work"
   | "blog"
+  | "legal"
   | "contact";
 
 const servicePages = [

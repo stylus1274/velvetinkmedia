@@ -15,6 +15,7 @@ const routes = [
   { path: "/about-us", lastModified: "2026-08-17" },
   { path: "/work", lastModified: "2026-08-17" },
   { path: "/contact", lastModified: "2026-09-19" },
+  { path: "/privacy-policy", lastModified: "2026-09-20" },
   { path: "/blog", lastModified: "2026-08-27" },
   {
     path: "/blog/how-search-is-changing-for-local-businesses",

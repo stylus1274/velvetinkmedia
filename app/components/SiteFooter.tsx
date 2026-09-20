@@ -321,7 +321,7 @@ export default function SiteFooter({ variant }: { variant: FooterVariant }) {
       </div>
       <div className="footer-bottom">
         <p>© 2026 Velvet Ink Media. All rights reserved.</p>
-        <div><SiteLink href="#top">Privacy</SiteLink><SiteLink href="#top">Terms</SiteLink></div>
+        <div><SiteLink href="/privacy-policy">Privacy Policy</SiteLink></div>
       </div>
     </footer>
   );
