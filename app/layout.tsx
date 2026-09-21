@@ -9,8 +9,8 @@ export const metadata: Metadata = {
   description:
     "Velvet Ink Media creates websites, local SEO strategies, and paid media campaigns for Tampa Bay businesses ready to grow.",
   icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
+    icon: [{ url: "/favicon.svg?v=2", type: "image/svg+xml" }],
+    shortcut: "/favicon.svg?v=2",
   },
 };
 
