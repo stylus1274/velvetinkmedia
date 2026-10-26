@@ -16,7 +16,7 @@ const routes = [
   { path: "/work", lastModified: "2026-08-17" },
   { path: "/contact", lastModified: "2026-09-19" },
   { path: "/privacy-policy", lastModified: "2026-09-20" },
-  { path: "/blog", lastModified: "2026-08-27" },
+  { path: "/blog", lastModified: "2026-10-26" },
   {
     path: "/blog/how-search-is-changing-for-local-businesses",
     lastModified: "2026-10-26",
@@ -40,6 +40,10 @@ const routes = [
   },
   {
     path: "/blog/local-seo-for-ai-search",
+    lastModified: "2026-10-26",
+  },
+  {
+    path: "/blog/google-maps-rankings-tampa-neighborhoods",
     lastModified: "2026-10-26",
   },
 ] as const;

@@ -85,6 +85,10 @@
 .local-drop-patterns { margin-top: 0; }
 .local-ranking-callout { margin-bottom: 0; }
 
+/* Tampa Google Maps rankings article */
+.tampa-map-rankings-page .article-hero h1 { max-width: 1640px; font-size: clamp(52px,5.7vw,110px); }
+.tampa-map-rankings-page #grid > h3 { margin: 58px 0 20px; font-size: 31px; letter-spacing: -.04em; }
+
 .local-ai-search-page .article-hero h1 { max-width: 1500px; font-size: clamp(52px,6.4vw,122px); }
 .local-ai-search-page .article-hero .article-deck { max-width: 1040px; }
 .local-ai-framework { margin-top: 48px; }
@@ -137,6 +141,7 @@
   .article-decision-graphic { min-height: 250px; max-width: 420px; width: 100%; margin: 5px auto 0; }
 }
 
+
 @media (max-width: 620px) {
   .article-key-takeaways { margin-top: 48px; padding: 24px 18px !important; border-radius: 18px; }
   .article-key-takeaways li { grid-template-columns: 27px 1fr; gap: 11px; }.article-key-takeaways svg { width: 23px; height: 23px; }
@@ -153,4 +158,3 @@
   .article-decision-orbit-one { width: 205px; height: 205px; right: 4%; top: 7px; }.article-decision-orbit-two { width: 128px; height: 128px; right: 22%; top: 45px; }
   .article-decision-node { min-width: 58px; height: 58px; font-size: 12px; }.article-decision-node-goal { left: 3%; top: 38%; }.article-decision-node-seo { right: 7%; top: 0; }.article-decision-node-ads { right: 0; bottom: 2%; }.article-decision-node-learn { right: 42%; bottom: 0; }
 }
-

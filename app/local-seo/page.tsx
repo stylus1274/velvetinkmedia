@@ -483,7 +483,7 @@ export default function LocalSeoPage() {
         <div className="lse-resources-heading"><p className="eyebrow">Tampa local SEO resources</p><h2>Useful answers before you hire an SEO company.</h2><p>Strong partnerships start with informed decisions. These resources explain key parts of local visibility in plain language.</p></div>
         <div className="lse-resource-grid">
           <SiteLink href="/blog/google-business-profile-optimization"><span>Google Business Profile</span><h3>Optimization tips for Tampa businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
-          <SiteLink href="/blog/local-seo-domination-step-by-step-strategy"><span>Local SEO strategy</span><h3>Five practical tips for Tampa small businesses</h3><b>Read the article <ArrowIcon /></b></SiteLink>
+          <SiteLink href="/blog/google-maps-rankings-tampa-neighborhoods"><span>Google Maps rankings</span><h3>Why rankings change across Tampa neighborhoods</h3><b>Read the article <ArrowIcon /></b></SiteLink>
           <SiteLink href="/blog/how-to-measure-local-seo-success"><span>Local SEO measurement</span><h3>How to measure local SEO success</h3><b>Read the article <ArrowIcon /></b></SiteLink>
         </div>
       </section>

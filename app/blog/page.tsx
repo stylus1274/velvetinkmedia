@@ -6,6 +6,17 @@ import SiteLink from "../components/SiteLink";
 
 const articles = [
   {
+    category: "Local Rankings",
+    date: "October 26, 2026",
+    readTime: "12 min read",
+    title: "Why Google Maps Rankings Change Across Tampa Neighborhoods",
+    excerpt: "See why map visibility changes from one Tampa neighborhood to another and how grid tracking reveals your real local reach.",
+    image: "/insights/local-search-rankings.webp",
+    alt: "SEO strategist reviewing Google Maps rankings across Tampa neighborhoods",
+    accent: "blue",
+    href: "/blog/google-maps-rankings-tampa-neighborhoods",
+  },
+  {
     category: "SEO + GEO + AEO",
     date: "August 15, 2026",
     readTime: "15 min read",
@@ -59,17 +70,6 @@ const articles = [
     alt: "Small-business owner reviewing profile details in a bright independent shop",
     accent: "purple",
     href: "/blog/google-business-profile-optimization",
-  },
-  {
-    category: "Local Rankings",
-    date: "July 11, 2026",
-    readTime: "6 min read",
-    title: "How local search rankings really work",
-    excerpt: "A practical look at proximity, relevance, prominence, and the signals a business can actually influence.",
-    image: "/insights/local-search-rankings.webp",
-    alt: "SEO strategist reviewing local search rankings on a desktop monitor",
-    accent: "blue",
-    href: "#featured",
   },
   {
     category: "Search Strategy",
