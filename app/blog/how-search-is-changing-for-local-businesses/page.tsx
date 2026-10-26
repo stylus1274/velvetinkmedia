@@ -11,6 +11,28 @@ export const metadata: Metadata = {
   alternates: {
     canonical: "https://velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
   },
+  openGraph: {
+    title: "How Search Is Changing for Local Businesses",
+    description:
+      "Learn how SEO, GEO, and AEO work together and what local businesses should prioritize as customers increasingly use AI-generated answers.",
+    url: "https://velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
+    type: "article",
+    publishedTime: "2026-08-02",
+    modifiedTime: "2026-10-26",
+    images: [{
+      url: "https://velvetinkmedia.com/insights/how-search-is-changing-local-businesses.webp",
+      width: 1536,
+      height: 1024,
+      alt: "Traditional search branching into Maps, reviews, voice search, and AI discovery around a Tampa storefront",
+    }],
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "How Search Is Changing for Local Businesses",
+    description:
+      "Learn how SEO, GEO, and AEO work together and what local businesses should prioritize as customers increasingly use AI-generated answers.",
+    images: ["https://velvetinkmedia.com/insights/how-search-is-changing-local-businesses.webp"],
+  },
 };
 
 const structuredData = {
@@ -19,7 +41,8 @@ const structuredData = {
   headline: "How Search Is Changing for Local Businesses",
   description: "How SEO, GEO, and AEO work together and what local businesses should prioritize as customers increasingly use AI-generated answers.",
   datePublished: "2026-08-02",
-  dateModified: "2026-08-02",
+  dateModified: "2026-10-26",
+  image: "https://velvetinkmedia.com/insights/how-search-is-changing-local-businesses.webp",
   author: {
     "@type": "Person",
     name: "Charlie Boudreau",
@@ -63,7 +86,7 @@ export default function SearchArticlePage() {
       </header>
 
       <figure className="article-feature-image">
-        <Image src="/outcomes/visibility-photo.webp" width={1280} height={853} alt="Marketing professional reviewing search visibility performance" preload />
+        <Image src="/insights/how-search-is-changing-local-businesses.webp" width={1536} height={1024} alt="Traditional search branching into Maps, reviews, voice search, and AI discovery around a Tampa storefront" preload />
         <figcaption><span>SEO</span><span>GEO</span><span>AEO</span></figcaption>
       </figure>
 
