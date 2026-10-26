@@ -27,10 +27,10 @@ export const metadata: Metadata = {
       "See why one business can rank differently across Tampa and how to measure its real local search coverage.",
     images: [
       {
-        url: "/insights/local-search-rankings.webp",
-        width: 1200,
-        height: 800,
-        alt: "SEO strategist reviewing Google Maps rankings across Tampa neighborhoods",
+        url: "/insights/google-maps-rankings-tampa-neighborhoods.webp",
+        width: 1536,
+        height: 1024,
+        alt: "Tampa-inspired aerial map with neighborhood ranking zones and colorful location pins",
       },
     ],
   },
@@ -44,7 +44,7 @@ const structuredData = {
       headline: "Why Google Maps Rankings Change Across Tampa Neighborhoods",
       description:
         "An explanation of how proximity, relevance, prominence, and local competition change Google Maps visibility across Tampa.",
-      image: "https://velvetinkmedia.com/insights/local-search-rankings.webp",
+      image: "https://velvetinkmedia.com/insights/google-maps-rankings-tampa-neighborhoods.webp",
       datePublished: "2026-10-26",
       dateModified: "2026-10-26",
       author: { "@type": "Person", name: "Charlie Boudreau" },
@@ -118,7 +118,7 @@ export default function TampaGoogleMapsRankingsArticle() {
       </header>
 
       <figure className="article-feature-image local-guide-feature">
-        <Image src="/insights/local-search-rankings.webp" width={1200} height={800} alt="SEO strategist reviewing Google Maps rankings across Tampa neighborhoods" preload />
+        <Image src="/insights/google-maps-rankings-tampa-neighborhoods.webp" width={1536} height={1024} alt="Tampa-inspired aerial map with neighborhood ranking zones and colorful location pins" preload />
         <figcaption><span>Location</span><span>Competition</span><span>Visibility</span></figcaption>
       </figure>
 
