@@ -357,7 +357,7 @@ export default function LocalRankingRecoveryArticle() {
           <section className="article-conclusion">
             <h2>Treat a ranking decline like a diagnosis, not a panic button.</h2>
             <p>The most effective recovery begins by proving what changed and narrowing the cause. Preserve the evidence, separate Maps from organic search, correct confirmed failures, and monitor the business outcomes that rankings are supposed to produce.</p>
-            <p>For ongoing tracking, use our <SiteLink href="/blog/how-to-measure-local-seo-success">12 local SEO metrics that actually matter</SiteLink>. For the strategy behind stronger visibility, follow our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination process</SiteLink>. You can also explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">ask us to review the decline</SiteLink>.</p>
+            <p>For ongoing tracking, use our <SiteLink href="/blog/how-to-measure-local-seo-success">12 local SEO metrics that actually matter</SiteLink>. For the strategy behind stronger visibility, follow our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination process</SiteLink>. You can also explore our <SiteLink href="/local-seo">local search optimization services in Tampa</SiteLink> or <SiteLink href="/contact">ask us to review the decline</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">

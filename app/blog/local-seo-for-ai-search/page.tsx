@@ -283,7 +283,7 @@ export default function LocalSeoForAiSearchPage() {
           <section className="article-conclusion">
             <h2>Make the business easy to understand and hard to overlook.</h2>
             <p>AI search optimization is not a shortcut around local SEO. It is the work of making your business&apos;s expertise, services, location, reputation, and evidence easier to retrieve and trust across a growing number of discovery experiences.</p>
-            <p>Start with the <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>, strengthen the pages and sources that support your most important claims, and measure whether increased visibility creates qualified demand.</p>
+            <p>Start with the <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>, strengthen the pages and sources that support your most important claims, and measure whether increased visibility creates qualified demand. For hands-on help in this market, explore our <SiteLink href="/local-seo">Tampa local SEO services</SiteLink>.</p>
           </section>
 
           <aside className="article-source-note">

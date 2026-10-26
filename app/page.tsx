@@ -775,7 +775,7 @@ export default function Home() {
               </div>
               <div>
                 <p>
-                  Conversion-minded WordPress websites that look polished,
+                  Conversion-minded websites that look polished,
                   communicate clearly, and make the next step easy.
                 </p>
                 <SiteLink href="/web-design">

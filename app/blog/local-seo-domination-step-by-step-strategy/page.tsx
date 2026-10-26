@@ -413,7 +413,7 @@ export default function LocalSeoDominationArticle() {
           <section className="article-conclusion">
             <h2>Build the local presence competitors cannot easily copy.</h2>
             <p>The strongest local SEO strategy combines technical discipline with real business substance. Accurate information, useful service pages, authentic reviews, local knowledge, strong relationships, and consistent execution create an advantage that shortcuts cannot match.</p>
-            <p>If you want help applying this local SEO guide to Tampa Bay or another priority market, explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation with Velvet Ink Media</SiteLink>.</p>
+            <p>If you want help applying this local SEO guide to Tampa Bay or another priority market, explore our <SiteLink href="/local-seo">Tampa local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation with Velvet Ink Media</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">

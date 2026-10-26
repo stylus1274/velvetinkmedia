@@ -126,7 +126,7 @@ export default function GoogleBusinessProfileOptimizationPage() {
         <article className="article-content">
           <p className="article-intro">Your Google Business Profile is often the first version of your business a nearby customer sees. Before they visit the website, call, ask for directions, or compare alternatives, they may use the profile to decide whether your business looks current, legitimate, and relevant to what they need.</p>
           <p>That makes profile optimization less about finding a hidden ranking trick and more about maintaining a clear, accurate customer-information system. The strongest profiles help people answer simple but important questions quickly: What do you do? Where do you operate? When are you available? Why should someone choose you?</p>
-          <p>This guide explains how to approach that work in a way that supports both the profile and the wider <SiteLink href="/local-seo">local SEO system</SiteLink> around it.</p>
+          <p>This guide explains how to approach that work in a way that supports both the profile and the wider <SiteLink href="/local-seo">Tampa local SEO strategy</SiteLink> around it.</p>
 
           <section className="article-key-takeaways" id="takeaways">
             <p>Key takeaways</p>

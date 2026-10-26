@@ -65,6 +65,52 @@ const industries = [
   ["Specialty local businesses", "Mobility providers, contractors, niche retailers, and businesses with complex services or longer customer journeys."],
 ];
 
+const tampaAuditPriorities = [
+  [
+    "01",
+    "Tampa is not one ranking grid",
+    "A business can appear differently in Downtown Tampa, South Tampa, Carrollwood, Westchase, or New Tampa. We measure visibility from the neighborhoods that produce customers instead of relying on one city-center ranking check.",
+  ],
+  [
+    "02",
+    "Service areas need real boundaries",
+    "A territory stretching from Westchase to Brandon or Riverview can involve very different travel times, competitors, and customer expectations. We connect search priorities to the places the business can serve well and profitably.",
+  ],
+  [
+    "03",
+    "Local pages need local substance",
+    "Changing a city name is not a location strategy. Useful Tampa-focused pages should include relevant services, first-hand knowledge, proof, customer questions, and a clear reason the business fits that market.",
+  ],
+  [
+    "04",
+    "Visibility must lead somewhere useful",
+    "A Maps impression or organic ranking only creates value when the next step works. We review the path from the search result to the mobile page, call, form, directions, booking, and qualified sales conversation.",
+  ],
+];
+
+const buyerQuestions = [
+  [
+    "Investment",
+    "What does local SEO cost in Tampa?",
+    "Cost depends on the market, number of locations and services, current website, profile health, competition, and amount of implementation required. We begin with an audit, then provide a defined scope instead of applying one package to every business.",
+  ],
+  [
+    "Timing",
+    "How long does local SEO take?",
+    "Some corrections can create early movement, but meaningful progress usually develops over several months. The starting position, proximity, competition, review profile, site quality, and implementation pace all affect timing.",
+  ],
+  [
+    "Monthly work",
+    "What is included in an engagement?",
+    "Work is prioritized from the roadmap and may include Business Profile improvements, website and content updates, technical SEO, review systems, citation cleanup, authority building, tracking, and monthly reporting.",
+  ],
+  [
+    "Terms",
+    "Do I need a long-term contract?",
+    "The right structure depends on the work. Foundational cleanup may be project-based, while competitive growth usually needs ongoing execution. The scope, cadence, term, renewal, and cancellation details are documented before you approve an engagement.",
+  ],
+];
+
 const serviceAreas = [
   "Tampa",
   "Downtown Tampa",
@@ -95,6 +141,18 @@ const faqs = [
   {
     question: "How long does local SEO take?",
     answer: "Meaningful progress usually develops over several months, but timing depends on your starting point, competition, location, website quality, review profile, and how quickly improvements are implemented. Early wins may appear sooner, while competitive services and markets typically require sustained work.",
+  },
+  {
+    question: "How much does local SEO cost in Tampa?",
+    answer: "Local SEO pricing depends on the market, number of locations and services, current website, Business Profile health, competition, and amount of implementation required. We begin with an audit and provide a defined scope that explains the priorities, deliverables, reporting, and engagement terms before work begins.",
+  },
+  {
+    question: "What is included in a local SEO engagement?",
+    answer: "The exact mix follows the priorities in your roadmap. Work may include Google Business Profile improvements, website and content updates, technical SEO, review systems, citation cleanup, local authority building, conversion tracking, and monthly reporting. Your proposal identifies what is included rather than assuming every business needs the same checklist.",
+  },
+  {
+    question: "Do I need a long-term local SEO contract?",
+    answer: "The engagement structure depends on the work. Foundational cleanup may be project-based, while competitive growth usually requires ongoing execution. Any scope, cadence, minimum term, renewal, and cancellation details are documented before you approve an engagement.",
   },
   {
     question: "Can you guarantee first-place rankings or a Google Maps 3-pack position?",
@@ -392,12 +450,33 @@ export default function LocalSeoPage() {
         </div>
       </section>
 
+      <section className="lse-tampa-insights-section">
+        <div className="lse-section-heading">
+          <div><p className="eyebrow">Inside a Tampa local SEO audit</p><h2>Start with the realities of this market.</h2></div>
+          <p>Tampa visibility is shaped by more than adding the city name to a page. Geography, realistic service coverage, local competition, and the path from search to lead all change what should be prioritized.</p>
+        </div>
+        <div className="lse-tampa-insights-grid">
+          {tampaAuditPriorities.map(([number, title, copy]) => <article key={number}><span>{number}</span><h3>{title}</h3><p>{copy}</p></article>)}
+        </div>
+      </section>
+
       <section className="lse-industry-section">
         <div className="lse-section-heading">
           <div><p className="eyebrow">Local SEO for Tampa businesses</p><h2>Built around how your customers search and choose.</h2></div>
           <p>The same tactics do not fit every industry. Search intent, sales cycles, service areas, regulations, competition, and conversion paths should shape the strategy.</p>
         </div>
         <div className="lse-industry-grid">{industries.map(([title, copy], index) => <article key={title}><span>0{index + 1}</span><h3>{title}</h3><p>{copy}</p></article>)}</div>
+      </section>
+
+      <section className="lse-buyer-section">
+        <div className="lse-section-heading">
+          <div><p className="eyebrow">Before you hire a local SEO company</p><h2>Know what the engagement should answer.</h2></div>
+          <p>A proposal should make the investment, expected timing, work plan, reporting, and terms understandable before you commit.</p>
+        </div>
+        <div className="lse-buyer-grid">
+          {buyerQuestions.map(([label, title, copy]) => <article key={label}><span>{label}</span><h3>{title}</h3><p>{copy}</p></article>)}
+        </div>
+        <div className="lse-buyer-cta"><p>Need a scope built around your actual Tampa market and starting point?</p><SiteLink className="capability-button" href="/contact">Request a Local SEO Audit <ArrowIcon /></SiteLink></div>
       </section>
 
       <section className="lse-resources-section">

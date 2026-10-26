@@ -18,7 +18,7 @@ type CurrentPage =
 
 const servicePages = [
   { key: "services", href: "/services", label: "Services Overview", note: "See how every service connects" },
-  { key: "web-design", href: "/web-design", label: "Web Design", note: "Strategy, UX, and WordPress" },
+  { key: "web-design", href: "/web-design", label: "Web Design", note: "Strategy, UX, and development" },
   { key: "local-seo", href: "/local-seo", label: "Local SEO", note: "Maps, organic visibility, and trust" },
   { key: "geo-aeo", href: "/geo-aeo", label: "GEO + AEO", note: "Search visibility in AI answers" },
   { key: "content-marketing", href: "/content-marketing", label: "Content Marketing", note: "Strategy, creation, and distribution" },

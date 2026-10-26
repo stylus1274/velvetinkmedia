@@ -84,7 +84,7 @@ const faqs = [
 export const metadata = {
   title: "Website Redesign For Tampa Businesses | Velvet Ink Media",
   description:
-    "Get a clearer, faster, conversion-focused website built for Tampa businesses. Strategy, design, WordPress development, SEO, and lead tracking.",
+    "Get a clearer, faster, conversion-focused website built for Tampa businesses. Strategy, design, development, SEO, and lead tracking.",
   alternates: {
     canonical: "https://www.velvetinkmedia.com/web-design-promo",
   },
@@ -122,7 +122,7 @@ export default function WebDesignPromoPage() {
         },
         url: "https://www.velvetinkmedia.com/web-design-promo",
         description:
-          "Conversion-focused website redesign and WordPress web design for Tampa businesses.",
+          "Conversion-focused website redesign and web design for Tampa businesses.",
       },
       {
         "@type": "FAQPage",

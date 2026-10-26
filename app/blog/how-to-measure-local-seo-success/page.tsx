@@ -385,7 +385,7 @@ export default function LocalSeoMetricsArticle() {
           <section className="article-conclusion">
             <h2>Measure the customer path, not just the search result.</h2>
             <p>Local SEO success is not one number. It is a connected story that starts with visibility and ends with profitable customers. Track each layer, find where momentum stalls, and use the evidence to choose the next improvement.</p>
-            <p>For the execution plan behind these metrics, read our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>. If you want help connecting search visibility to qualified leads, explore our <SiteLink href="/local-seo">local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation</SiteLink>.</p>
+            <p>For the execution plan behind these metrics, read our <SiteLink href="/blog/local-seo-domination-step-by-step-strategy">Local SEO Domination strategy</SiteLink>. If you want help connecting search visibility to qualified leads, explore our <SiteLink href="/local-seo">Tampa local SEO services</SiteLink> or <SiteLink href="/contact">start a conversation</SiteLink>.</p>
           </section>
 
           <aside className="article-author-card">

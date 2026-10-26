@@ -8,7 +8,7 @@ const primaryServices = [
     number: "01",
     eyebrow: "Strategy · UX · Development",
     title: "Web Design",
-    description: "Conversion-minded WordPress websites that explain the business clearly, support search visibility, and make the next step easy.",
+    description: "Conversion-minded websites that explain the business clearly, support search visibility, and make the next step easy.",
     bestFor: "Businesses that need a stronger digital foundation",
     href: "/web-design",
     cta: "Explore Web Design",
@@ -77,7 +77,7 @@ const supportingServices = [
   ["Analytics & Tracking", "Connect website, search, advertising, calls, forms, and lead activity so decisions are based on meaningful outcomes."],
   ["Conversion Optimization", "Improve messaging, page flow, forms, calls to action, and landing experiences so more qualified visitors take the next step."],
   ["Brand Messaging", "Clarify what the business does, who it serves, why it is different, and how that message should appear across every channel."],
-  ["Website Hosting & Support", "Keep WordPress websites secure, updated, backed up, monitored, and ready to support ongoing marketing work."],
+  ["Website Hosting & Support", "Keep business websites secure, updated, backed up, monitored, and ready to support ongoing marketing work."],
 ];
 
 const combinations = [

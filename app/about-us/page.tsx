@@ -92,7 +92,7 @@ const roots = [
   {
     number: "06",
     title: "Ecommerce Development",
-    text: "We create and build ecommerce websites that help businesses sell products, books or digital downloads online using WooCommerce for WordPress.",
+    text: "We create and build ecommerce websites that help businesses sell products, books, or digital downloads through a flexible, scalable storefront.",
     color: "rose",
   },
 ];
@@ -126,7 +126,7 @@ export default function AboutPage() {
         <div className="about-story-v2-copy">
           <p className="about-story-lead">Established in Tampa Bay, Florida, we have been marketing, designing and developing websites since 2008.</p>
           <p>Our list of satisfied clients includes small businesses and corporations, law firms, medical practices, event professionals, nonprofit organizations and entrepreneurs. Working with clients from different industries and backgrounds, we enjoy the diversity and challenges that come with each project.</p>
-          <p>From custom WordPress websites and rebranding to content management, search engine optimization, website support and hosting, our goal is to become our clients&apos; trusted partner for all their online and marketing needs.</p>
+          <p>From custom websites and rebranding to content management, search engine optimization, website support and hosting, our goal is to become our clients&apos; trusted partner for all their online and marketing needs.</p>
           <SiteLink className="button button-purple" href="/contact">Work With Velvet Ink Media</SiteLink>
         </div>
         <div className="about-fact-line" aria-label="Company facts">
@@ -165,13 +165,13 @@ export default function AboutPage() {
         </div>
       </section>
 
-      <section className="about-wordpress-v2">
-        <div className="about-wp-mark" aria-hidden="true"><small>Built with</small><strong>WP</strong><span>Open source. Flexible. Supported.</span></div>
-        <div className="about-wordpress-v2-copy">
-          <p className="eyebrow">WordPress specialists</p>
+      <section className="about-platform-v2">
+        <div className="about-platform-mark" aria-hidden="true"><small>Built for</small><strong>WEB</strong><span>Flexible. Scalable. Supported.</span></div>
+        <div className="about-platform-v2-copy">
+          <p className="eyebrow">Flexible website foundations</p>
           <h2>Built for flexibility, functionality and usability.</h2>
-          <p>Velvet Ink Media specializes in the open-source content management system WordPress. A CMS gives clients the freedom to edit, add or delete website content as it becomes more or less relevant for their target customer.</p>
-          <p>Our built-from-scratch themes work within the WordPress framework to support full functionality and maximum usability.</p>
+          <p>We recommend the content management and development approach that best fits each business. A well-planned CMS gives clients the freedom to edit, add, or remove website content as their services and customer needs change.</p>
+          <p>Our websites are built around real requirements, giving teams the functionality, usability, performance, and room for growth they need.</p>
           <SiteLink className="button button-outline" href="/web-design">Explore Web Design</SiteLink>
         </div>
       </section>

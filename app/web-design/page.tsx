@@ -19,9 +19,9 @@ const deliverables = [
   },
   {
     number: "03",
-    title: "WordPress Development",
-    copy: "Build a flexible WordPress website your team can manage without sacrificing performance, structure, or visual quality.",
-    tags: ["WordPress", "Divi"],
+    title: "Website Development",
+    copy: "Build a flexible, scalable website your team can manage without sacrificing performance, structure, or visual quality.",
+    tags: ["Performance", "Scalability"],
     accent: "purple",
   },
   {
@@ -64,7 +64,7 @@ const audiences = [
 export const metadata = {
   title: "Tampa Web Design Services | Velvet Ink Media",
   description:
-    "Conversion-focused WordPress web design for Tampa businesses, built with strong UX, SEO, GEO, AEO, analytics, and lead generation foundations.",
+    "Conversion-focused web design for Tampa businesses, built with strong UX, SEO, GEO, AEO, analytics, and lead generation foundations.",
   alternates: { canonical: "https://www.velvetinkmedia.com/web-design" },
 };
 
@@ -86,7 +86,7 @@ export default function WebDesignPage() {
           <p className="eyebrow">Web design services for Tampa businesses</p>
           <h1>Websites built to <span>work harder.</span></h1>
           <p className="wds-lead">
-            We design structured, conversion-focused WordPress websites that
+            We design structured, conversion-focused websites that
             communicate clearly, support search visibility, and give every
             marketing channel a stronger place to send people.
           </p>
@@ -226,7 +226,7 @@ export default function WebDesignPage() {
         <div className="lse-faq-heading"><p className="eyebrow">Frequently asked questions</p><h2>What businesses ask before starting a website project.</h2></div>
         <div className="lse-faq-list">
           <details><summary>How long does a website project take?<span>+</span></summary><p>Timing depends on page count, content readiness, functionality, and feedback speed. Most business websites require several weeks, while larger or more complex projects need a longer schedule.</p></details>
-          <details><summary>Do you only build WordPress websites?<span>+</span></summary><p>WordPress is our primary platform because it offers flexibility, strong content management, and room to grow. We recommend the platform based on what the business needs, not simply because it is familiar.</p></details>
+          <details><summary>What platforms do you build websites on?<span>+</span></summary><p>We recommend the platform and technology based on the business&apos;s goals, content needs, functionality, integrations, budget, and plans for growth. The right foundation should be manageable, flexible, and able to support the strategy long after launch.</p></details>
           <details><summary>Will the website be optimized for SEO?<span>+</span></summary><p>Yes. Site architecture, heading structure, metadata, performance, mobile usability, schema opportunities, and crawlability are considered during the build. Ongoing SEO strategy is available separately.</p></details>
           <details><summary>Can you help with website copy?<span>+</span></summary><p>Yes. Content strategy and copywriting can be included so the design and message are developed together instead of forcing weak content into finished layouts.</p></details>
           <details><summary>Can you host and maintain the website?<span>+</span></summary><p>Yes. Hosting, updates, maintenance, troubleshooting, and ongoing improvements can be included after launch.</p></details>
