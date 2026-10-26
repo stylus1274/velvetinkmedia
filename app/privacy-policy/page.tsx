@@ -8,7 +8,7 @@ export const metadata: Metadata = {
   description:
     "Read how Velvet Ink Media collects, uses, protects, and shares information submitted through velvetinkmedia.com.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/privacy-policy",
+    canonical: "https://velvetinkmedia.com/privacy-policy",
   },
 };
 

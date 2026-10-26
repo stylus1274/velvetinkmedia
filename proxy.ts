@@ -3,6 +3,7 @@ import type { NextRequest } from "next/server";
 import { legacyRedirects } from "./next.config";
 
 const legacyRedirectMap = new Map<string, string>(legacyRedirects);
+const canonicalHost = "velvetinkmedia.com";
 
 const retiredPaths = new Set([
   "/checkout",
@@ -15,6 +16,23 @@ const retiredPaths = new Set([
 ]);
 
 export function proxy(request: NextRequest) {
+  const forwardedHost = request.headers
+    .get("x-forwarded-host")
+    ?.split(",")[0]
+    .trim()
+    .split(":")[0]
+    .toLowerCase();
+  const requestHost =
+    forwardedHost ?? request.headers.get("host")?.split(":")[0].toLowerCase();
+
+  if (requestHost === `www.${canonicalHost}`) {
+    const destination = request.nextUrl.clone();
+    destination.protocol = "https:";
+    destination.hostname = canonicalHost;
+    destination.port = "";
+    return NextResponse.redirect(destination, 308);
+  }
+
   let decodedPathname = request.nextUrl.pathname;
   try {
     decodedPathname = decodeURIComponent(decodedPathname);

@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-for-ai-search";
+const pageUrl = "https://velvetinkmedia.com/blog/local-seo-for-ai-search";
 
 export const metadata: Metadata = {
   title: "Local SEO for AI Search: How Local Businesses Get Mentioned",
@@ -41,14 +41,14 @@ const structuredData = {
       "@type": "BlogPosting",
       headline: "Local SEO for AI Search: How to Get Mentioned in ChatGPT, Gemini, and Google AI Overviews",
       description: "A practical framework for improving a local business's visibility in AI-generated answers and traditional local search.",
-      image: "https://www.velvetinkmedia.com/insights/local-seo-ai-search-featured.webp",
+      image: "https://velvetinkmedia.com/insights/local-seo-ai-search-featured.webp",
       datePublished: "2026-08-15",
       dateModified: "2026-08-15",
       author: { "@type": "Person", name: "Charlie Boudreau" },
       publisher: {
         "@type": "Organization",
         name: "Velvet Ink Media",
-        logo: { "@type": "ImageObject", url: "https://www.velvetinkmedia.com/velvet-ink-logo.png" },
+        logo: { "@type": "ImageObject", url: "https://velvetinkmedia.com/velvet-ink-logo.png" },
       },
       mainEntityOfPage: pageUrl,
       articleSection: "SEO, GEO and AEO",
@@ -57,7 +57,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "Local SEO for AI Search", item: pageUrl },
       ],
     },

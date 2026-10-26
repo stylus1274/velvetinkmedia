@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/why-local-search-rankings-dropped";
+const pageUrl = "https://velvetinkmedia.com/blog/why-local-search-rankings-dropped";
 
 export const metadata: Metadata = {
   title: "Why Your Local Search Rankings Dropped: 10 Causes",
@@ -44,7 +44,7 @@ const structuredData = {
       headline: "Why Your Local Search Rankings Dropped: 10 Causes and How to Recover",
       description:
         "A practical troubleshooting process for diagnosing local ranking declines and choosing the right recovery action.",
-      image: "https://www.velvetinkmedia.com/insights/local-ranking-drop-featured.webp",
+      image: "https://velvetinkmedia.com/insights/local-ranking-drop-featured.webp",
       datePublished: "2026-08-15",
       dateModified: "2026-08-15",
       author: { "@type": "Person", name: "Charlie Boudreau" },
@@ -53,7 +53,7 @@ const structuredData = {
         name: "Velvet Ink Media",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.velvetinkmedia.com/velvet-ink-logo.png",
+          url: "https://velvetinkmedia.com/velvet-ink-logo.png",
         },
       },
       mainEntityOfPage: pageUrl,
@@ -68,7 +68,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 1,
           name: "Insights",
-          item: "https://www.velvetinkmedia.com/blog",
+          item: "https://velvetinkmedia.com/blog",
         },
         {
           "@type": "ListItem",

@@ -7,8 +7,8 @@ const routes = [
   { path: "/services", lastModified: "2026-08-27" },
   { path: "/web-design", lastModified: "2026-08-17" },
   { path: "/web-design-promo", lastModified: "2026-09-18" },
-  { path: "/local-seo", lastModified: "2026-09-19" },
-  { path: "/geo-aeo", lastModified: "2026-08-17" },
+  { path: "/local-seo", lastModified: "2026-10-26" },
+  { path: "/geo-aeo", lastModified: "2026-10-26" },
   { path: "/paid-media", lastModified: "2026-08-17" },
   { path: "/content-marketing", lastModified: "2026-08-17" },
   { path: "/social-media", lastModified: "2026-08-17" },
@@ -19,34 +19,34 @@ const routes = [
   { path: "/blog", lastModified: "2026-08-27" },
   {
     path: "/blog/how-search-is-changing-for-local-businesses",
-    lastModified: "2026-08-02",
+    lastModified: "2026-10-26",
   },
   {
     path: "/blog/google-business-profile-optimization",
-    lastModified: "2026-08-27",
+    lastModified: "2026-10-26",
   },
   { path: "/blog/seo-vs-google-ads", lastModified: "2026-08-27" },
   {
     path: "/blog/how-to-measure-local-seo-success",
-    lastModified: "2026-08-15",
+    lastModified: "2026-10-26",
   },
   {
     path: "/blog/local-seo-domination-step-by-step-strategy",
-    lastModified: "2026-08-15",
+    lastModified: "2026-10-26",
   },
   {
     path: "/blog/why-local-search-rankings-dropped",
-    lastModified: "2026-08-15",
+    lastModified: "2026-10-26",
   },
   {
     path: "/blog/local-seo-for-ai-search",
-    lastModified: "2026-08-15",
+    lastModified: "2026-10-26",
   },
 ] as const;
 
 export default function sitemap(): MetadataRoute.Sitemap {
   return routes.map(({ path, lastModified }) => ({
-    url: `https://www.velvetinkmedia.com${path}`,
+    url: `https://velvetinkmedia.com${path}`,
     lastModified,
     changeFrequency: path === "" ? "weekly" : "monthly",
     priority: path === "" ? 1 : path === "/blog" ? 0.8 : 0.7,

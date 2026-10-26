@@ -86,13 +86,13 @@ export const metadata = {
   description:
     "Get a clearer, faster, conversion-focused website built for Tampa businesses. Strategy, design, development, SEO, and lead tracking.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/web-design-promo",
+    canonical: "https://velvetinkmedia.com/web-design-promo",
   },
   openGraph: {
     title: "Website Redesign For Tampa Businesses | Velvet Ink Media",
     description:
       "A stronger website for clearer messaging, better usability, search visibility, and qualified leads.",
-    url: "https://www.velvetinkmedia.com/web-design-promo",
+    url: "https://velvetinkmedia.com/web-design-promo",
     images: [
       {
         url: "/web-design-promo-hero.webp",
@@ -114,13 +114,13 @@ export default function WebDesignPromoPage() {
         provider: {
           "@type": "Organization",
           name: "Velvet Ink Media",
-          url: "https://www.velvetinkmedia.com/",
+          url: "https://velvetinkmedia.com/",
         },
         areaServed: {
           "@type": "AdministrativeArea",
           name: "Tampa Bay, Florida",
         },
-        url: "https://www.velvetinkmedia.com/web-design-promo",
+        url: "https://velvetinkmedia.com/web-design-promo",
         description:
           "Conversion-focused website redesign and web design for Tampa businesses.",
       },

@@ -5,7 +5,7 @@ import SiteFooter from "./components/SiteFooter";
 import SiteLink from "./components/SiteLink";
 
 export const metadata: Metadata = {
-  alternates: { canonical: "https://www.velvetinkmedia.com" },
+  alternates: { canonical: "https://velvetinkmedia.com" },
 };
 
 const discoveryStages = [

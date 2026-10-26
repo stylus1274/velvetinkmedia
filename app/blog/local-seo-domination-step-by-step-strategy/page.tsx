@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/local-seo-domination-step-by-step-strategy";
+const pageUrl = "https://velvetinkmedia.com/blog/local-seo-domination-step-by-step-strategy";
 
 export const metadata: Metadata = {
   title: "Local SEO Domination: A Step-by-Step Strategy | Velvet Ink Media",
@@ -43,7 +43,7 @@ const structuredData = {
       headline: "Local SEO Domination: A Step-by-Step Strategy",
       description:
         "A practical 12-step local SEO guide covering local keyword research, Google Business Profile optimization, website improvements, reviews, authority, and measurement.",
-      image: "https://www.velvetinkmedia.com/insights/local-seo-domination-featured.webp",
+      image: "https://velvetinkmedia.com/insights/local-seo-domination-featured.webp",
       datePublished: "2026-08-15",
       dateModified: "2026-08-15",
       author: { "@type": "Person", name: "Charlie Boudreau" },
@@ -52,7 +52,7 @@ const structuredData = {
         name: "Velvet Ink Media",
         logo: {
           "@type": "ImageObject",
-          url: "https://www.velvetinkmedia.com/velvet-ink-logo.png",
+          url: "https://velvetinkmedia.com/velvet-ink-logo.png",
         },
       },
       mainEntityOfPage: pageUrl,
@@ -67,7 +67,7 @@ const structuredData = {
           "@type": "ListItem",
           position: 1,
           name: "Insights",
-          item: "https://www.velvetinkmedia.com/blog",
+          item: "https://velvetinkmedia.com/blog",
         },
         {
           "@type": "ListItem",

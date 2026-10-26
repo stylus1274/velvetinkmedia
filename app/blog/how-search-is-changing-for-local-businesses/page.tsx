@@ -9,7 +9,7 @@ export const metadata: Metadata = {
   description:
     "Learn how SEO, GEO, and AEO work together and what local businesses should prioritize as customers increasingly use AI-generated answers.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
+    canonical: "https://velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
   },
 };
 
@@ -29,10 +29,10 @@ const structuredData = {
     name: "Velvet Ink Media",
     logo: {
       "@type": "ImageObject",
-      url: "https://www.velvetinkmedia.com/velvet-ink-logo.png",
+      url: "https://velvetinkmedia.com/velvet-ink-logo.png",
     },
   },
-  mainEntityOfPage: "https://www.velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
+  mainEntityOfPage: "https://velvetinkmedia.com/blog/how-search-is-changing-for-local-businesses",
 };
 
 function ArrowIcon() {

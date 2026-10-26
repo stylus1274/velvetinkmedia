@@ -4,7 +4,7 @@ import { GeistMono } from "geist/font/mono";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://www.velvetinkmedia.com"),
+  metadataBase: new URL("https://velvetinkmedia.com"),
   title: "Velvet Ink Media | Tampa SEO, Web Design & Paid Media",
   description:
     "Velvet Ink Media creates websites, local SEO strategies, and paid media campaigns for Tampa Bay businesses ready to grow.",

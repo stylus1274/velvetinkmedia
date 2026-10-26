@@ -99,13 +99,13 @@ export const metadata: Metadata = {
   description:
     "Prepare your business for Google AI Overviews, ChatGPT search and answer engines with Tampa GEO and AEO services built on strong SEO foundations.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/geo-aeo",
+    canonical: "https://velvetinkmedia.com/geo-aeo",
   },
   openGraph: {
     title: "GEO & AEO Services for Tampa Businesses | Velvet Ink Media",
     description:
       "Build the content, technical foundation, authority and brand clarity needed for visibility across traditional and AI-driven search.",
-    url: "https://www.velvetinkmedia.com/geo-aeo",
+    url: "https://velvetinkmedia.com/geo-aeo",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -116,14 +116,14 @@ const structuredData = {
   "@graph": [
     {
       "@type": "Service",
-      "@id": "https://www.velvetinkmedia.com/geo-aeo#service",
+      "@id": "https://velvetinkmedia.com/geo-aeo#service",
       name: "Generative Engine Optimization and Answer Engine Optimization",
       alternateName: ["GEO Services", "AEO Services", "AI Search Optimization"],
       serviceType: "AI search visibility strategy",
-      url: "https://www.velvetinkmedia.com/geo-aeo",
+      url: "https://velvetinkmedia.com/geo-aeo",
       provider: {
         "@type": "ProfessionalService",
-        "@id": "https://www.velvetinkmedia.com/#organization",
+        "@id": "https://velvetinkmedia.com/#organization",
         name: "Velvet Ink Media",
         telephone: "+1-813-797-5515",
         address: {
@@ -145,8 +145,8 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "GEO and AEO", item: "https://www.velvetinkmedia.com/geo-aeo" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://velvetinkmedia.com/" },
+        { "@type": "ListItem", position: 2, name: "GEO and AEO", item: "https://velvetinkmedia.com/geo-aeo" },
       ],
     },
     {

@@ -197,13 +197,13 @@ export const metadata: Metadata = {
   description:
     "Grow visibility in Google Maps and local search with Tampa local SEO services covering GBP, content, reviews, citations, technical SEO and reporting.",
   alternates: {
-    canonical: "https://www.velvetinkmedia.com/local-seo",
+    canonical: "https://velvetinkmedia.com/local-seo",
   },
   openGraph: {
     title: "Local SEO Services in Tampa, FL | Velvet Ink Media",
     description:
       "Build stronger visibility in Google Maps, local organic results, and AI-driven search with a practical Tampa local SEO strategy.",
-    url: "https://www.velvetinkmedia.com/local-seo",
+    url: "https://velvetinkmedia.com/local-seo",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -214,9 +214,9 @@ const structuredData = {
   "@graph": [
     {
       "@type": "ProfessionalService",
-      "@id": "https://www.velvetinkmedia.com/#organization",
+      "@id": "https://velvetinkmedia.com/#organization",
       name: "Velvet Ink Media",
-      url: "https://www.velvetinkmedia.com/",
+      url: "https://velvetinkmedia.com/",
       telephone: "+1-813-797-5515",
       email: "hello@velvetinkmedia.com",
       foundingDate: "2008",
@@ -243,25 +243,25 @@ const structuredData = {
     },
     {
       "@type": "Service",
-      "@id": "https://www.velvetinkmedia.com/local-seo#service",
+      "@id": "https://velvetinkmedia.com/local-seo#service",
       name: "Local SEO Services in Tampa",
       serviceType: "Local search engine optimization",
-      url: "https://www.velvetinkmedia.com/local-seo",
-      provider: { "@id": "https://www.velvetinkmedia.com/#organization" },
+      url: "https://velvetinkmedia.com/local-seo",
+      provider: { "@id": "https://velvetinkmedia.com/#organization" },
       areaServed: serviceAreas.map((name) => ({ "@type": "City", name })),
       description: "Local SEO services for Tampa businesses including Google Business Profile optimization, local content, technical SEO, reviews, citations, local authority, and conversion reporting.",
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://www.velvetinkmedia.com/local-seo#breadcrumbs",
+      "@id": "https://velvetinkmedia.com/local-seo#breadcrumbs",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Local SEO Services", item: "https://www.velvetinkmedia.com/local-seo" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://velvetinkmedia.com/" },
+        { "@type": "ListItem", position: 2, name: "Local SEO Services", item: "https://velvetinkmedia.com/local-seo" },
       ],
     },
     {
       "@type": "FAQPage",
-      "@id": "https://www.velvetinkmedia.com/local-seo#faq",
+      "@id": "https://velvetinkmedia.com/local-seo#faq",
       mainEntity: faqs.map((faq) => ({
         "@type": "Question",
         name: faq.question,

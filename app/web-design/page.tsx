@@ -65,7 +65,7 @@ export const metadata = {
   title: "Tampa Web Design Services | Velvet Ink Media",
   description:
     "Conversion-focused web design for Tampa businesses, built with strong UX, SEO, GEO, AEO, analytics, and lead generation foundations.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/web-design" },
+  alternates: { canonical: "https://velvetinkmedia.com/web-design" },
 };
 
 function ArrowIcon() {

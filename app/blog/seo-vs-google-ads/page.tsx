@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/seo-vs-google-ads";
+const pageUrl = "https://velvetinkmedia.com/blog/seo-vs-google-ads";
 
 export const metadata: Metadata = {
   title: "SEO vs. Google Ads: Where Should a Business Invest First? | Velvet Ink Media",
@@ -41,14 +41,14 @@ const structuredData = {
       headline: "SEO vs. Google Ads: Where Should a Business Invest First?",
       description:
         "A practical framework for choosing between SEO, Google Ads, or a combined search strategy based on business goals, timing, demand, conversion readiness, and measurement.",
-      image: "https://www.velvetinkmedia.com/insights/seo-vs-google-ads.webp",
+      image: "https://velvetinkmedia.com/insights/seo-vs-google-ads.webp",
       datePublished: "2026-08-27",
       dateModified: "2026-08-27",
       author: { "@type": "Person", name: "Charlie Boudreau" },
       publisher: {
         "@type": "Organization",
         name: "Velvet Ink Media",
-        logo: { "@type": "ImageObject", url: "https://www.velvetinkmedia.com/velvet-ink-logo.png" },
+        logo: { "@type": "ImageObject", url: "https://velvetinkmedia.com/velvet-ink-logo.png" },
       },
       mainEntityOfPage: pageUrl,
       articleSection: "Search Strategy",
@@ -57,7 +57,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "SEO vs. Google Ads", item: pageUrl },
       ],
     },

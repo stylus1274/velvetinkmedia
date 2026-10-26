@@ -7,12 +7,12 @@ export const metadata: Metadata = {
   title: "Our Work | Velvet Ink Media",
   description:
     "See how Velvet Ink Media connects web design, local SEO, content, conversion strategy, and measurement around real business goals.",
-  alternates: { canonical: "https://www.velvetinkmedia.com/work" },
+  alternates: { canonical: "https://velvetinkmedia.com/work" },
   openGraph: {
     title: "Our Work | Velvet Ink Media",
     description:
       "Selected website, local SEO, and connected marketing work for businesses in Tampa Bay and beyond.",
-    url: "https://www.velvetinkmedia.com/work",
+    url: "https://velvetinkmedia.com/work",
     siteName: "Velvet Ink Media",
     type: "website",
   },
@@ -23,18 +23,18 @@ const structuredData = {
   "@graph": [
     {
       "@type": "CollectionPage",
-      "@id": "https://www.velvetinkmedia.com/work#page",
-      url: "https://www.velvetinkmedia.com/work",
+      "@id": "https://velvetinkmedia.com/work#page",
+      url: "https://velvetinkmedia.com/work",
       name: "Our Work",
       description:
         "Selected web design, local SEO, and connected marketing work by Velvet Ink Media.",
-      about: { "@id": "https://www.velvetinkmedia.com/#organization" },
+      about: { "@id": "https://velvetinkmedia.com/#organization" },
     },
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Home", item: "https://www.velvetinkmedia.com/" },
-        { "@type": "ListItem", position: 2, name: "Our Work", item: "https://www.velvetinkmedia.com/work" },
+        { "@type": "ListItem", position: 1, name: "Home", item: "https://velvetinkmedia.com/" },
+        { "@type": "ListItem", position: 2, name: "Our Work", item: "https://velvetinkmedia.com/work" },
       ],
     },
   ],

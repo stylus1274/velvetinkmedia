@@ -4,7 +4,7 @@ import SiteHeader from "../../components/SiteHeader";
 import SiteFooter from "../../components/SiteFooter";
 import SiteLink from "../../components/SiteLink";
 
-const pageUrl = "https://www.velvetinkmedia.com/blog/google-business-profile-optimization";
+const pageUrl = "https://velvetinkmedia.com/blog/google-business-profile-optimization";
 
 export const metadata: Metadata = {
   title: "Google Business Profile Optimization: A Practical Checklist | Velvet Ink Media",
@@ -41,14 +41,14 @@ const structuredData = {
       headline: "Google Business Profile Optimization: A Practical Checklist",
       description:
         "A practical guide to making a Google Business Profile accurate, useful, and easier for local customers to choose.",
-      image: "https://www.velvetinkmedia.com/insights/google-business-profile-optimization-featured.png",
+      image: "https://velvetinkmedia.com/insights/google-business-profile-optimization-featured.png",
       datePublished: "2026-08-27",
       dateModified: "2026-08-27",
       author: { "@type": "Person", name: "Charlie Boudreau" },
       publisher: {
         "@type": "Organization",
         name: "Velvet Ink Media",
-        logo: { "@type": "ImageObject", url: "https://www.velvetinkmedia.com/velvet-ink-logo.png" },
+        logo: { "@type": "ImageObject", url: "https://velvetinkmedia.com/velvet-ink-logo.png" },
       },
       mainEntityOfPage: pageUrl,
       articleSection: "Local SEO",
@@ -58,7 +58,7 @@ const structuredData = {
     {
       "@type": "BreadcrumbList",
       itemListElement: [
-        { "@type": "ListItem", position: 1, name: "Insights", item: "https://www.velvetinkmedia.com/blog" },
+        { "@type": "ListItem", position: 1, name: "Insights", item: "https://velvetinkmedia.com/blog" },
         { "@type": "ListItem", position: 2, name: "Google Business Profile Optimization", item: pageUrl },
       ],
     },
