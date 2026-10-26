@@ -26,10 +26,10 @@ export const metadata: Metadata = {
       "A practical 12-step local SEO strategy for improving map visibility, organic rankings, and qualified local leads.",
     images: [
       {
-        url: "/insights/local-seo-domination-flywheel.webp",
+        url: "/insights/local-seo-domination-connected-system.webp",
         width: 1536,
         height: 1024,
-        alt: "Connected local SEO flywheel surrounding a Tampa storefront",
+        alt: "Photorealistic Tampa storefront surrounded by connected local SEO strategy markers",
       },
     ],
   },
@@ -43,7 +43,7 @@ const structuredData = {
       headline: "Local SEO Domination: A Step-by-Step Strategy",
       description:
         "A practical 12-step local SEO guide covering local keyword research, Google Business Profile optimization, website improvements, reviews, authority, and measurement.",
-      image: "https://velvetinkmedia.com/insights/local-seo-domination-flywheel.webp",
+      image: "https://velvetinkmedia.com/insights/local-seo-domination-connected-system.webp",
       datePublished: "2026-08-15",
       dateModified: "2026-08-15",
       author: { "@type": "Person", name: "Charlie Boudreau" },
@@ -117,7 +117,7 @@ export default function LocalSeoDominationArticle() {
       </header>
 
       <figure className="article-feature-image local-guide-feature">
-        <Image src="/insights/local-seo-domination-flywheel.webp" width={1536} height={1024} alt="Connected local SEO flywheel surrounding a Tampa storefront" preload />
+        <Image src="/insights/local-seo-domination-connected-system.webp" width={1536} height={1024} alt="Photorealistic Tampa storefront surrounded by connected local SEO strategy markers" preload />
         <figcaption><span>Strategy</span><span>Visibility</span><span>Growth</span></figcaption>
       </figure>
 
